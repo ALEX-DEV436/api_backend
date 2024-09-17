@@ -6,7 +6,7 @@
 <p>Bem-vindos ao meu projeto!
   Aqui você encontrará um ambiente de informação para o desenvolvimento de uma API 
   partindo de uma premissa de um dev que esta começando a trabalhar com essas ferramentas.
-  Uma API desenvolvida com Node.js para comunicar com uma API externa(starWars) e retornar os dados para o cliente. Esta aplicação deve seguir as diretrizes REST, 
+  Uma API desenvolvida com Node.js e React(para frontend) com o objetivo de comunicar com uma API externa(starWars) e retornar os dados para o cliente. Esta aplicação deve seguir as diretrizes REST, 
   garantindo que a comunicação entre o servidor e o cliente seja super suave e padronizada. 
 </p>
 
