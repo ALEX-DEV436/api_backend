@@ -1,6 +1,6 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Primeiras impressões de um dev com temas API, GIT, GITHUB,NODEJS,REACT</h2>
+<h2>Primeiras impressões de um dev com os seguintes temas para um trabalho: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
 Warning: atualizado em 18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!
