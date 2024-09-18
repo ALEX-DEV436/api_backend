@@ -20,7 +20,7 @@ Warning: atualizado em 18/09/2024 * melhorei a descrição; criação de Badges 
    <li>/people/:id/ -- obter um recurso específico de um personagem</li>
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
-<h2>Partindo dessas premissas.<strong>Qual seria o desafio?</strong></h2>
+<h2>Partindo dessas premissas!!&nbsp;&nbsp;<strong>Qual seria o nosso desafio?</strong></h2>
 Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série buscar personagens do universo Star Wars através de um Front-end interativo.
 Ao realizar uma busca, nossa aplicação Front-end se comunicará com a API no Back-end, que, por sua vez, fará uma solicitação à
 API oficial da Star Wars para obter as informações necessárias sobre os personagens.
