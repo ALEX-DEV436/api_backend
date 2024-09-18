@@ -1,14 +1,12 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Primeiras impressões de um dev com temas API, GIT, GITHUB,NODEJS,REACT</h2>
-
+Warning: atualizado em 18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!
   Aqui você encontrará um ambiente de informação para o desenvolvimento de uma API 
   partindo de uma premissa de um dev que esta começando a trabalhar com essas ferramentas.
-  Uma API desenvolvida com Node.js e React(para frontend) com o objetivo de comunicar com uma API externa(starWars) e retornar os dados para o cliente. Esta aplicação deve seguir as diretrizes REST, 
-  garantindo que a comunicação entre o servidor e o cliente seja super suave e padronizada. E, apesar de desenvolver aplicações web a muitos anos nunca trabalhei com estas ferramentas.Vai ser muito divertido!!
-  
+  Uma API desenvolvida com Node.js(back-end) e React(front-end), ela deve comunicar com uma API externa, após uma solicitação do cliente no front e devolver a resposta conforme o pedido. Esta aplicação deve seguir as diretrizes REST,  garantindo que a comunicação entre o servidor e o cliente seja super suave e padronizada. E, apesar de desenvolver aplicações web a muitos anos eu nunca trabalhei com estas ferramentas.Venha comigo nesta jornada e vamos juntos descobrir as possibilidades e oportunidades que estes novos conhecimentos podem oferecer.Vai ser muito divertido!!let's go!  
 </p>
 
 <h3>API starWar</h3>
@@ -18,49 +16,49 @@
 <p>A API oferece o seguinte endpoints na sua documentação, entretanto com os teste realizados optamos utilizar outros, como veremos adiante.
 <br/>https://swapi.dev/api/
  <ul>
-   <li>/people/ -- obtenha todos os recursos das pessoas</li>
-   <li>/people/:id/ -- obter um recurso específico de pessoas</li>
-   <li>/people/schema/ -- exibir o esquema JSON para este recurso</li>
+   <li>/people/ -- obtenha todos os recursos de um personagem</li>
+   <li>/people/:id/ -- obter um recurso específico de um personagem</li>
+   <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas premissas.<strong>Qual seria o desafio?</strong></h2>
-Este projeto visa criar uma API REST que permitirá aos usuários buscar personagens do universo Star Wars através de um frontend interativo.
-Ao realizar uma busca, nossa aplicação frontend se comunicará com a API no backend, que, por sua vez, fará uma solicitação à
-API oficial da Star Wars para obter as informações necessárias.
+Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série buscar personagens do universo Star Wars através de um Front-end interativo.
+Ao realizar uma busca, nossa aplicação Front-end se comunicará com a API no Back-end, que, por sua vez, fará uma solicitação à
+API oficial da Star Wars para obter as informações necessárias sobre os personagens.
 
 As funcionalidades principais incluem:
 <ul>
-<li><strong>Busca de Personagens:</strong> O cliente poderá buscar por um personagem específico, recebendo dados detalhados diretamente da API da Star Wars.</li>
+<li><strong>Busca de Personagens:</strong> O cliente poderá buscar pelo nome um personagem específico. nossa API deve receber essa solicitação e buscar a resposta na API da starWars .</li>
 
-<li><strong>Lista de Favoritos:</strong> Após a apresentação dos resultados, será disponibilizado um botão/link que permitirá ao usuário adicionar o personagem à sua lista de favoritos.</li>
+<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados, será disponibilizado um botão/link que permitirá ao usuário adicionar o personagem à uma lista de favoritos.</li>
 
-<li><strong>Visualização de Favoritos:</strong> Um segundo botão/link possibilitará ao usuário visualizar sua lista completa de personagens favoritos no front, proporcionando uma experiência rica e personalizada.</li>
+<li><strong>Visualização de Favoritos:</strong> Em nosso Front-end havera um segundo botão/link que possibilitará ao usuário visualizar sua lista completa de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
 </ul>
-Este projeto visa combinar as tecnologias Node.js e React, integrando front-end e back-end para criar uma experiência fluida e dinâmica para os usuários.
+Este projeto vamos combinar as tecnologias Node.js e React, integrando Front-end e back-end para criar uma experiência rica, fluida e dinâmica para os usuários de nossa aplicação.
 </p>
 
 <h3>Tecnologias utilizadas</h3>
-
+<p><img src="http://www.soumaisconquista.com/gitHub/Badges/Badges_REACT.png" alt="Badges_REACT" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_express.png" alt="Badges_express" /></p>
 <ol>
-  <li><strong>Node.js:</strong> Para o desenvolvimento do servidor.</li>
-  <li><strong>Express:</strong> Estrutura para facilitar a criação da API.</li>
-  <li><strong>React:</strong> Para construir uma interface de usuário dinâmica.</li>
-  <li><strong>REST:</strong> Para padronizar a comunicação entre a API e o cliente.</li>
+  <li><strong>Node.js:</strong> Para o desenvolvimento no servidor.</li>
+  <li><strong>Express:</strong> Biblioteca para facilitar a criação da API.</li>
+  <li><strong>React:</strong> Framework para construir uma interface de usuário dinâmica.</li>
+  <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
 
-<h2>Visão - Backend</h2>
+<h2>Visão - Back -end</h2>
 
 <h4>Inicio</h4>
 
-<p>A primeira providência a ser tomada ao iniciar qualquer projeto(não só tecnologico) é a busca por informações relevantes. Essa lição, que aprendi durante minha época de estudante e, permanece comigo até hoje: "informação é poder!"
+<p>A primeira providência a ser realizada ao iniciar qualquer projeto(não só tecnologico) é a busca por informações relevantes. Essa lição, aprendi durante minha época de estudante e, permanece comigo até hoje: "informação é poder!"
 
-Buscar conhecimento e entender o contexto antes de avançar é fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
+Buscar conhecimento e entender o contexto que vamos trabalhar antes de avançarmos, é fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
-<p>Verificando o desafio.As perguntas que devemos fazer são essas:<br/>   
-<p>O que é, o que faz e como faz: <br />
- NodeJs,  API, React, Rest, Git, GitHUB, Express, Cors, Nodemon, Endpoints, git, gitHub</p>
-<p>Na verdade particularmente já tinha visto, lido sobre estas tecnologias ,mais não trabalhado com elas ainda.</p>
-<p>Para responder todas as essas perguntas vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
-  com seus recursos ilimitados e muita disponibilidade em ajudar com seus personagens: youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias </p>
+<p>Verificando e estudando o desafio.Quais perguntas devemos fazer? Uma pergunta eficaz ajuda bastante na resolução do problema.<br/>   
+<p>Veja se não faz parte de nossa rotina devemos perguntar ,1º -O que é, 2º - O que faz e  3º - Como faz , isso para cada tecnologia que vamos utilizar: <br />
+ NodeJs,  API, React, Rest, Express, Cors, Nodemon, Endpoints, git, gitHub</p>
+<p>Na verdade particularmente já tinha visto ou lido sobre estas tecnologias ,mais não realizado trabalho com elas ainda.</p>
+<p>Para responder a todas as essas perguntas vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
+  com seus recursos ilimitados e muita disponibilidade em ajudar com meus personagens favoritos: youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias </p>
 <h2>Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
@@ -75,11 +73,11 @@ Buscar conhecimento e entender o contexto antes de avançar é fundamental para 
    <li>10°Git - https://git-scm.com/</li>
    <li>11°GitHub - https://github.com/ </li>
  </ul> 
- <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.</p>
- <p>Realizada essa etapa vamos botar a mão na massa!Ops, desculpe! no codigo</p>
- <p>Antes de iniciar qualquer fase de programação, é fundamental preparar adequadamente o ambiente de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.
+ <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não conheça a aplicação acrecente a lista por gentileza</p>
+ <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb, rs)!Ops, desculpe! no codigo</p>
+ <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.
 
-Essa etapa inicial é crucial, pois garante que todas as ferramentas e dependências estejam prontamente disponíveis, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o desenvolvimento.
+Essa etapa inicial é crucial e obrigatoria não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.
 
 </p>
    
@@ -90,19 +88,20 @@ Essa etapa inicial é crucial, pois garante que todas as ferramentas e dependên
 <li>1° Node - https://nodejs.org/en/download/package-manager</li>
 <li>2° Visual code - https://code.visualstudio.com/download</li>
 <li>3° Git - https://git-scm.com/downloads </li>  
-<li>4° GitHub - Cadastro </li>
+<li>4° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações </li>
 </ul>
-<p>As versões das tecnologias que uso no projeto</p>
+<p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <p>img:1</p>
 
-<p>Vamos começar o nosso projeto, abrindo o prompt(no meu caso o prompt do windows) para criarmos as pastas e instalarmos as bibliotecas.</p>
+<p>Vamos começar iniciar o nosso desafio, abrindo o <strong>prompt de comando</strong> para criarmos as pastas, onde vamos guardaremos o nosso projeto e instalarmos as bibliotecas.</p>
 <ul>
+    <li>Veja os comandos iniciais<li>
    <li>1º Criar a pasta => <strong>mkdir</strong></li>
    <li>2º Entrar na pasta =>  <strong>cd ./pasta/</strong> </li>
    <li>3° Criar o projeto => <strong>npm init</strong></li>
    <li>Obs: na web tem varios tutoriais que ajudam no passo a passo para estes procedimentos</li>
-   <li>Veja a imagem abaixo para exemplificar melhor o processo:</li>   
+   <li>Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:</li>   
  </ul> 
 <p><br/>
   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1.jpg" alt="Iniciando o projeto" /></p>
