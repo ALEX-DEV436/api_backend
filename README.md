@@ -1,7 +1,8 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
-Warning: atualizado em 19/09/2024 * Melhorias no texto;
+Warning: atualizado em 19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado
+Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!
   Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API 
@@ -62,8 +63,8 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
   3º - E como faz? <br /><br />
  </p>
  <p>
-   Vamos pegar o nodeJS:
-  1º O que é?<br />
+   Vamos pegar o nodeJS:<br />
+  1º A primeira pergunta: O que é?<br />
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
    A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos
   2º O que faz ou para que serve?<br />
@@ -73,7 +74,7 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
    Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando npm init . Responda às perguntas do assistente 
    de configuração para criar um arquivo package. json personalizado para seu projeto.
  </p>
- <p> Em uma rapida consulta na web já conseguimos essas informações, já podemos dizer que o node é multiplataforma, o codigo não é compilado, usa a linguagem java script, arquitetura assíncrona e orientada por eventos.
+ <p> Em uma rapida consulta na web já conseguimos essas informações, já podemos dizer que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem java script  e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
 <p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais de fato não realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos, mais surgiu esse desafio deixei 
