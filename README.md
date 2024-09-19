@@ -24,7 +24,8 @@ Obs: outras atualizações estão no final da pagina.
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
 Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar essa busca.
 Ao receber os dados de uma pesquisa, nossa aplicação Front-end deve comunicar com a API desenvolvida por nós no Back-end, que, por sua vez, fará uma solicitação à
-API oficial da Star Wars para obter as informações necessárias sobre os personagens.Veja, vamos utilizar a Api da Star - Wars como nosso banco de dados.
+API oficial da Star Wars para obter as informações sobre os personagens.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa trabalha-los e responder 
+ao nosso front -end.
 
 As funcionalidades principais de no aplicação incluem:
 <ul>
