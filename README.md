@@ -1,15 +1,15 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Primeiras impressões de um dev com os seguintes temas para um trabalho: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
-Warning: atualizado em 18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;
+<h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
+Warning: atualizado em 19/09/2024 * Melhorias no texto;
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!
-  Aqui você encontrará um ambiente de informação para o desenvolvimento de uma API 
-  partindo de uma premissa de um dev que esta começando a trabalhar com essas ferramentas.
-  Uma API desenvolvida com Node.js(back-end) e React(front-end), ela deve comunicar com uma API externa, após uma solicitação do cliente no front e devolver a resposta conforme o pedido. Esta aplicação deve seguir as diretrizes REST,  garantindo que a comunicação entre o servidor e o cliente seja super suave e padronizada. E, apesar de desenvolver aplicações web a muitos anos eu nunca trabalhei com estas ferramentas.Venha comigo nesta jornada e vamos juntos descobrir as possibilidades e oportunidades que estes novos conhecimentos podem oferecer.Vai ser muito divertido!!let's go!  
+  Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API 
+  partindo da premissa de um dev (com certa experiência) que esta começando a trabalhar com essas ferramentas. Oportunidade unica!!!
+  Vamos desenvolver uma API utilizando o Node.js no back-end e o React front-end ). Nossa (API) deve comunicar com uma API externa - (da star - wars) para conseguir fornecer a resposta conforme o pedido realizado pelo usuario com acesso ao nosso front -end. Esta aplicação devera seguir as diretrizes REST,  garantindo que a comunicação entre o servidor e o cliente seja super suave e padronizada. E um adendo, apesar de desenvolver aplicações web a muitos anos eu, nunca trabalhei com estas ferramentas.Ou seja, a portunidade de quem tá começando acompanhar o inicio de uma viagem  e, praticamente com um guia, no desenvolvimento e formação para novos conhecimentos e utilização de novas tecnologias. Venha comigo nesta jornada e vamos juntos descobrir as possibilidades e oportunidades que estas ferramentas podem oferecer.Vai ser divertido!!let's go!  
 </p>
 
-<h3>API starWar</h3>
+<h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
 <p>
   A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!(Retirado do site)
 </p>
@@ -20,20 +20,21 @@ Warning: atualizado em 18/09/2024 * melhorei a descrição; criação de Badges 
    <li>/people/:id/ -- obter um recurso específico de um personagem</li>
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
-<h2>Partindo dessas premissas!!&nbsp;&nbsp;<strong>Qual seria o nosso desafio?</strong></h2>
-Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série, buscar personagens do universo Star Wars através de um Front-end interativo.
-Ao realizar uma busca, nossa aplicação Front-end se comunicará com a API no Back-end, que, por sua vez, fará uma solicitação à
-API oficial da Star Wars para obter as informações necessárias sobre os personagens.
+<h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
+Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar essa busca.
+Ao receber os dados de uma pesquisa, nossa aplicação Front-end deve comunicar com a API desenvolvida por nós no Back-end, que, por sua vez, fará uma solicitação à
+API oficial da Star Wars para obter as informações necessárias sobre os personagens.Veja, vamos utilizar a Api da Star - Wars como nosso banco de dados.
 
-As funcionalidades principais incluem:
+As funcionalidades principais de no aplicação incluem:
 <ul>
-<li><strong>Busca de Personagens:</strong> O cliente poderá buscar pelo nome um personagem específico. nossa API deve receber essa solicitação e buscar a resposta na API da starWars .</li>
+<li><strong>Busca de Personagens:</strong> O cliente poderá buscar pelo nome um personagem.Nossa API deve receber essa solicitação e buscar a resposta na API da star - Wars .</li>
 
-<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados, será disponibilizado um botão/link que permitirá ao usuário adicionar o personagem à uma lista de favoritos.</li>
+<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados ao usuario, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Observe precisamos guardar a informação
+de forma persistente em algum lugar</li>
 
-<li><strong>Visualização de Favoritos:</strong> Em nosso Front-end havera um segundo botão/link que possibilitará ao usuário visualizar sua lista completa de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
+<li><strong>Visualização de Favoritos:</strong> Sera fornecido ao usuario um segundo botão/link que o possibilitará  visualizar sua lista completa de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
 </ul>
-Este projeto vamos combinar as tecnologias Node.js e React, integrando Front-end e back-end para criar uma experiência rica, fluida e dinâmica para os usuários de nossa aplicação.
+Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-end e back-end possibilitando criar uma experiência rica, fluida e dinâmica para os usuários de nossa aplicação.
 </p>
 
 <h3>Tecnologias utilizadas</h3>
@@ -51,15 +52,35 @@ Este projeto vamos combinar as tecnologias Node.js e React, integrando Front-end
 
 <p>A primeira providência a ser realizada ao iniciar qualquer projeto(não só tecnologico) é a busca por informações relevantes. Essa lição, aprendi durante minha época de estudante e, permanece comigo até hoje: "informação é poder!"
 
-Buscar conhecimento e entender o contexto que vamos trabalhar antes de avançarmos, é fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
+Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de avançarmos, é fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
-<p>Verificando e estudando o desafio.Quais perguntas devemos fazer? Uma pergunta eficaz ajuda bastante na resolução do problema.<br/>   
-<p>Veja se não faz parte de nossa rotina devemos perguntar ,1º -O que é, 2º - O que faz e  3º - Como faz , isso para cada tecnologia que vamos utilizar: <br />
- NodeJs,  API, React, Rest, Express, Cors, Nodemon, Endpoints, git, gitHub</p>
-<p>Na verdade particularmente já tinha visto ou lido sobre estas tecnologias ,mais não realizado trabalho com elas ainda.</p>
-<p>Para responder a todas as essas perguntas vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
-  com seus recursos ilimitados e muita disponibilidade em ajudar com meus personagens favoritos: youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias </p>
-<h2>Fontes pesquisadas</h2>
+<p>Revise novamente o desafio e pense!&nbsp;Quais perguntas devemos fazer, a principio tudo é novo?&nbsp; Uma pergunta eficaz ajuda bastante na resolução do problema.<br/>   
+  <p>Para quem está començando! Começe com o basico se é muita coisa para aprender . Divide em parte menores e vai avançando. </p>
+<p>Como eesas ferramentas não fazem parte de nossa rotina devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
+  1º -O que? <br />
+  2º - O que faz?  <br />
+  3º - E como faz? <br /><br />
+ </p>
+ <p>
+   Vamos pegar o nodeJS:
+  1º O que é?<br />
+   Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
+   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos
+  2º O que faz ou para que serve?<br />
+   O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
+   em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.
+   3º E como faz ou como uso?<br />
+   Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando npm init . Responda às perguntas do assistente 
+   de configuração para criar um arquivo package. json personalizado para seu projeto.
+ </p>
+ <p> Em uma rapida consulta na web já conseguimos essas informações, já podemos dizer que o node é multiplataforma, o codigo não é compilado, usa a linguagem java script, arquitetura assíncrona e orientada por eventos.
+ Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
+ </p>
+<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais de fato não realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos, mais surgiu esse desafio deixei 
+o game um pouquinho, aguardem que vou colocar o jogo aqui tambem, é bem simples mais é o primeiro que faço na unity.</p>
+<p>Votando ao desafio para responder essas perguntas para todas as tecnologias vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
+  com seus recursos ilimitados e muita, mais muita mesmo, disponibilidade em ajudar, com seus personagens : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
+<h2>A dica aqui é ESTUDE, ESTUDE...Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
    <li>2° Google - www.google.com.br</li>
@@ -74,10 +95,12 @@ Buscar conhecimento e entender o contexto que vamos trabalhar antes de avançarm
    <li>11°GitHub - https://github.com/ </li>
  </ul> 
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não conheça a aplicação acrecente a lista por gentileza</p>
- <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb, rs)!Ops, desculpe! no codigo</p>
+ <p>Realizada essa etapa vamos botar a mão na massa!Ops, desculpe! no codigo</p>
  <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.
 
-Essa etapa inicial é crucial e obrigatoria não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.
+Essa etapa inicial é crucial e obrigatoria não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
+Geralmente começo com prototipando, seja de papel ou mesmo em um rascunho, para este desafio devido ao curto espaço de tempo, para entrega do projeto, não fiz o prototipo, mais agora que já entreguei o desafio mesmo de forma incompleta, estou providenciando o prototipo com um gif animado.
+
 
 </p>
    
@@ -415,3 +438,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi e espero que eles poss
   
       
  </p>
+Warning: atualizado em:
+<ul>
+  <li>18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;</li>
+</ul>
