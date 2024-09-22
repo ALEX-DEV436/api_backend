@@ -87,9 +87,9 @@ Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplica�
 
 Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de avançarmos, é fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
-<p>Revise novamente o desafio e pense!&nbsp;Quais perguntas devemos fazer, a principio tudo é novo?&nbsp; Uma pergunta eficaz ajuda bastante na resolução do problema.<br/>   
-  <p>Para quem está començando! Começe com o basico se é muita coisa para aprender . Divide em parte menores e vai avançando. </p>
-<p>Como eesas ferramentas não fazem parte de nossa rotina devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
+<p>Revise novamente o desafio e pense... pense novamente!&nbsp;Quais perguntas devemos fazer, a principio, tudo é novo?&nbsp; Uma pergunta eficaz ajuda na resolução do problema.<br/>   
+  <p>Para quem está começando! Começe com o basico, se é muita coisa para aprender, faça a divisão em parte menores. </p>
+<p>Como essas ferramentas não fazem parte da nossa rotina, devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
   1º -O que? <br />
   2º - O que faz?  <br />
   3º - E como faz? <br /><br />
@@ -103,16 +103,16 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
    O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
    em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.
    3º E como faz ou como uso?<br />
-   Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando npm init . Responda às perguntas do assistente 
-   de configuração para criar um arquivo package. json personalizado para seu projeto.
+   Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<strong>npm init</strong>  . Responda às perguntas do assistente 
+   de configuração para criar um arquivo package onde é guardado as informações do projeto.
  </p>
- <p> Em uma rapida consulta na web já conseguimos essas informações, já podemos dizer que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem java script  e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
+ <p> Observe qua uma rapida consulta na web e já conseguimos essas informações, já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem java script  e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
-<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais de fato não realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos, mais surgiu esse desafio deixei 
-o game um pouquinho, aguardem que vou colocar o jogo aqui tambem, é bem simples mais é o primeiro que faço na unity.</p>
+<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais o fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio, deixei 
+o game um pouquinho para mais tarde, aguardem que vou colocar o jogo aqui tambem, é bem simples mais é o primeiro que faço na unity.</p>
 <p>Votando ao desafio para responder essas perguntas para todas as tecnologias vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
-  com seus recursos ilimitados e muita, mais muita mesmo, disponibilidade em ajudar, com seus personagens : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
+  com seus recursos ilimitados e, muita, mais muita mesmo, disponibilidade em ajudar, apresnto os meus personagens favoritos : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
 <h2>A dica aqui é ESTUDE,TESTE,ESTUDE, TESTE...Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
