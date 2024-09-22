@@ -83,7 +83,7 @@ Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplica�
 
 <h4>Inicio</h4>
 
-<p>A primeira providência a ser realizada ao iniciar qualquer projeto(não só tecnologico) é a busca por informações relevantes. Essa lição, aprendi durante minha época de estudante e, permanece comigo até hoje: "informação é poder!"
+<p>A primeira providência a ser tomada ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "informação é poder!"
 
 Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de avançarmos... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
@@ -310,12 +310,15 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
  <p>Img:12</p>
  <h2>Momento reflexão</h2>
- <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor backend na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no backend e criamos um array de dados que foi consumido perfeitamente pela nossa API. No frontend, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p> <p>Continuando...</p> <p>É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição através de nossa API. Esta, por sua vez, retornará ao frontend os dados e características do personagem. Junto com essas informações, o personagem virá acompanhado de um botão/link que, ao ser clicado, permitirá adicioná-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pelo frontend por meio de um botão/link dedicado.</p>
+ <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um array de dados que foi consumido perfeitamente pela nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
+ <p>
+   É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de nossa API. Esta, por sua vez, retornará ao front-end os dados e as características do personagem. Junto com essas informações, o personagem virá acompanhado de um botão/link que, ao ser clicado, permitirá adicioná-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pelo front-end por meio de um botão/link dedicado.
+ </p>
  <p>Mais ou menos assim</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/index2.jpg" alt="Rascunho de tela do app" /></p>
  <p><img:13</p>
 <p>Entendido o problema vamos do velho jargão de programador "vamos dividir para conquista"!</p>                         
-<p>API criada , servidores iniciado , criamos o ouvido no backende (metodo get) e a boca no frontend (formulario)</p>
+<p>API criada , servidores iniciado , criamos o ouvido no Back End (metodo get) e a boca no Front End (formulario)</p>
 <p>Vamos testar nossa API consumindo a API da starWars</p>
   
 <h2>Teste dos endpoints</h2>
@@ -394,11 +397,11 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
   );<br />
 }<br />
 </p>
-<p>Aqui colocamos um evento onClick no formulario que dispara uma função que faz essa comunicação com o backend e
+<p>Aqui colocamos um evento onClick no formulario que dispara uma função que faz essa comunicação com o Back-End e
 recebe a resposta.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/enviandoOnomeParaOservidor.jpg" alt="Enviando o nome para o servidor" /></p>
 <p><img:17</p>
-<h2>Vamos testar a comunicação entre frontend => backend => ApiStarwars => backend => frontend</h2>
+<h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
    <div className="App">
       <header className="App-header">
@@ -427,7 +430,7 @@ o cliente todos os personagens em um array</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracaoBackendFrontendAPIstarWars.jpg" alt="Integração frontEnd, bacKend e API" /></p>
         <p>img:18</p>
 <h3>Vencida esta etapa vamos adiante!</h3>
-<p>Nossa API já esta comunicando com o front atraves de um retorno da API starwAR.</p>
+<p>Nossa API já esta comunicando com o Front atraves de um retorno da API starwAR.</p>
 <p>Esta na hora de comerçarmos trabalhar o retorno da API externa, ou seja, devolver ao cliente somente o que ele solicitou.</p>
 <p>Como mostramos a seguir:</p>
 <p>
@@ -439,11 +442,11 @@ o cliente todos os personagens em um array</p>
                             <i> return res.json(retornoPesquisa);</i>  <br />
           <i></i> }); <br />
 </p>
-<p>Aqui utilizamos o methodo find passando o nome que vem do frontend para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
+<p>Aqui utilizamos o methodo find passando o nome que vem do Front-End para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
 <p>Veja a imagem</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNome.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
         <p>img:19</p>
-<p>Neste momento o negocio travou não conseguimos mostrar para o nosso cliente o resultado na tela, ou seja a resposta esta chegando no frontEnd mais fica no console.  
+<p>Neste momento o negocio travou não conseguimos mostrar para o nosso cliente o resultado na tela, ou seja a resposta esta chegando no Front-End mais fica no console.  
 </p>
 
 <h2>Contribuições são bem vindas</h2>
@@ -471,7 +474,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
       
  </p>
 Warning: atualizado em:
-<ul>
-  <li>18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;</li>
+<ul> 
   <li>19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado</li>
+  <li>18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;</li>
 </ul>
