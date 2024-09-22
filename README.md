@@ -235,21 +235,21 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p>Pode deixar o visualcode do backend aberto, e abra novamente o prompt do seu computador.</p>
 <p>Nele digite : <strong>npx create-react-app app</strong></p>
 <p>Aguarde... demora um pouquinho!</p>
-<p>No final deve apresentar algo semelhante a tela logo abaixo deve aparecer! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
+<p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img1.jpg" alt="Instalando o react" /></p>
 <p>img:8</p>
 <p>Vamos instalar agora a biblioteca axios</p>
 <p>Entre na pasta app</p>
 <p>Para instalar o axios escreva no prompt: <strong>npm i axios</strong></p>
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
-<p>Veja que muita coisa retiramos por não precisar para o nosso projeto. </p>
+<p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3.jpg" alt="Tela do visual code apresentando o React" /></p>
 <p>img:9</p>
-<h3>Comandos no frontend! Lembrando que o backend esta rodando e ativo, na porta 3000</h3>
+<h3>Comandos no frontend! Lembrando que o backend esta rodando e, ativo na porta 3000</h3>
 <ul>
    <li>
-     <p>1º Primeiro vamos ativar o nosso servidor. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8): <strong> npm star</strong></p>
+     <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8): <strong> npm star</strong></p>
      <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor estara ligado e operante</p>
      <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4.jpg" alt="Acionando o servidor" /></p>
@@ -288,7 +288,7 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
    </li>
  </ul> 
  <h3>Vamos testar o botão do formulario .</h3>
- <p>Para isso criamos uma função colocamos um console log e clicamos.Verificamos no console se hove resposta.</p>
+ <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
  <p>
 
 <i>function App() {</i><br />
@@ -460,14 +460,12 @@ o cliente todos os personagens em um array</p>
  <p>
    Desenvolvendo com Paixão<br/>
 Desenvolver é um ciclo constante de teste => implementação => teste => implementação. Isso requer estudo, paciência e, claro, muito café! ☕️ <br/>
-
 Para aqueles que amam programar, o mundo se abre em um leque infinito de possibilidades. Temos a incrível oportunidade de transformar ideias 
 em realidade, seja criando uma API, um jogo, um aplicativo ou um site, entre outras coisas.<br/>
 Pessoalmente, gosto de desenvolver e aprender, e sempre fico maravilhado com as novas possibilidades que surgem. Mesmo quando não consigo completar um
 desafio dentro do prazo, fico animado por ter sido apresentado a ferramentas que eu conhecia, mas com as quais ainda não havia trabalhado.<br/>
-
-Aqui, vou compartilhar alguns dos projetos que desenvolvi e espero que eles possam contribuir de alguma forma com a comunidade.<br/>
-
+Para os meus amigos devs.<br />
+Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e, espero que eles possam contribuir de alguma forma com a comunidade de desnvolvedores de nosso Brasil.<br/>
 <h2>Um forte abraço e até a próxima!</h2>
   
       
