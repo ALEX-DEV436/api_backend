@@ -14,7 +14,7 @@ Obs: outras atualizações estão no final da pagina.
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo8.gif" alt="Prototipo do sistema em gif animado" />
 </p>
-<p>Para organizamos nosso projeto até a sua conclusão vamos seguir um checklist:</p>
+<p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist:</p>
 <p>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;iniciar o projeto; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
@@ -32,12 +32,12 @@ Obs: outras atualizações estão no final da pagina.
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Usar o Axio; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Acessar a API da Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar endpoints fornecidos na documentação; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Analisar retornos dos end points, que tipos retornam; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar pesquisa pelo nome do personagem enviado pelo formulario; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Analisar retornos dos end points.Que tipos retornam?; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar a pesquisa pelo nome do personagem enviado pelo formulario; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Mostrar resultado na tela do usuario; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar base de dados para cadastramento de personagem favorito; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar função base para mostrar lista de personagem; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Mostrar resultado da consulta pelo nome da API  Star Wars na tela do usuario; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar uma função para mostrar lista de personagem; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
   
 </p>
@@ -53,21 +53,21 @@ Obs: outras atualizações estão no final da pagina.
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
-Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar essa busca.
-Ao receber os dados de uma pesquisa, nossa aplicação Front-end deve comunicar com a API desenvolvida por nós no Back-end, que, por sua vez, fará uma solicitação à
-API oficial da Star Wars para obter as informações sobre os personagens.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa trabalha-los e responder 
-ao nosso front -end.
+Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem favorito.
+Ao receber os dados da pesquisa do usuario, nossa aplicação Front-end deve comunicar com a API desenvolvida por nós no Back-end, que, por sua vez, fará uma solicitação à
+API oficial da Star Wars para obter o personagem invocado na pesquisa.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-loss e responder 
+ao nosso front -end que por sua vez repassa para o usuario.
 
 As funcionalidades principais de no aplicação incluem:
 <ul>
 <li><strong>Busca de Personagens:</strong> O cliente poderá buscar pelo nome um personagem.Nossa API deve receber essa solicitação e buscar a resposta na API da star - Wars .</li>
 
-<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados ao usuario, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Observe precisamos guardar a informação
-de forma persistente em algum lugar</li>
+<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados ao usuario, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Atenção, vamos precisar guardar essa informação
+em alguma base de dados(a definir) persistente ou não.</li>
 
-<li><strong>Visualização de Favoritos:</strong> Sera fornecido ao usuario um segundo botão/link que o possibilitará  visualizar sua lista completa de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
+<li><strong>Visualização de Favoritos:</strong> Sera fornecido ao usuario um segundo botão/link que o possibilitará  visualizar sua lista de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
 </ul>
-Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-end e back-end possibilitando criar uma experiência rica, fluida e dinâmica para os usuários de nossa aplicação.
+Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-end e back-end, possibilitando criar uma experiência rica, fluida e dinâmica para os nossos usuários.
 </p>
 
 <h3>Tecnologias utilizadas</h3>
