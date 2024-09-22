@@ -14,7 +14,23 @@ Obs: outras atualizações estão no final da pagina.
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo8.gif" alt="Prototipo do sistema em gif animado" />
 </p>
-
+<p>Para organizamos nosso projeto até a sua conclusão vamos seguir um checklist:</p>
+<p>
+  []&nbsp;iniciar o projeto
+  []&nbsp;Instalar as bibliotecas
+  []&nbsp;Criar uma rota para acessar nossa API
+  []&nbsp;Servir a API
+  []&nbsp;Habilitar o Cors
+  []&nbsp;Habilitar o Nodemon para reiniciar nosso servidor
+  []&nbsp;Habilitar o Express
+  []&nbsp;Criar o formulario 
+  []&nbsp;Criar estilo para o formulario e pagina
+  []&nbsp;Testar clique no botão
+  []&nbsp;Criar uma base de dados no back end para ser cosumida no front-end
+  []&nbsp;Utilizar o fetch para consumir nossa API no backend
+  []&nbsp;Usar try e o catch
+  
+</p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
 <p>
   A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!(Retirado do site)
