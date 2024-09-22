@@ -16,25 +16,25 @@ Obs: outras atualizações estão no final da pagina.
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão vamos seguir um checklist:</p>
 <p>
-  []&nbsp;iniciar o projeto; <br />
-  []&nbsp;Instalar as bibliotecas; <br />
-  []&nbsp;Criar uma rota para acessar nossa API; <br />
-  []&nbsp;Servir a API; <br />
-  []&nbsp;Habilitar o Cors; <br />
-  []&nbsp;Habilitar o Nodemon para reiniciar nosso servidor; <br />
-  []&nbsp;Habilitar o Express; <br />
-  []&nbsp;Criar o formulario; <br />
-  []&nbsp;Criar estilo para o formulario e pagina; <br />
-  []&nbsp;Testar clique no botão; <br />
-  []&nbsp;Criar uma base de dados no back end para ser cosumida no front-end; <br />
-  []&nbsp;Utilizar o fetch para consumir nossa API no backend; <br />
-  []&nbsp;Usar try e o catch; <br />
-  []&nbsp;Usar o Axio; <br />
-  []&nbsp;Acessar a API da Star Wars; <br />
-  []&nbsp;Testar endpoints fornecidos na documentação; <br />
-  []&nbsp;Analisar retornos dos end points, que tipos retornam; <br />
-  []&nbsp;Testar pesquisa pelo nome do personagem enviado pelo formulario; <br />
-  []&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;iniciar o projeto; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma rota para acessar nossa API; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Servir a API; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Cors; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Nodemon para reiniciar nosso servidor; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Express; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar o formulario; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados no back end para ser cosumida no front-end; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Utilizar o fetch para consumir nossa API no backend; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Usar try e o catch; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Usar o Axio; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Acessar a API da Star Wars; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar endpoints fornecidos na documentação; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Analisar retornos dos end points, que tipos retornam; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar pesquisa pelo nome do personagem enviado pelo formulario; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
   []&nbsp;Mostrar resultado na tela do usuario; <br />
   []&nbsp;Criar base de dados para cadastramento de personagem favorito; <br />
   []&nbsp;Criar função base para mostrar lista de personagem; <br />
