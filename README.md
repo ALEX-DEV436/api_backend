@@ -16,19 +16,29 @@ Obs: outras atualizações estão no final da pagina.
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão vamos seguir um checklist:</p>
 <p>
-  []&nbsp;iniciar o projeto
-  []&nbsp;Instalar as bibliotecas
-  []&nbsp;Criar uma rota para acessar nossa API
-  []&nbsp;Servir a API
-  []&nbsp;Habilitar o Cors
-  []&nbsp;Habilitar o Nodemon para reiniciar nosso servidor
-  []&nbsp;Habilitar o Express
-  []&nbsp;Criar o formulario 
-  []&nbsp;Criar estilo para o formulario e pagina
-  []&nbsp;Testar clique no botão
-  []&nbsp;Criar uma base de dados no back end para ser cosumida no front-end
-  []&nbsp;Utilizar o fetch para consumir nossa API no backend
-  []&nbsp;Usar try e o catch
+  []&nbsp;iniciar o projeto; <br />
+  []&nbsp;Instalar as bibliotecas; <br />
+  []&nbsp;Criar uma rota para acessar nossa API; <br />
+  []&nbsp;Servir a API; <br />
+  []&nbsp;Habilitar o Cors; <br />
+  []&nbsp;Habilitar o Nodemon para reiniciar nosso servidor; <br />
+  []&nbsp;Habilitar o Express; <br />
+  []&nbsp;Criar o formulario; <br />
+  []&nbsp;Criar estilo para o formulario e pagina; <br />
+  []&nbsp;Testar clique no botão; <br />
+  []&nbsp;Criar uma base de dados no back end para ser cosumida no front-end; <br />
+  []&nbsp;Utilizar o fetch para consumir nossa API no backend; <br />
+  []&nbsp;Usar try e o catch; <br />
+  []&nbsp;Usar o Axio; <br />
+  []&nbsp;Acessar a API da Star Wars; <br />
+  []&nbsp;Testar endpoints fornecidos na documentação; <br />
+  []&nbsp;Analisar retornos dos end points, que tipos retornam; <br />
+  []&nbsp;Testar pesquisa pelo nome do personagem enviado pelo formulario; <br />
+  []&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
+  []&nbsp;Mostrar resultado na tela do usuario; <br />
+  []&nbsp;Criar base de dados para cadastramento de personagem favorito; <br />
+  []&nbsp;Criar função base para mostrar lista de personagem; <br />
+  []&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
   
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
