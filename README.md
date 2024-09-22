@@ -35,10 +35,10 @@ Obs: outras atualizações estão no final da pagina.
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Analisar retornos dos end points, que tipos retornam; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar pesquisa pelo nome do personagem enviado pelo formulario; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
-  [&nbsp;&nbsp;]&nbsp;Mostrar resultado na tela do usuario; <br />
-  [&nbsp;&nbsp;]&nbsp;Criar base de dados para cadastramento de personagem favorito; <br />
-  [&nbsp;&nbsp;]&nbsp;Criar função base para mostrar lista de personagem; <br />
-  [&nbsp;&nbsp;]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Mostrar resultado na tela do usuario; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar base de dados para cadastramento de personagem favorito; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar função base para mostrar lista de personagem; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
   
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
