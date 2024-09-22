@@ -151,19 +151,19 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <p>img:1</p>
 
-<p>Vamos começar iniciar o nosso desafio, abrindo o <strong>prompt de comando</strong> para criarmos as pastas, onde vamos guardaremos o nosso projeto e instalarmos as bibliotecas.</p>
+<p>Vamos começar iniciar o nosso desafio, abrindo o <strong>prompt de comando</strong> para criarmos as pastas, onde vamos guardar o nosso projeto e instalarmos as bibliotecas.</p>
 <ul>
     <li>Veja os comandos iniciais<li>
    <li>1º Criar a pasta => <strong>mkdir</strong></li>
    <li>2º Entrar na pasta =>  <strong>cd ./pasta/</strong> </li>
    <li>3° Criar o projeto => <strong>npm init</strong></li>
-   <li>Obs: na web tem varios tutoriais que ajudam no passo a passo para estes procedimentos</li>
+   <li>Obs: na web existe varios tutoriais que ajudam no passo a passo para estes procedimentos</li>
    <li>Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:</li>   
  </ul> 
 <p><br/>
   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1.jpg" alt="Iniciando o projeto" /></p>
   <p>img:2</p>
-  <p>Logo em seguida instalamos as bibliotecas são 3 no total</p>
+  <p>Logo em seguida instalaremos as bibliotecas são 3 no total</p>
   <ul>
    <li>1º express => <strong>npm i express</strong></li>
    <li>2º nodemon =><strong> npm i nodemon</strong></li>
@@ -174,7 +174,7 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2.jpg" alt="Instalações das bibliotecas" /></p>
 <p>img:3</p>
 <p>Chegou até aqui! Tudo tranquilo? Tá suave? Se divertindo? Então vamos lá...</p>
-<p>Para ver se deu tudo certo voce pode dar os seguintes comandos, obeserve que na img1 - minhas versões, mostro o resultado destes comandos</p>
+<p>Para ver se deu tudo certo voce pode fazer os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado destes comandos</p>
 <ul>
   <li>1º <strong> git --version </strong> Para ver se o git esta instalado</li>
   <li>2º <strong> node --version</strong> Para ver se o node esta instalado</li>
@@ -211,24 +211,24 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p>Aqui vamos fazer um cheklist para o nosso passo a passo!</p>
 <ul>
    <li><h3>Objetivo :criar Uma Api</h3></h3></li>
-  <li>1º Inciar o projeto: Para isso abra o terminal no visual code e digite:<strong> npm init -y</strong> <img src="http://www.soumaisconquista.com/gitHub/icone1.png" alt="icone" /></li>
-  <li>2º Instalar as dependencias: Se voce seguiu o passo a passo já estão instaladas<img src="http://www.soumaisconquista.com/gitHub/icone1.png" alt="icone" /></li>
+  <li>1º Inciar o projeto: Para isso abra o terminal no visual code e digite:<strong> npm init -y</strong> <img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
+  <li>2º Instalar as dependencias: Se voce seguiu o passo a passo já estão instaladas<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
   <li>3º Criar uma rota para acessar a API:<br />
     Crie o arquivo rotas.js e nele importe a biblioteca express com os seguintes comandos:<br />
     1-<strong> const express =require('express'); </strong> <br />
     2-<strong> const rotas = express.Routers();</strong>
-    <p>Imagem referente a este procedimento <img src="http://www.soumaisconquista.com/gitHub/icone1.png" alt="icone" /></p>
+    <p>Imagem referente a este procedimento <img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></p>
     <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img5.jpg" alt="Criando rotas" /></p> 
     <p>img:6</p>    
   </li>
-  <li><p>4º Servir a API<img src="http://www.soumaisconquista.com/gitHub/icone1.png" alt="icone" /></p>
+  <li><p>4º Servir a API<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></p>
     <p>Veja a imagem abaixo como é a implementação para este serviço:</p>
     <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/consumindoDadosDaAPI.jpg" alt="Consumindo dados da API criada" /></p>
     <p>img:7</p>
     <p>Observe, criamos um array de objeto, verificamos junto a porta 3000 a sua visualização e enviamos para o front-end pela porta 3001.</p>
   </li>
-  <li>5° Habilitar o CORS :  digite no arquivo serve.js:  <strong>const cors = require('cors');</strong><img src="http://www.soumaisconquista.com/gitHub/icone1.png" alt="icone" /></li>
-  <li>6º Habilitar o NODEMON : Observe que esta etapa já foi realizada conforme a img 3, caso voce não tenha feito verifique a imagem novamente.<img src="http://www.soumaisconquista.com/gitHub/icone1.png" alt="icone" /></li>
+  <li>5° Habilitar o CORS :  digite no arquivo serve.js:  <strong>const cors = require('cors');</strong><img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
+  <li>6º Habilitar o NODEMON : Observe que esta etapa já foi realizada conforme a img 3, caso voce não tenha feito verifique a imagem novamente.<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
  </ul> 
 <h2>PRONTO!!! os seis passos concluidos e o nosso servidor esta ok! Backend ok! Vamos trabalhar o frontend</h2>
 <h2>Visão Frontend</h2>
