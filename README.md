@@ -17,7 +17,8 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
 <h2>Prototipo</h2>
 <p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação, até o final do projeto ele fica perfeito.</p>
 <p>
-  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo8.gif" alt="Prototipo do sistema em gif animado" />
+  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo8.gif" alt="Prototipo do sistema em gif animado" /><br />
+  v1.0
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist:</p>
 <p>
