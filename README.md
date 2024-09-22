@@ -118,7 +118,7 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
 o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
 <p>Voltando ao desafio, para responder essas perguntas para todas as tecnologias, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
   com seus recursos ilimitados e, muita, mais muita mesmo, disponibilidade em ajudar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
-<h2>A dica aqui é ESTUDE,TESTE,ESTUDE, TESTE...Fontes pesquisadas</h2>
+<h2>A dica aqui é: ESTUDE,TESTE,ESTUDE, TESTE...Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
    <li>2° Google - www.google.com.br</li>
