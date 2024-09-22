@@ -1,13 +1,18 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
-Warning: atualizado em 19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado
+Warning: atualizado em 22/09/2024 * Melhorias no texto; prototipo implementado;incluido pasta de testes;
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!
   Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API, 
   partindo da premissa de um dev (com certa experiência) e..., que esta começando a trabalhar com essas ferramentas agora. Oportunidade unica!!! Acompanhe toda metodologia que utilizo quando fico frente a frente com uma proposta nova de trabalho.<br />
   Vamos desenvolver uma API muito legal utilizando o Node.js para back-end e o React no front-end. Nossa (API) devera comunicar com uma API externa - (utilizaremos a da star - wars) para conseguir dar as resposta as solicitações dos usuarios que tenham acesso ao nosso sistema. Esta aplicação devera seguir as diretrizes REST,  garantindo que a comunicação entre o servidor e o cliente seja super suave e padronizada. E um adendo! Apesar de desenvolver aplicações web a muitos anos eu, nunca trabalhei com estas ferramentas.Ou seja, é uma otima portunidade para quem esta começando acompanhar. Trata-se de um inicio de viagem onde a proxima estação é o desenvolvimentoo de uma aplicação completa, vamos trabalhar na frente e nos bastidores de um sistema. Resolveremos um problema e  no final vamos sair bem melhor do que entramos, aprenderemos novos conhecimentos, super uteis no mercado de trabalho atualmente.Animados?&nbsp;Espero que sim! voce vai vivenciar uma experiencia unica e empolgante em loco, a inquietude na vida de um desenvolvedor Full Stack,pois não estamos presos (digo restritamente, pois temos que entender,os principios que regem cada tema, não dá para criar um site e colocar o texto amarelo por cima de um vermelho citilante ) a nenhuma linguagem, nem a conceitos de designer, somos livres para desenvolvermos o que der na telha, antes deste projeto a exemplo, eu já estava criando um game com c# e unity, logo coloco aqui tambem no git Hub. Neste momento vou focar neste projeto. Venha comigo nesta jornada e vamos juntos descobrir as possibilidades e oportunidades que estas novas ferramentas (digo novas para mim) podem oferecer.Vai ser divertido!!&nbsp;&nbsp;let's go!  
+</p>
+<h2>Prototipo</h2>
+<p>Fala devs não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar o nosso sistema, até o final do projeto ele fica perfeito.</p>
+<p>
+  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo8.gif" alt="Prototipo do sistema em gif animado" />
 </p>
 
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
@@ -82,7 +87,7 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
 o game um pouquinho, aguardem que vou colocar o jogo aqui tambem, é bem simples mais é o primeiro que faço na unity.</p>
 <p>Votando ao desafio para responder essas perguntas para todas as tecnologias vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
   com seus recursos ilimitados e muita, mais muita mesmo, disponibilidade em ajudar, com seus personagens : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
-<h2>A dica aqui é ESTUDE, ESTUDE...Fontes pesquisadas</h2>
+<h2>A dica aqui é ESTUDE,TESTE,ESTUDE, TESTE...Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
    <li>2° Google - www.google.com.br</li>
@@ -443,4 +448,5 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi e espero que eles poss
 Warning: atualizado em:
 <ul>
   <li>18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;</li>
+  <li>19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado</li>
 </ul>
