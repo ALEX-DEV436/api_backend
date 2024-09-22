@@ -85,11 +85,11 @@ Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplica�
 
 <p>A primeira providência a ser realizada ao iniciar qualquer projeto(não só tecnologico) é a busca por informações relevantes. Essa lição, aprendi durante minha época de estudante e, permanece comigo até hoje: "informação é poder!"
 
-Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de avançarmos, é fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
+Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de avançarmos... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
 <p>Revise novamente o desafio e pense... pense novamente!&nbsp;Quais perguntas devemos fazer, a principio, tudo é novo?&nbsp; Uma pergunta eficaz ajuda na resolução do problema.<br/>   
   <p>Para quem está começando! Começe com o basico, se é muita coisa para aprender, faça a divisão em parte menores. </p>
-<p>Como essas ferramentas não fazem parte da nossa rotina, devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
+<p>Como essas ferramentas não fazem parte da nossa rotina de trabalho, devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
   1º -O que? <br />
   2º - O que faz?  <br />
   3º - E como faz? <br /><br />
@@ -106,13 +106,13 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
    Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<strong>npm init</strong>  . Responda às perguntas do assistente 
    de configuração para criar um arquivo package onde é guardado as informações do projeto.
  </p>
- <p> Observe qua uma rapida consulta na web e já conseguimos essas informações, já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem java script  e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
+ <p> Observe que uma rapida consulta na web e já conseguimos respostas nossas perguntas , já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem java script  e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
-<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais o fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio, deixei 
-o game um pouquinho para mais tarde, aguardem que vou colocar o jogo aqui tambem, é bem simples mais é o primeiro que faço na unity.</p>
-<p>Votando ao desafio para responder essas perguntas para todas as tecnologias vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
-  com seus recursos ilimitados e, muita, mais muita mesmo, disponibilidade em ajudar, apresnto os meus personagens favoritos : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
+<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei 
+o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
+<p>Voltando ao desafio, para responder essas perguntas para todas as tecnologias, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
+  com seus recursos ilimitados e, muita, mais muita mesmo, disponibilidade em ajudar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
 <h2>A dica aqui é ESTUDE,TESTE,ESTUDE, TESTE...Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
@@ -127,12 +127,13 @@ o game um pouquinho para mais tarde, aguardem que vou colocar o jogo aqui tambem
    <li>10°Git - https://git-scm.com/</li>
    <li>11°GitHub - https://github.com/ </li>
  </ul> 
- <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não conheça a aplicação acrecente a lista por gentileza</p>
+ <h2>Vai em cada plataforma e veja o que pode ser util ao seu projeto.</h2>
+ <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
  <p>Realizada essa etapa vamos botar a mão na massa!Ops, desculpe! no codigo</p>
  <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.
 
-Essa etapa inicial é crucial e obrigatoria não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
-Geralmente começo com prototipando, seja de papel ou mesmo em um rascunho, para este desafio devido ao curto espaço de tempo, para entrega do projeto, não fiz o prototipo, mais agora que já entreguei o desafio mesmo de forma incompleta, estou providenciando o prototipo com um gif animado.
+Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
+Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascunho digital. Para este desafio devido ao curto espaço de tempo E, para entrega do projeto no prazo, não fiz o prototipo, mais agora que já entreguei o desafio mesmo que de forma incompleta, estou providenciando o prototipo atravez de um gif animado.
 
 
 </p>
@@ -144,7 +145,7 @@ Geralmente começo com prototipando, seja de papel ou mesmo em um rascunho, para
 <li>1° Node - https://nodejs.org/en/download/package-manager</li>
 <li>2° Visual code - https://code.visualstudio.com/download</li>
 <li>3° Git - https://git-scm.com/downloads </li>  
-<li>4° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações </li>
+<li>4° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
 </ul>
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
