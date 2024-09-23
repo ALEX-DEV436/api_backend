@@ -77,7 +77,9 @@ Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplica�
 </p>
 
 <h3>Tecnologias utilizadas</h3>
-<p><img src="http://www.soumaisconquista.com/gitHub/Badges/Badges_REACT.png" alt="Badges_REACT" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_express.png" alt="Badges_express" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/Badges/Badges_REACT.png" alt="Badges_REACT" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_express.png" alt="Badges_express" />
+&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_nodejs.png" alt="Badges_nodeJS" />
+</p>
 <ol>
   <li><strong>Node.js:</strong> Para o desenvolvimento no servidor.</li>
   <li><strong>Express:</strong> Biblioteca para facilitar a criação da API.</li>
