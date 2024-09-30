@@ -380,40 +380,43 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
  </ul> 
 <h2>Vamos testar a comunicação entre backend e frontend</h2>
 <p>
-<i> function App() {</i> <br />
-      <i>const handlePesquisar = async (e) =>{ </i>       <br />
-        <i> const response = await axios.post('http://localhost:3000/pesquisar'),</i>    {<br />
-     <i> headers:{ 'Content-Type' : 'application/json'}</i>   <br />
-    <i>}</i> <br />
- <i>);</i><br />
- <i>console.log(response);</i><br />
- <i>};</i><br />
-    
-  return (<br />
-    <div className="App"><br />
-      <header className="App-header"><br />
-         <div className='conteiner-form'><br />
-            <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div><br />
-               <h2>Busque seu personagem </h2><br />
-                <form className ='formulario'><br />
-                <input <br />
-                id='inputID'<br />
-                type='text'<br />
-                name='personagem'<br />
-                placeholder='personagem'<br />
-                required<br />
-                onChange={(e) => setPersonagem(e.target.value)} /><br />
-                <button <br />
-                className='btn-login'<br />
-                type='submit'<br />
-                onClick={(e) => handlePesquisar(e)}<br />
-                >Pesquisar</button><br />
-                </form><br />
-           </div>   <br />    
-      </header><br />
-    </div><br />
-  );<br />
-}<br />
+  
+```   
+ function App() { 
+               <i>const handlePesquisar = async (e) =>{   
+                 <i> const response = await axios.post('http://localhost:3000/pesquisar'),
+                 <i> headers:{ 'Content-Type' : 'application/json'}   
+          }
+      );
+ }; 
+       return (
+             <div className="App">
+                  <header className="App-header">
+                       <div className='conteiner-form'>
+                            <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+                                <h2>Busque seu personagem </h2>
+                                    <form className ='formulario'>
+                                        <input 
+                                         id='inputID'
+                                         type='text'
+                                         name='personagem'
+                                         placeholder='personagem'
+                                         required
+                                         onChange={(e) => setPersonagem(e.target.value)} />
+                                             <button 
+                                                className='btn-login'
+                                                type='submit'
+                                                onClick={(e) => handlePesquisar(e)}>
+                                                Pesquisar
+                                              </button>
+                                     </form>
+                                 </div>   
+                            </header>
+                       </div>
+                );
+           }
+
+``` 
 </p>
 <p>Aqui colocamos um evento onClick no formulario que dispara uma função que faz essa comunicação com o Back-End e
 recebe a resposta.</p>
@@ -421,6 +424,7 @@ recebe a resposta.</p>
 <p><img:17</p>
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
+  ```  
    <div className="App">
       <header className="App-header">
          <div className='conteiner-form'>
@@ -441,6 +445,8 @@ recebe a resposta.</p>
                 >Pesquisar</button>
                 </form>
            </div>
+          
+       ```        
 </p>
 <p>Ao ser acionada pelo cliente neste momento sem nome de personagem, minha API aciona uma função que busca na API starWars os dados e retorna para
 o cliente todos os personagens em um array</p>
