@@ -461,18 +461,22 @@ o cliente todos os personagens em um array</p>
 <p>Aqui utilizamos o methodo find passando o nome que vem do Front-End para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
 <p>Veja a imagem</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNome.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
-        <p>img:19</p>
-<p>Neste momento o negocio travou não conseguimos mostrar para o nosso cliente o resultado na tela, ou seja a resposta esta chegando no Front-End mais fica no console.  
+        <p>img:19</p> 
 </p>
 
+<h2>Após os testes vamos implementar a funcionalidades do projeto</h2>
+<p>Devido a outras obrigações, logo volto para explicar as implementações </p>
+<p>Abaixo uma imagem para ir acompanhando o desenvolvimento</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4.jpg" alt="Implementando as funcionalidades" /></p>
 <h2>Contribuições são bem vindas</h2>
 <p>Por ser o nosso primeiro projeto com essas tecnologias , não concluimos o desafio com todo processo realizado , caso seja do seu interesse .<br />
   Vamos precisar para terminar:
 </p>
 <ul>
-   <li>Mostrar na tela o resultado da pesquisa</li>
-  <li>Implementar uma base de dados para colocarmos os personagens na lista de favoritos</li>
-  <li>Criar uma função para responder para o frontend quando solcitado a lista de favoritos</li>
+  <li>Implementar o aplicativo como mostrado no prototipo</li>
+  <li>Apresentar a lista de filmes com os respectivos nomes</li>
+ 
+ 
  </ul> 
 
  <h2>Conclusão</h2> 
