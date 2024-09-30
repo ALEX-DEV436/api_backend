@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
-Warning: atualizado em 24/09/2024 Melhorando o texto, Observação; O gif do prototipo não aperece de imediato, temos que dar varios refresh na pagina para ele aparecer;<br />
+Warning: atualizado em 30/09/2024 Implementação das funcionalidade do projeto;<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!</p>
@@ -44,10 +44,15 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Analisar retornos dos end points.Que tipos retornam?; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar a pesquisa pelo nome do personagem enviado pelo formulario; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Mostrar resultado da consulta pelo nome da API  Star Wars na tela do usuario; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Criar uma função para mostrar lista de personagem; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Mostrar resultado da consulta pelo nome da API  Star Wars na tela do usuario; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma função para mostrar lista de personagem; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer o conceito de componentes para o projeto; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização de personagens cadastrado; <br />
+  
+ 
   
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
@@ -486,6 +491,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
  </p>
 Warning: atualizado em:
 <ul> 
+  <li>24/09/2024 Melhorando o texto, Observação; O gif do prototipo não aperece de imediato, temos que dar varios refresh na pagina para ele aparecer;</li>
   <li>22/09/2024 * Melhorias no texto; prototipo implementado;incluido pasta de testes;incluido checklist de acompanhamento; criação de Badge para o nodeJS</li>
   <li>19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado</li>
   <li>18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;</li>
