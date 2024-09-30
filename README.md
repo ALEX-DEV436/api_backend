@@ -208,18 +208,25 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR OS PROCEDIMENTOS</h2>
 <h3>Instalando o servidor</h3>
 <p>Na pagina <strong>serve.js</strong> efetue os seguintes comandos: <br /> <br />
-     <i>const express =require('express');</i>  <br />
-         <i>const app = express();</i> <br />
-            <i>const app.use(express);</i> </p>
+  
+  ```
+    const express =require('express');
+    const app = express();
+    const app.use(express);
+  ```
+</p>
 <p>
+  
+```
+    app.get('/', (req,res) =>{
+         res.send('starWars');{
+    }); 
 
-    <i>app.get('/', (req,res) =>{</i><br />
-         <i>res.send('starWars');{</i> <br />
-   <i>});</i>  
+    app.listen(3000,() =>{
+         console.log('Testando o Servidor');
+ });
 
- <i>app.listen(3000,() =>{</i><br />
-        <i>console.log('Testando o Servidor');</i> <br />
- <i>});</i> 
+ ```
 
 <p>
   <p>Veja a imagem para uma comparação!</p>
@@ -342,25 +349,35 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <h2>Teste dos endpoints</h2>
 <p>
    <p>
-     Um personagem.<br />
-        <i>app.get('/', async(req,res) => {  </i> <br />
-             <i>const{data} = await axios('https://swapi.dev/api/people/1')</i>  <br />
-               <i>return res.json(data)</i>  <br />
-         <i> });</i> <br />
+      Um personagem.<br />
+     ```
+    
+       app.get('/', async(req,res) => {  
+              const{data} = await axios('https://swapi.dev/api/people/1')
+              return res.json(data)
+        });
+     ```
    </p>
     <p>
      Todos os personagens.Volta um objeto<br />
-              <i> app.get('/', async(req,res) => {  </i><br />
-                <i>const{data} = await axios('https://swapi.dev/api/people/')</i>   <br />
-                  <i>return res.json(data)</i>  <br />  
- <i> });</i> <br />
+      
+      ```
+       app.get('/', async(req,res) => { 
+               const{data} = await axios('https://swapi.dev/api/people/')
+               return res.json(data) 
+        });
+ 
+      ```
 </p>
    <p>
      Todos os personagem. Mais volta um array.<br />
-           <i>app.get('/', async(req,res) => {  </i>  <br />
-             <i>  const{data} = await axios('https://swapi.dev/api/people/')</i>  <br />
-               <i>  return res.json(data.results)</i>  <br />
- <i> });</i> <br />
+     
+     ```
+      app.get('/', async(req,res) => { 
+              const{data} = await axios('https://swapi.dev/api/people/')
+              return res.json(data.results)
+        });
+     ```
 </p>
   <ul>
    <li><strong>/people/1 </strong>-- obter um recurso específico de pessoas</li>
@@ -403,12 +420,12 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
                                          placeholder='personagem'
                                          required
                                          onChange={(e) => setPersonagem(e.target.value)} />
-                                             <button 
-                                                className='btn-login'
-                                                type='submit'
-                                                onClick={(e) => handlePesquisar(e)}>
-                                                Pesquisar
-                                              </button>
+                                         <button 
+                                            className='btn-login'
+                                            type='submit'
+                                            onClick={(e) => handlePesquisar(e)}>
+                                            Pesquisar
+                                         </button>
                                      </form>
                                  </div>   
                             </header>
@@ -424,29 +441,31 @@ recebe a resposta.</p>
 <p><img:17</p>
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
+  
   ```  
    <div className="App">
-      <header className="App-header">
-         <div className='conteiner-form'>
+        <header className="App-header">
+          <div className='conteiner-form'>
             <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
                <h2>Busque seu personagem </h2>
                 <form className ='formulario'>
-                <input 
-                id='inputID'
-                type='text'
-                name='personagem'
-                placeholder='personagem'
-                required
-                onChange={(e) => setPersonagem(e.target.value)} />
-                <button 
-                className='btn-login'
-                type='submit'
-                onClick={(e) => handlePesquisar(e)}
-                >Pesquisar</button>
+                   <input 
+                    id='inputID'
+                    type='text'
+                    name='personagem'
+                    placeholder='personagem'
+                    required
+                    onChange={(e) => setPersonagem(e.target.value)} />
+                   <button 
+                    className='btn-login'
+                    type='submit'
+                    onClick={(e) => handlePesquisar(e)}>
+                    Pesquisar
+                   </button>
                 </form>
-           </div>
-          
-       ```        
+           </div>    
+
+ ```    
 </p>
 <p>Ao ser acionada pelo cliente neste momento sem nome de personagem, minha API aciona uma função que busca na API starWars os dados e retorna para
 o cliente todos os personagens em um array</p>
@@ -458,13 +477,18 @@ o cliente todos os personagens em um array</p>
 <p>Esta na hora de comerçarmos trabalhar o retorno da API externa, ou seja, devolver ao cliente somente o que ele solicitou.</p>
 <p>Como mostramos a seguir:</p>
 <p>
-         <i>app.get('/', async(req,res) => {  </i> <br />
-                <i> const{data} = await axios('https://swapi.dev/api/people/')</i>   <br />    
-                   <i>let testePesquisa = data.results;</i>   <br />
-                       <i>const retornoPesquisa = </i>   <br />
-                       <i>testePesquisa.find((persona) => persona.name === "Luke Skywalker"); </i>   <br /> 
-                            <i> return res.json(retornoPesquisa);</i>  <br />
-          <i></i> }); <br />
+  
+  ```
+        app.get('/', async(req,res) => {
+ 
+               const{data} = await axios('https://swapi.dev/api/people/')  
+                            let testePesquisa = data.results;
+                            const retornoPesquisa = 
+                            testePesquisa.find((persona) => persona.name === "Luke Skywalker"); 
+
+                            return res.json(retornoPesquisa);
+          }); 
+```
 </p>
 <p>Aqui utilizamos o methodo find passando o nome que vem do Front-End para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
 <p>Veja a imagem</p>
