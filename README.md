@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
-Warning: atualizado em 30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd<br />
+Warning: atualizado em 30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd; Corrigindo a apresentação dos blocos de codigos<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!</p>
@@ -284,7 +284,8 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
      <p>2º Lembre-se que no frontend codificamos, mais ele se caracteriza mais pela parte visual.</p>
      <p>Portanto para isso vamos criar um formulario basico para teste</p>
      <p>
-        
+       
+    ```    
     <div className="App">
       <header className="App-header">
          <div className='conteiner-form'>
@@ -306,8 +307,10 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
            </div>
 
      </p>
-     <p>Resultado.</p>
+     
+     ```    
    </li> 
+   <li> Resultado:</li>
    <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5.jpg" alt="Teste de servidor" /></p>  
    <p>img:11</p>   
    </li>
