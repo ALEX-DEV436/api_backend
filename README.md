@@ -48,6 +48,8 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma função para mostrar lista de personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer o conceito de componentes para o projeto; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização de personagens cadastrado; <br />
