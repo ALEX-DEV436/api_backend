@@ -258,9 +258,8 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p>Obs: se o comando <strong>code .</strong> não abrir o visual code automaticamente , reinstale o programa.Comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
-   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>
-   <p>img:4</p>
-   Obs: Compare a sua tela com a minha, esta acompanhando as setas que indico na imagem para os pontos a serem observados?
+   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
+   Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
 </p>
 <h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR OS PROCEDIMENTOS</h2>
 <p>Na pagina <strong>serve.js</strong> efetue os seguintes comandos: <br /> <br />
@@ -295,12 +294,22 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
   ```
 </p>
 
+<h2>Inicializando o servidor</h2>
+<p>No terminal do visual code digite =></p>
+<p>
+
+  ```
+    npm run start
+  ```
+</p>
+
   <p>Na imagem 5 os procedimentos podem ser observado no meu pc</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 <p>Para otimizar o aproveitamento e a organização, propomos a avaliação de algumas etapas a serem seguidas em nossa primeira experiência no desenvolvimento de uma API.</p>
 <p>Aqui vamos fazer um cheklist para o nosso passo a passo!</p>
+
 <ul>
-   <li><h3>Objetivo :criar Uma Api</h3></h3></li>
+   <li><h3>Objetivo :criar Uma Api</h3></li>
   <li>1º Inciar o projeto: Para isso abra o terminal no visual code e digite:<strong> npm init -y</strong> <img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
   <li>2º Instalar as dependencias: Se voce seguiu o passo a passo já estão instaladas<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
   <li>3º Criar uma rota para acessar a API:<br />
