@@ -258,37 +258,47 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p>Obs: se o comando <strong>code .</strong> não abrir o visual code automaticamente , reinstale o programa.Comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
-   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3.jpg" alt="Visualização do projeto no visual code" /></p>
+   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>
    <p>img:4</p>
-   Obs: Veja a sua tela se esta acompanhando as setas que indico na imagem para os pontos a serem observados.
+   Obs: Compare a sua tela com a minha, esta acompanhando as setas que indico na imagem para os pontos a serem observados?
 </p>
 <h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR OS PROCEDIMENTOS</h2>
-<h3>Instalando o servidor</h3>
 <p>Na pagina <strong>serve.js</strong> efetue os seguintes comandos: <br /> <br />
-  
+<h2>Criando o servidor</h2>
+ <p>
+   
   ```
     const express =require('express');
     const app = express();
     const app.use(express);
   ```
 </p>
-<p>
-  
-```
-    app.get('/', (req,res) =>{
-         res.send('starWars');{
-    }); 
 
+<h2>Abrindo uma porta para servidor</h2>
+  
+<p>
+
+  ```
     app.listen(3000,() =>{
          console.log('Testando o Servidor');
  });
+  ```
+ </p>
 
- ```
-
+<h2>Criando uma rota</h2>
 <p>
-  <p>Veja a imagem para uma comparação!</p>
+
+  ```
+    app.get('/', (req,res) =>{
+         res.send('starWars');{
+    });
+  ```
+</p>
+
+  <p>Na imagem 5 os procedimentos podem ser observado no meu pc</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4.jpg" alt="Iniciando o servidor" /></p>
   <p>img:5</p>
+
 <p>Para um melhor aproveitamento e organização, vamos verificar alguns passos a serem seguidos, para a nossa primeira experiencia no desenvolvimento de uma API.</p>
 <p>Aqui vamos fazer um cheklist para o nosso passo a passo!</p>
 <ul>
