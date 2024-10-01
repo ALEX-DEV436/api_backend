@@ -225,11 +225,29 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
 <p>Chegou até aqui! Tudo tranquilo? Tá suave? Se divertindo? Então vamos lá...</p>
 <p>Para ver se deu tudo certo voce pode fazer os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado destes comandos no meu prompt</p>
-<ul>
-  <li>1º <strong> git --version </strong> Para ver se o git esta instalado</li>
-  <li>2º <strong> node --version</strong> Para ver se o node esta instalado</li>
-  <li>3° <strong> code --version</strong> Para ver se visual code esta instalado</li>
- </ul> 
+
+<p>1º Para ver se o git esta instalado</p>
+<p>
+
+  ```
+  git --version
+```
+</p>
+<p>2º Para ver se o node esta instalado</p>
+<p>
+
+  ```
+  node --version
+```
+</p> 
+<p>3°Para ver se visual code esta instalado</p>
+<p>
+
+  ```
+  code --version
+```
+</p>
+
 <h2>Abrindo o visual code</h2>
 <p>
   
@@ -237,7 +255,7 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
   code .
  ```
 </p> 
-<p>Obs: se o comando <strong>code .</strong> não abrir o visual code automaticamente , reinstale o programa , comigo resolveu.</p>
+<p>Obs: se o comando <strong>code .</strong> não abrir o visual code automaticamente , reinstale o programa.Comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3.jpg" alt="Visualização do projeto no visual code" /></p>
