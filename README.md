@@ -296,10 +296,8 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 </p>
 
   <p>Na imagem 5 os procedimentos podem ser observado no meu pc</p>
-  <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4.jpg" alt="Iniciando o servidor" /></p>
-  <p>img:5</p>
-
-<p>Para um melhor aproveitamento e organização, vamos verificar alguns passos a serem seguidos, para a nossa primeira experiencia no desenvolvimento de uma API.</p>
+  <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
+<p>Para otimizar o aproveitamento e a organização, propomos a avaliação de algumas etapas a serem seguidas em nossa primeira experiência no desenvolvimento de uma API.</p>
 <p>Aqui vamos fazer um cheklist para o nosso passo a passo!</p>
 <ul>
    <li><h3>Objetivo :criar Uma Api</h3></h3></li>
