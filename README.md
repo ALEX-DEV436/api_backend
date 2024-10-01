@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
-Warning: atualizado em 30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd; Corrigindo a apresentação dos blocos de codigos<br />
+Warning: atualizado em 01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!</p>
@@ -605,6 +605,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
  </p>
 Warning: atualizado em:
 <ul> 
+  <li>30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd; Corrigindo a apresentação dos blocos de codigos</li>
   <li>24/09/2024 Melhorando o texto, Observação; O gif do prototipo não aperece de imediato, temos que dar varios refresh na pagina para ele aparecer;</li>
   <li>22/09/2024 * Melhorias no texto; prototipo implementado;incluido pasta de testes;incluido checklist de acompanhamento; criação de Badge para o nodeJS</li>
   <li>19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado</li>
