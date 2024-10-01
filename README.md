@@ -193,7 +193,7 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
   npm init
    ```
   </p>
-<p>  Obs: na web existe varios tutoriais que podem ajudar no passo a passo para realizar estes procedimentos</p>
+<p>  Obs: Na internet, há diversos tutoriais disponíveis que podem auxiliar no passo a passo para a realização desses procedimentos.</p>
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
 
 <p><br/>
