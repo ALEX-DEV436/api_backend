@@ -170,14 +170,33 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p>img:1</p>
 
 <p>Vamos começar iniciar o nosso desafio, abrindo o <strong>prompt de comando</strong> para criarmos as pastas, onde vamos guardar o nosso projeto e instalarmos as bibliotecas.</p>
-<ul>
-    <li>Veja os comandos iniciais<li>
-   <li>1º Criar a pasta => <strong>mkdir</strong></li>
-   <li>2º Entrar na pasta =>  <strong>cd ./pasta/</strong> </li>
-   <li>3° Criar o projeto => <strong>npm init</strong></li>
-   <li>Obs: na web existe varios tutoriais que ajudam no passo a passo para estes procedimentos</li>
-   <li>Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:</li>   
- </ul> 
+
+<h2>Comandos iniciais no Prompt</h2>
+<p>1º Criar a pasta =></p> 
+<p>
+  
+  ```
+  mkdir wars
+  ```
+</p> 
+ <p> 2º Entrar na pasta => </p>
+<p>
+
+   ```
+  cd ./wars/
+ ```
+</p>
+
+<p>3° Criar o projeto =></p> 
+<p>
+  
+  ``` 
+  npm init
+   ```
+  </p>
+<p>  Obs: na web existe varios tutoriais que podem ajudar no passo a passo para realizar estes procedimentos</p>
+<p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
+
 <p><br/>
   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1.jpg" alt="Iniciando o projeto" /></p>
   <p>img:2</p>
