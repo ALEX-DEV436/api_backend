@@ -222,22 +222,21 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
  ```
 </p>
 <p>Veja como ficou a minha instalação</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2.jpg" alt="Instalações das bibliotecas" /></p>
-
+<p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
+<p>Chegou até aqui! Tudo tranquilo? Tá suave? Se divertindo? Então vamos lá...</p>
+<p>Para ver se deu tudo certo voce pode fazer os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado destes comandos no meu prompt</p>
+<ul>
+  <li>1º <strong> git --version </strong> Para ver se o git esta instalado</li>
+  <li>2º <strong> node --version</strong> Para ver se o node esta instalado</li>
+  <li>3° <strong> code --version</strong> Para ver se visual code esta instalado</li>
+ </ul> 
 <h2>Abrindo o visual code</h2>
 <p>
   
    ```
   code .
  ```
-</p>   
-<p>Chegou até aqui! Tudo tranquilo? Tá suave? Se divertindo? Então vamos lá...</p>
-<p>Para ver se deu tudo certo voce pode fazer os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado destes comandos</p>
-<ul>
-  <li>1º <strong> git --version </strong> Para ver se o git esta instalado</li>
-  <li>2º <strong> node --version</strong> Para ver se o node esta instalado</li>
-  <li>3° <strong> code --version</strong> Para ver se visual code esta instalado</li>
- </ul> 
+</p> 
 <p>Obs: se o comando <strong>code .</strong> não abrir o visual code automaticamente , reinstale o programa , comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
