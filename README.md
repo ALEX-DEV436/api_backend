@@ -167,9 +167,8 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 </ul>
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
-<p>img:1</p>
 
-<p>Vamos começar iniciar o nosso desafio, abrindo o <strong>prompt de comando</strong> para criarmos as pastas, onde vamos guardar o nosso projeto e instalarmos as bibliotecas.</p>
+<p>Vamos começar o nosso desafio, abrindo o <strong>Prompt de Comando</strong> para criarmos as pastas, onde guardaremos o nosso projeto e vamos instalar as bibliotecas.</p>
 
 <h2>Comandos iniciais no Prompt</h2>
 <p>1º Criar a pasta =></p> 
@@ -198,18 +197,40 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
 
 <p><br/>
-  <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1.jpg" alt="Iniciando o projeto" /></p>
-  <p>img:2</p>
-  <p>Logo em seguida instalaremos as bibliotecas são 3 no total</p>
-  <ul>
-   <li>1º express => <strong>npm i express</strong></li>
-   <li>2º nodemon =><strong> npm i nodemon</strong></li>
-   <li>3° cors => <strong>npm i cors</strong></li>
-   <li>4º Vamos abrir o visual code => <strong> code .</strong> </li>
- </ul> 
+ <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
+ <h2>Instalações das bibliotecas</h2>
+  
+<p> 1º express => </p>
+<p>
+  
+  ```
+  npm i express
+ ```
+</p>
+<p>2º nodemon =></p> 
+<p>
+
+   ```
+  npm i nodemon
+ ```
+</p>
+<p>3° cors =></p> 
+<p>
+
+   ```
+  npm i cors
+ ```
+</p>
 <p>Veja como ficou a minha instalação</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2.jpg" alt="Instalações das bibliotecas" /></p>
-<p>img:3</p>
+
+<h2>Abrindo o visual code</h2>
+<p>
+  
+   ```
+  code .
+ ```
+</p>   
 <p>Chegou até aqui! Tudo tranquilo? Tá suave? Se divertindo? Então vamos lá...</p>
 <p>Para ver se deu tudo certo voce pode fazer os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado destes comandos</p>
 <ul>
