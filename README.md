@@ -166,7 +166,7 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <li>4° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
 </ul>
 <p>Veja as versões que uso neste projeto</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <p>img:1</p>
 
 <p>Vamos começar iniciar o nosso desafio, abrindo o <strong>prompt de comando</strong> para criarmos as pastas, onde vamos guardar o nosso projeto e instalarmos as bibliotecas.</p>
