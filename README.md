@@ -116,13 +116,13 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
  </p>
  <p>
    Para exemplo vamos pegar o nodeJS, observe:<br /><br />
-  1º O que é?<br />  
+  1º O que é?<br /><br />  
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
-   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.<br />
-  2º O que faz ou para que serve?<br />
+   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.<br /><br />
+  2º O que faz ou para que serve?<br /><br />
    O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
-   em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br />
-   3º E como faz ou como uso?<br />
+   em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
+   3º E como faz ou como uso?<br /><br />
    Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<strong>npm init</strong>  . Responda às perguntas do assistente 
    de configuração para criar um arquivo package onde é guardado as informações do projeto.
  </p>
