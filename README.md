@@ -115,7 +115,7 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
   3º - E como faz? <br /><br />
  </p>
  <p>
-   Vamos pegar o nodeJS:<br />
+   Para exemplo vamos pegar o nodeJS, observe:<br />
   1º A primeira pergunta: O que é?<br />
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
    A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos
