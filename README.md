@@ -99,9 +99,7 @@ Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplica�
   <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
 
-<h2>Visão - Back -end</h2>
-
-<h4>Inicio</h4>
+<h2>Introdução</h2>
 
 <p>A primeira providência a ser tomada ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "informação é poder!"
 
@@ -154,10 +152,8 @@ o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui n
 
 Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
 Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascunho digital. Para este desafio devido ao curto espaço de tempo E, para entrega do projeto no prazo, não fiz o prototipo, mais agora que já entreguei o desafio mesmo que de forma incompleta, estou providenciando o prototipo atravez de um gif animado.
-
-
 </p>
-   
+<h2>Visão - Back-End</h2>  
 <h2>Setup</h2>
 <h4>Iniciando os trabalhos</h4>
 <h4>Instalação dos aplicativos</h4>
@@ -309,6 +305,7 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas</p>
 
   <p>Na imagem 5 os procedimentos podem ser observado no meu pc</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
+
 <h2>Visão Frontend</h2>
 <p>Pode deixar o visualcode do backend aberto, e abra novamente o prompt do seu computador.</p>
 <p>Nele digite : <strong>npx create-react-app app</strong></p>
