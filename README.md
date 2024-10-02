@@ -1,6 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Primeiras impressões de um dev para um trabalho, com os seguintes temas: API,&nbsp; Git,&nbsp; GitHUB,&nbsp;NnodeJS,&nbsp;React,&nbsp;Express,&nbsp;Nodemon,&nbsp;Cors.&nbsp;Quer aprender?&nbsp;Me acompanhe nesta jornada!</h2>
+<h2>Neste trabalho, irei abordar diversos temas relevantes, como API, Git, GitHub, Node.js, React, Express, Nodemon e CORS. Estou empolgado para aprender mais sobre essas tecnologias e, ao longo do processo, compartilharei minhas descobertas neste projeto.
+Além disso, descreverei o método que utilizo para aprender novas ferramentas e práticas no desenvolvimento. Convido você a me acompanhar nesta verdadeira 'jornada das estrelas' rumo ao conhecimento e à inovação!</h2>
 Warning: atualizado em 01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
@@ -195,6 +196,8 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
    ```
   </p>
 <p>  Obs: Na internet, há diversos tutoriais disponíveis que podem auxiliar no passo a passo para a realização desses procedimentos.</p>
+<p>Acima eu passo os comandos para criação de pasta, entrar na pasta e tambem iniciar um projeto nodejs na pasta desejada,
+tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas</p>
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
 
 <p><br/>
@@ -306,31 +309,6 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 
   <p>Na imagem 5 os procedimentos podem ser observado no meu pc</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
-<p>Para otimizar o aproveitamento e a organização, propomos a avaliação de algumas etapas a serem seguidas em nossa primeira experiência no desenvolvimento de uma API.</p>
-<p>Aqui vamos fazer um cheklist para o nosso passo a passo!</p>
-
-<ul>
-   <li><h3>Objetivo :criar Uma Api</h3></li>
-  <li>1º Inciar o projeto: Para isso abra o terminal no visual code e digite:<strong> npm init -y</strong> <img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
-  <li>2º Instalar as dependencias: Se voce seguiu o passo a passo já estão instaladas<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
-  <li>3º Criar uma rota para acessar a API:<br />
-    Crie o arquivo rotas.js e nele importe a biblioteca express com os seguintes comandos:<br />
-    1-<strong> const express =require('express'); </strong> <br />
-    2-<strong> const rotas = express.Routers();</strong>
-    <p>Imagem referente a este procedimento <img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></p>
-    <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img5.jpg" alt="Criando rotas" /></p> 
-    <p>img:6</p>    
-  </li>
-  <li><p>4º Servir a API<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></p>
-    <p>Veja a imagem abaixo como é a implementação para este serviço:</p>
-    <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/consumindoDadosDaAPI.jpg" alt="Consumindo dados da API criada" /></p>
-    <p>img:7</p>
-    <p>Observe, criamos um array de objeto, verificamos junto a porta 3000 a sua visualização e enviamos para o front-end pela porta 3001.</p>
-  </li>
-  <li>5° Habilitar o CORS :  digite no arquivo serve.js:  <strong>const cors = require('cors');</strong><img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
-  <li>6º Habilitar o NODEMON : Observe que esta etapa já foi realizada conforme a img 3, caso voce não tenha feito verifique a imagem novamente.<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="icone" /></li>
- </ul> 
-<h2>PRONTO!!! os seis passos concluidos e o nosso servidor esta ok! Backend ok! Vamos trabalhar o frontend</h2>
 <h2>Visão Frontend</h2>
 <p>Pode deixar o visualcode do backend aberto, e abra novamente o prompt do seu computador.</p>
 <p>Nele digite : <strong>npx create-react-app app</strong></p>
