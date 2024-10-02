@@ -115,18 +115,18 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
   3º - E como faz? <br /><br />
  </p>
  <p>
-   Para exemplo vamos pegar o nodeJS, observe:<br />
-  1º A primeira pergunta: O que é?<br />
+   Para exemplo vamos pegar o nodeJS, observe:<br /><br />
+  1º O que é?<br />  
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
-   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos
+   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.<br />
   2º O que faz ou para que serve?<br />
    O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
-   em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.
+   em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br />
    3º E como faz ou como uso?<br />
    Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<strong>npm init</strong>  . Responda às perguntas do assistente 
    de configuração para criar um arquivo package onde é guardado as informações do projeto.
  </p>
- <p> Observe que uma rapida consulta na web e já conseguimos respostas nossas perguntas , já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem java script  e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
+ <p> Veja, que uma rapida consulta na web e já conseguimos respostas para nossas principais perguntas , já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
 <p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei 
