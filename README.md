@@ -16,7 +16,9 @@ Um adendo: apesar de desenvolver aplicações web há muitos anos, eu nunca trab
 Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgante. A inquietude na vida de um desenvolvedor Full Stack nos permite não ficarmos presos (digo restritamente, pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design; somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity, e logo colocarei ele aqui também no GitHub. Neste momento, vou focar neste projeto. Venha comigo nesta jornada, e juntos vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer. Vai ser divertido!!&nbsp;&nbsp;let's go!  
 </p>
 <h2>Prototipo</h2>
-<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação, até o final do projeto ele fica perfeito.</p>
+<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação, até o final do projeto ele fica perfeito.Neste gif vcs já vão poder acompanhar minha metodologia,
+1º penso na ideia 2º executo 3º vou lapidando. Vou colocar as versões conforme a lapidação vai ocorrendo, na base do projeto. VEJA lá ! Um e um forte abraço!
+</p>
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo11.gif" alt="Prototipo do sistema em gif animado" /><br />
   Prototipo v1.1
