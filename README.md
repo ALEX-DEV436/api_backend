@@ -123,8 +123,13 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
    O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
    em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
    3º E como faz ou como posso usar?<br /><br />
-   Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<strong>npm init</strong>  . Responda às perguntas do assistente 
-   de configuração para criar um arquivo package onde é guardado as informações do projeto.
+  <p> Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
+   
+   ```
+    npm init
+```
+   
+   <p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p> 
  </p>
  <p> Veja, que uma rapida consulta na web e já conseguimos respostas para nossas principais perguntas , já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
