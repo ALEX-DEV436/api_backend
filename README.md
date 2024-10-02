@@ -23,7 +23,7 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo11.gif" alt="Prototipo do sistema em gif animado" /><br />
   Prototipo v1.1
 </p>
-<p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist:</p>
+<p>Para organizamos nosso projeto até a sua conclusão, vamos a um checklist basico:</p>
 <p>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;iniciar o projeto; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
