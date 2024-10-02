@@ -122,7 +122,7 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
   2º O que faz ou para que serve?<br /><br />
    O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
    em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
-   3º E como faz ou como uso?<br /><br />
+   3º E como faz ou como posso usar?<br /><br />
    Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<strong>npm init</strong>  . Responda às perguntas do assistente 
    de configuração para criar um arquivo package onde é guardado as informações do projeto.
  </p>
