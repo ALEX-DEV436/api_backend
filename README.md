@@ -168,7 +168,9 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 
-<p>Vamos começar o nosso desafio, abrindo o <strong>Prompt de Comando</strong> para criarmos as pastas, onde guardaremos o nosso projeto e vamos instalar as bibliotecas.</p>
+<p>Vamos começar o nosso desafio, abrindo o <strong>Prompt de Comando</strong> para criarmos a estrutura de pastas, onde guardaremos o nosso projeto e vamos instalar as bibliotecas.
+Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortavel para você.
+</p>
 
 <h2>Comandos iniciais no Prompt</h2>
 <p>1º Criar a pasta =></p> 
