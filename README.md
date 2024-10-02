@@ -192,8 +192,8 @@ Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascun
    ```
   </p>
 <p>  Obs: Na internet, há diversos tutoriais disponíveis que podem auxiliar no passo a passo para a realização desses procedimentos.</p>
-<p>Acima eu passo os comandos para criação de pasta, entrar na pasta e tambem iniciar um projeto nodejs na pasta desejada,
-tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas</p>
+<p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto nodejs na pasta desejada, isso
+tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da maneira que for mais confortavel para sua experiencia de desenvolvimento.</p>
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
 
 <p><br/>
