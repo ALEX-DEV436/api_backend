@@ -261,7 +261,8 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
    Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
 </p>
-<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR OS PROCEDIMENTOS</h2>
+<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR???</h2>
+<p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias.</p>
 <p>Na pagina <strong>serve.js</strong> efetue os seguintes comandos: <br /> <br />
 <h2>Criando o servidor</h2>
  <p>
@@ -273,7 +274,7 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
   ```
 </p>
 
-<h2>Abrindo uma porta para servidor</h2>
+<h2>Abrindo uma porta para o servidor</h2>
   
 <p>
 
