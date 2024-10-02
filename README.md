@@ -129,8 +129,13 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
     npm init
 ```
    
-   <p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p> 
- </p>
+   <p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p>
+   <p>Para não responder perguntas</p>
+
+   ```
+    npm init -y
+  ```
+
  <p> Veja, que uma rapida consulta na web e já conseguimos respostas para nossas principais perguntas , já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
