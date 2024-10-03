@@ -20,7 +20,7 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
 1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos. Vou colocar as versões  na base do projeto,conforme a lapidação vai sendo realizada. VEJA lá ! E um forte abraço!
 </p>
 <p>
-  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo11b.gif" alt="Prototipo do sistema em gif animado" /><br />
+  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo12.gif" alt="Prototipo do sistema em gif animado" /><br />
   Prototipo v1.1
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos a um checklist basico:</p>
