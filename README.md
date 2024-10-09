@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, exploraremos temas como API, Git, GitHub, Node.js, React, Express, Nodemon e CORS. Estou animado para compartilhar cada descoberta e meu método especial de aprendizado, que transforma desafios em aventuras inspiradoras. Junte-se a mim e descubra juntos como desbravar inovações e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
-Warning: atualizado em 01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos, lapidando o prototipo a primeira após a publicação<br />
+<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, exploraremos temas como API, Git, GitHub, Node.js, React, Express, Nodemon e CORS. Estou animado para compartilhar minhas descobertas. Junte-se a mim e descubra juntos como desbravar inovações e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
+Warning: atualizado em 09/10/2024 Organizando o README, corrigindo titulo, melhorando os textos,<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!</p>
@@ -593,6 +593,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
  </p>
 Warning: atualizado em:
 <ul> 
+  <li>01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos, lapidando o prototipo, a primeira após a publicação</li>
   <li>30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd; Corrigindo a apresentação dos blocos de codigos</li>
   <li>24/09/2024 Melhorando o texto, Observação; O gif do prototipo não aperece de imediato, temos que dar varios refresh na pagina para ele aparecer;</li>
   <li>22/09/2024 * Melhorias no texto; prototipo implementado;incluido pasta de testes;incluido checklist de acompanhamento; criação de Badge para o nodeJS</li>
