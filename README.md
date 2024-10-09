@@ -1,6 +1,6 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, exploraremos temas como API, Git, GitHub, Node.js, React, Express, Nodemon e CORS. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descubrir juntos como desbravar essas tecnologias e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
+<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, exploraremos temas como API, Git, GitHub, Node.js, React, Express, Nodemon e CORS. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir juntos como desbravar essas tecnologias e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
 Warning: atualizado em 09/10/2024 Organizando o README, corrigindo titulo, melhorando os textos,<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
