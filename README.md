@@ -50,42 +50,37 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma função para mostrar lista de personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer o conceito de componentes para o projeto; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização de personagens cadastrado; <br />
-  
- 
-  
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer o conceito de componentes para o projeto; <br />  
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização de personagens cadastrado; <br />  
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
 <p>
-  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!(Retirado do site)
+  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!Disponível em: https://swapi.dev/. Acesso em: 09 out. 2024.
 </p>
 <p>A API oferece o seguinte endpoints na sua documentação, entretanto com os teste realizados optamos utilizar outros, como veremos adiante.
-<br/>https://swapi.dev/api/
+<br/>Disponível em: https://swapi.dev/api/  . Acesso em: 09 out. 2024.
  <ul>
    <li>/people/ -- obtenha todos os recursos de um personagem</li>
    <li>/people/:id/ -- obter um recurso específico de um personagem</li>
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
-Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem favorito.
-Ao receber os dados da pesquisa do usuario, nossa aplicação Front-end deve comunicar com a API desenvolvida por nós no Back-end, que, por sua vez, fará uma solicitação à
-API oficial da Star Wars para obter o personagem invocado na pesquisa.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-loss e responder 
-ao nosso front -end que por sua vez repassa para o usuario.
+Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem favorito. E cadastra-los em uma lista de favoritos.
+Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-end deve, comunicar com a nossa API no Back-end, que, por sua vez, fará uma solicitação à
+API oficial da Star Wars para obter o personagem pesquisado pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso front -end, que por sua vez repassa para o usuario a informação.
 
-As funcionalidades principais de no aplicação incluem:
+As principais funcionalidades da aplicação incluem:
 <ul>
-<li><strong>Busca de Personagens:</strong> O cliente poderá buscar pelo nome um personagem.Nossa API deve receber essa solicitação e buscar a resposta na API da star - Wars .</li>
+<li><strong>Busca de Personagens:</strong> O cliente deve buscar pelo nome um personagem. Nossa API recebe essa solicitação e busca a resposta na API da star - Wars .</li>
 
-<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados ao usuario, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Atenção, vamos precisar guardar essa informação
-em alguma base de dados(a definir) persistente ou não.</li>
+<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados ao usuario, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Atenção, vamos precisar guardar essa informação em alguma base de dados(a definir) persistente ou não.</li>
 
 <li><strong>Visualização de Favoritos:</strong> Sera fornecido ao usuario um segundo botão/link que o possibilitará  visualizar sua lista de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
 </ul>
-Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-end e back-end, possibilitando criar uma experiência rica, fluida e dinâmica para os nossos usuários.
+Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-end e back-end, possibilitando assim criar uma experiência rica, fluida e dinâmica para os nossos clientes.
 </p>
 
 <h3>Tecnologias utilizadas</h3>
@@ -93,20 +88,20 @@ Neste projeto vamos integrar as tecnologias Node.js e React, criando uma aplica�
 &nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_nodejs.png" alt="Badges_nodeJS" />
 </p>
 <ol>
-  <li><strong>Node.js:</strong> Para o desenvolvimento no servidor.</li>
-  <li><strong>Express:</strong> Biblioteca para facilitar a criação da API.</li>
-  <li><strong>React:</strong> Framework para construir uma interface de usuário dinâmica.</li>
+  <li><strong>Node.js:</strong> Para o desenvolvimento da aplicação.</li>
+  <li><strong>Express:</strong> Biblioteca para o nosso servidor.</li>
+  <li><strong>React:</strong> Framework para construção de nossa interface.</li>
   <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
 
 <h2>Introdução</h2>
 
-<p>A primeira providência a ser tomada ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "informação é poder!"
+<p>A primeira providência a ser tomada ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder!"
 
-Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de avançarmos... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
+Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de avançarmos!... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
-<p>Revise novamente o desafio e pense... pense novamente!&nbsp;Quais perguntas devemos fazer, a principio, tudo é novo?&nbsp; Uma pergunta eficaz ajuda na resolução do problema.<br/>   
-  <p>Para quem está começando! Começe com o basico, se é muita coisa para aprender, faça a divisão em parte menores. </p>
+<p>Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução do problema.<br/>  
+  <p>Para quem está começando! Começe com o basico, se é muita coisa para aprender, faça a divisão do problema em parte menores. </p>
 <p>Como essas ferramentas não fazem parte da nossa rotina de trabalho, devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
   1º -O que? <br />
   2º - O que faz?  <br />
@@ -116,12 +111,12 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
    Para exemplo vamos pegar o nodeJS, observe:<br /><br />
   1º O que é?<br /><br />  
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
-   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.<br /><br />
+   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.Disponível em: https://pt.wikipedia.org/wiki/Node.js  . Acesso em: 09 out. 2024.<br /><br />
   2º O que faz ou para que serve?<br /><br />
    O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
    em JavaScript, o Node. js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
    3º E como faz ou como posso usar?<br /><br />
-  <p> Abra o terminal ou prompt de comando e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
+  <p> Abra o terminal ou prompt de comando (com o nodejs instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
    
    ```
     npm init
@@ -137,11 +132,10 @@ Buscar conhecimento e entender em qual contexto que vamos trabalhar, antes de av
  <p> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o nodeJS é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
-<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias ,mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei 
-o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
+<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias. Mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
 <p>Voltando ao desafio, para responder essas perguntas para todas as tecnologias, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
-  com seus recursos ilimitados e, muita, mais muita mesmo, disponibilidade em ajudar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
-<h2>A dica aqui é: ESTUDE,TESTE,ESTUDE, TESTE...Fontes pesquisadas</h2>
+  com seus recursos ilimitados e, muita, mais muita mesmo... disponibilidade em ajudar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
+<h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...Fontes pesquisadas</h2>
 <ul>
    <li>1° Youtube - https://www.youtube.com/</li>
    <li>2° Google - www.google.com.br</li>
@@ -157,11 +151,11 @@ o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui n
  </ul> 
  <h2>Dá uma passada em cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes! </h2>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
- <p>Realizada essa etapa vamos botar a mão na massa!Ops, desculpe! no codigo</p>
- <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.
+ <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb)!Ops, desculpe! no codigo</p>
+ <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.Claro que no curso do projeto podemos ter que instalar outras, mais é de acordo com a nescessidade.
 
-Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
-Geralmente prototipando a minha aplicação, seja no papel ou mesmo em um rascunho digital. Para este desafio devido ao curto espaço de tempo E, para entrega do projeto no prazo, não fiz o prototipo, mais agora que já entreguei o desafio mesmo que de forma incompleta, estou providenciando o prototipo atravez de um gif animado.
+Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
+Geralmente faço o prototipo da aplicação, seja no papel ou mesmo em um rascunho digital. Para este desafio devido ao curto espaço de tempo E, para entrega do projeto no prazo, não fiz o prototipo no inicio, mais agora que já entreguei o desafio mesmo que de forma incompleta, estou providenciando o prototipo atravez de um gif animado ( já fiz) .
 </p>
 <h2>Visão - Back-End</h2>  
 <h2>Setup</h2>
