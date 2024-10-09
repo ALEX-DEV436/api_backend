@@ -170,7 +170,7 @@ Geralmente faço o prototipo da aplicação, seja no papel ou mesmo em um rascun
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 
-<p>Vamos começar o nosso desafio, abrindo o <strong>Prompt de Comando</strong> para criarmos a estrutura de pastas, onde guardaremos o nosso projeto e vamos instalar as bibliotecas.
+<p>Vamos começar!!!!, abrindo o <strong>Prompt de Comando</strong> para criarmos a estrutura de pastas, onde guardaremos o nosso projeto e tambem vamos instalar as bibliotecas.
 Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortavel para você.
 </p>
 
@@ -179,14 +179,14 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 <p>
   
   ```
-  mkdir wars
+  mkdir suaPasta
   ```
 </p> 
  <p> 2º Entrar na pasta => </p>
 <p>
 
    ```
-  cd ./wars/
+  cd ./suaPasta/
  ```
 </p>
 
@@ -198,8 +198,8 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
    ```
   </p>
 <p>  Obs: Na internet, há diversos tutoriais disponíveis que podem auxiliar no passo a passo para a realização desses procedimentos.</p>
-<p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto nodejs na pasta desejada, isso
-tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da maneira que for mais confortavel para sua experiencia de desenvolvimento.</p>
+<p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Nodejs na pasta desejada, isso
+tudo pelo prompt.</p>
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
 
 <p><br/>
@@ -229,8 +229,8 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
 </p>
 <p>Veja como ficou a minha instalação</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
-<p>Chegou até aqui! Tudo tranquilo? Tá suave? Se divertindo? Então vamos lá...</p>
-<p>Para ver se deu tudo certo voce pode fazer os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado destes comandos no meu prompt</p>
+<p>Chegou até aqui! Tudo tranquilo? Tá suave na nave? Se divertindo? Então vamos lá...</p>
+<p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, obeserve que na img1 - 'minhas versões', mostro o resultado no prompt da minha maquina</p>
 
 <p>1º Para ver se o git esta instalado</p>
 <p>
@@ -239,7 +239,7 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
   git --version
 ```
 </p>
-<p>2º Para ver se o node esta instalado</p>
+<p>2º Para ver se o nodejs esta instalado</p>
 <p>
 
   ```
@@ -261,15 +261,16 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
   code .
  ```
 </p> 
-<p>Obs: se o comando <strong>code .</strong> não abrir o visual code automaticamente , reinstale o programa.Comigo resolveu.</p>
+<p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o programa.Comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
    Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
 </p>
 <h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR???</h2>
-<p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias.</p>
-<p>Na pagina <strong>serve.js</strong> efetue os seguintes comandos: <br /> <br />
+<p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
+passar as informações como expert no assunto, o que for aprendendo vou compartilhando.</p>
+<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
 <h2>Criando o servidor</h2>
  <p>
    
@@ -291,7 +292,7 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
   ```
  </p>
 
-<h2>Criando uma rota</h2>
+<h2>Criando uma rota para consumo da API</h2>
 <p>
 
   ```
@@ -310,12 +311,17 @@ tudo pelo prompt, mais voce pode criar a sua propria estrutura de pastas da mane
   ```
 </p>
 
-  <p>Na imagem 5 os procedimentos podem ser observado no meu pc</p>
+  <p>Na imagem abaixo os procedimentos podem ser observado no meu pc</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 
 <h2>Visão Frontend</h2>
-<p>Pode deixar o visualcode do backend aberto, e abra novamente o prompt do seu computador.</p>
-<p>Nele digite : <strong>npx create-react-app app</strong></p>
+<p>Pode deixar a tela do backend aberto, e abra novamente o prompt de comando do seu computador.</p>
+<p>Nele digite : 
+  
+  ```
+  npx create-react-app app
+  ```
+</p>
 <p>Aguarde... demora um pouquinho!</p>
 <p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img1.jpg" alt="Instalando o react" /></p>
