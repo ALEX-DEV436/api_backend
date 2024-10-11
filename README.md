@@ -4,26 +4,26 @@
 Warning: atualizado em 11/10/2024 trabalhando no codigo, corrigindo o README<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
-<p>Bem-vindos ao meu projeto!</p>
+<p>Bem-vindos ao nosso projeto!</p>
 <p>
 Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API. Tenho experiência como desenvolvedor Full stack, entretanto estou começando a trabalhar com essas ferramentas agora, pois sempre desenvolvi da forma tradicional. É uma oportunidade única! Acompanhe toda a metodologia que utilizo quando enfrento um novo desafio para conhecer uma ferramenta nova de trabalho.</p>
 <p>
-Vamos desenvolver uma API muito bacana utilizando Node.js para o back-end e React no front-end. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
+Vamos desenvolver uma API muito bacana utilizando Node.js para o Back-End e o React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
 <p>
-Um adendo: apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação completa e funcional. Vamos trabalhar tanto na frente quanto nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que são super úteis no mercado de trabalho atualmente.<p>
+Um adendo: apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação completa e funcional. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que são super úteis no mercado de trabalho atualmente.<p>
 <p>
-Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgante. A inquietude na vida de um desenvolvedor Full Stack, nos permite não ficarmos presos (digo restritamente, pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design; somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity, e logo colocarei ele aqui também no GitHub. Mais neste momento, vou focar neste projeto. Venha comigo nesta jornada, e "juntos & misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer. Vai ser divertido!!&nbsp;&nbsp;let's go!  
+Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgante. A inquietude na vida de um desenvolvedor Full Stack, nos permite não ficarmos presos (digo restritamente, pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design; somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vou focar neste projeto. Venha comigo nesta jornada, e "juntos & misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer. Vai ser muitooo! divertido!!&nbsp;&nbsp;let's go!  
 </p>
 <h2>Prototipo</h2>
-<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação, até o final do projeto ele fica perfeito.Neste gif vcs já vão poder acompanhar minha metodologia de trabalho,
-1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos. Vou colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Vejam lá ! E um forte abraço!
+<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele fica perfeito.Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
+1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos(no caso do prototipo). Vou tentar colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Vejam lá ! E um forte abraço!
 </p>
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo14.gif" alt="Prototipo do sistema em gif animado" /><br /> 
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos a um checklist basico:</p>
 <p>
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;iniciar o projeto; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Iniciar o projeto; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Express; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar servidor com o express no Back-End; <br />
@@ -68,9 +68,8 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
-Este projeto têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars, buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem favorito. E cadastra-los em uma lista de favoritos.
-Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-end deve, comunicar com a nossa API no Back-end, que, por sua vez, fará uma solicitação à
-API oficial da Star Wars para obter o personagem pesquisado pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso front -end, que por sua vez repassa para o usuario a informação.
+Este trabalho têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem e, cadastra-lo em uma lista de favoritos.
+Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End deve, comunicar com a nossa API no Back-End, que, por sua vez, fará uma solicitação à API oficial da Star Wars para obter o personagem que deve ser pesquisado pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassa para o usuario a informação.
 
 As principais funcionalidades da aplicação incluem:
 <ul>
@@ -80,7 +79,7 @@ As principais funcionalidades da aplicação incluem:
 
 <li><strong>Visualização de Favoritos:</strong> Sera fornecido ao usuario um segundo botão/link que o possibilitará  visualizar sua lista de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
 </ul>
-Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-end e back-end, possibilitando assim criar uma experiência rica, fluida e dinâmica para os nossos clientes.
+Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-End e Back-End, possibilitando assim criar uma experiência rica, fluida e dinâmica para os nossos clientes.
 </p>
 
 <h3>Tecnologias utilizadas</h3>
