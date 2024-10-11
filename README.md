@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, exploraremos temas como API, Node.js, React,Rest, Express, Nodemon, Cors, Git, GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir juntos como desbravar essas tecnologias e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
-Warning: atualizado em 09/10/2024 Organizando o README, corrigindo titulo, melhorando os textos,<br />
+<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é? Api, Node.js, React,Rest, Express, Nodemon, Cors, Git, GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir juntos como desbravar essas tecnologias e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
+Warning: atualizado em 11/10/2024 trabalhando no codigo, corrigindo o README<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos ao meu projeto!</p>
@@ -50,7 +50,7 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma função para mostrar lista de personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer o conceito de componentes para o projeto; <br />  
@@ -593,6 +593,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
  </p>
 Warning: atualizado em:
 <ul> 
+  <li>09/10/2024 Organizando o README, corrigindo titulo, melhorando os textos,trabalhando no codigo</li>
   <li>01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos, lapidando o prototipo, a primeira após a publicação</li>
   <li>30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd; Corrigindo a apresentação dos blocos de codigos</li>
   <li>24/09/2024 Melhorando o texto, Observação; O gif do prototipo não aperece de imediato, temos que dar varios refresh na pagina para ele aparecer;</li>
