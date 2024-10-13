@@ -68,7 +68,7 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
-Este trabalho têm como objetivo criar uma API REST que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem e, cadastra-lo em uma lista de favoritos.
+Vamos criar uma API REST que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem e, cadastra-lo em uma lista de favoritos.
 Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End deve, comunicar com a nossa API no Back-End, que, por sua vez, fará uma solicitação à API oficial da Star Wars para obter o personagem que deve ser pesquisado pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassa para o usuario a informação.
 
 As principais funcionalidades da aplicação incluem:
@@ -95,7 +95,7 @@ Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa 
 
 <h2>Introdução</h2>
 
-<p>A primeira providência a ser tomada ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder!"
+<p>Minhas primeiras providências ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder!"
 
 Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de avançarmos!... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
