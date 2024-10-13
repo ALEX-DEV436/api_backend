@@ -331,15 +331,13 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
-<p>img:9</p>
 <h3>Comandos no frontend! Lembrando que o backend esta rodando e, ativo na porta 3000</h3>
 <ul>
    <li>
      <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8): <strong> npm star</strong></p>
      <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor estara ligado e operante</p>
-     <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>
-     <p>img:10</p>
+     <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>     
    </li>
   <li>    
      <p>2º Lembre-se que no frontend codificamos, mais ele se caracteriza mais pela parte visual.</p>
@@ -372,8 +370,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
      ```    
    </li> 
    <li> Resultado:</li>
-   <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5.jpg" alt="Teste de servidor" /></p>  
-   <p>img:11</p>   
+   <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
    </li>
  </ul> 
  <h3>Vamos testar o botão do formulario .</h3>
