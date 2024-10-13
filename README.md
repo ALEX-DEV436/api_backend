@@ -330,7 +330,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3.jpg" alt="Tela do visual code apresentando o React" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
 <p>img:9</p>
 <h3>Comandos no frontend! Lembrando que o backend esta rodando e, ativo na porta 3000</h3>
 <ul>
