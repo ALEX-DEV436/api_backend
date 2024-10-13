@@ -394,14 +394,13 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
  </p>
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
- <p>Img:12</p>
  <h2>Momento reflexão</h2>
  <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um array de dados que foi consumido perfeitamente pela nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
  <p>
    É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de nossa API. Esta, por sua vez, retornará ao front-end os dados e as características do personagem. Junto com essas informações, o personagem virá acompanhado de um botão/link que, ao ser clicado, permitirá adicioná-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pelo front-end por meio de um botão/link dedicado.
  </p>
  <p>Mais ou menos assim</p>
- <p><img src="http://www.soumaisconquista.com/gitHub/index2.jpg" alt="Rascunho de tela do app" /></p>
+ <p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /></p>
  <p><img:13</p>
 <p>Entendido o problema vamos do velho jargão de programador "vamos dividir para conquista"!</p>                         
 <p>API criada , servidores iniciado , criamos o ouvido no Back End (metodo get) e a boca no Front End (formulario)</p>
@@ -445,15 +444,12 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
    <li><strong>/people/</strong> -- obtenha todos os recursos das pessoas</li>
    <li><strong>/people/results/</strong> -- um array com os dados dos personagens</li>
   <li> Selecionando apenas um personagem</li>
-  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1.jpg" alt="Teste endpoint 1" /> 
-    <p>img:14</p></li>
- 
+  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /> 
   <li>Voltando toda a estrutura da API em formato de objeto</li>
-  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2.jpg" alt="Teste endpoint 2" />
-  <p>img:15</p></li>
+  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /> 
   <li>Retorna um array somente com os personagens (opção escolhida para darmos prosseguimento)</li>
-  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3.jpg" alt="Teste endpoint 3" />
-  <p>img:16</p>
+  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" />
+  
   </li>
  </ul> 
 <h2>Vamos testar a comunicação entre backend e frontend</h2>
