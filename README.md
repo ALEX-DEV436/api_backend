@@ -494,8 +494,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
 </p>
 <p>Aqui colocamos um evento onClick no formulario que dispara uma função que faz essa comunicação com o Back-End e
 recebe a resposta.</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/enviandoOnomeParaOservidor.jpg" alt="Enviando o nome para o servidor" /></p>
-<p><img:17</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/enviandoOnomeParaOservidora.jpg" alt="Enviando o nome para o servidor" /></p>
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
   
@@ -527,8 +526,7 @@ recebe a resposta.</p>
 <p>Ao ser acionada pelo cliente neste momento sem nome de personagem, minha API aciona uma função que busca na API starWars os dados e retorna para
 o cliente todos os personagens em um array</p>
 <p>Veja a imagem abaixo</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracaoBackendFrontendAPIstarWars.jpg" alt="Integração frontEnd, bacKend e API" /></p>
-        <p>img:18</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracaoBackendFrontendAPIstarWarsa.jpg" alt="Integração frontEnd, bacKend e API" /></p>     
 <h3>Vencida esta etapa vamos adiante!</h3>
 <p>Nossa API já esta comunicando com o Front atraves de um retorno da API starwAR.</p>
 <p>Esta na hora de comerçarmos trabalhar o retorno da API externa, ou seja, devolver ao cliente somente o que ele solicitou.</p>
