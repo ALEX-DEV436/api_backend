@@ -323,8 +323,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
 </p>
 <p>Aguarde... demora um pouquinho!</p>
 <p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
-<p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img1.jpg" alt="Instalando o react" /></p>
-<p>img:8</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img1a.jpg" alt="Instalando o react" /></p>
 <p>Vamos instalar agora a biblioteca axios</p>
 <p>Entre na pasta app</p>
 <p>Para instalar o axios escreva no prompt: <strong>npm i axios</strong></p>
