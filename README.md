@@ -89,9 +89,9 @@ Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa 
 &nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_nodejs.png" alt="Badges_nodeJS" />
 </p>
 <ol>
-  <li><strong>Node.js:</strong> Para o desenvolvimento da aplicação.</li>
-  <li><strong>Express:</strong> Biblioteca para o nosso servidor.</li>
+  <li><strong>NodeJs:</strong> Para o desenvolvimento da aplicação.</li>
   <li><strong>React:</strong> Framework para construção de nossa interface.</li>
+  <li><strong>Express:</strong> Biblioteca para o nosso servidor.</li> 
   <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
 
