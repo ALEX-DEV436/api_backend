@@ -548,11 +548,14 @@ o cliente todos os personagens em um array</p>
 <p>Aqui utilizamos o methodo find passando o nome que vem do Front-End para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
 <p>Veja a imagem</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
-        <p>img:19</p> 
+      
 </p>
 
-<h2>Após os testes vamos implementar a funcionalidades do projeto</h2>
-<p>Devido a outras obrigações, logo volto para explicar as implementações </p>
+<h2>Testes de implementação de funcionalidades</h2>
+<p>Depois de vários testes de conhecimento da ferramenta, vamos para os testes de funcionalidades. Nesta parte, no arquivo 'serve', fiz as funções que 
+  são responsáveis pela busca e cadastramento dos personagens, assim como pela exibição da lista de favoritos. 
+  Não tive a preocupação de criar componentes e separar os serviços; apenas fiz um rascunho de como será a implementação das funções da nossa aplicação.
+</p>
 <p>Abaixo uma imagem para ir acompanhando o desenvolvimento</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4a.jpg" alt="Implementando as funcionalidades" /></p>
 <h2>Contribuições são bem vindas</h2>
