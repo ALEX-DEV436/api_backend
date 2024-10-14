@@ -4,7 +4,7 @@
 Warning: atualizado em 13/10/2024 trabalhando no codigo, corrigindo o README<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
-<p>Bem-vindos ao nosso projeto!</p>
+<p>Bem-vindos;</p>
 <p>
 Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API. Tenho experiência como desenvolvedor Full stack, entretanto estou começando a trabalhar com essas ferramentas agora, pois sempre desenvolvi da forma tradicional. É uma oportunidade única! Acompanhe toda a metodologia que utilizo quando enfrento um novo desafio para conhecer uma ferramenta nova de trabalho.</p>
 <p>
