@@ -156,8 +156,8 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso desenvolvimento.<br />
 Geralmente faço o prototipo da aplicação, seja no papel ou mesmo em um rascunho digital. Para este desafio devido ao curto espaço de tempo E, para entrega do projeto no prazo, não fiz o prototipo no inicio, mais agora que já entreguei o desafio mesmo que de forma incompleta, estou providenciando o prototipo atravez de um gif animado ( já fiz) .
 </p>
-<h2>Visão - Back-End</h2>  
-<h2>Setup</h2>
+<h2>Vamos codar! Visão - Back-End</h2>  
+<h3>Setup</h3>
 <h4>Iniciando os trabalhos</h4>
 <h4>Instalação dos aplicativos</h4>
 <ul>
@@ -266,11 +266,11 @@ tudo pelo prompt.</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
    Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
 </p>
-<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR???</h2>
+<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR NOSSA API???</h2>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
-passar as informações como expert no assunto, o que for aprendendo vou compartilhando.</p>
+passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
-<h2>Criando o servidor</h2>
+<h3>Criando o servidor</h3>
  <p>
    
   ```
@@ -280,7 +280,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
   ```
 </p>
 
-<h2>Abrindo uma porta para o servidor</h2>
+<h3>Abrindo uma porta para o servidor</h3>
   
 <p>
 
@@ -291,7 +291,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
   ```
  </p>
 
-<h2>Criando uma rota para consumo da API</h2>
+<h3>Criando uma rota para consumo da API</h3>
 <p>
 
   ```
@@ -300,8 +300,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
     });
   ```
 </p>
-
-<h2>Inicializando o servidor</h2>
+<h3>Inicializando o servidor</h3>
 <p>No terminal do visual code digite =></p>
 <p>
 
@@ -309,12 +308,14 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
     npm run start
   ```
 </p>
-
+<p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
+  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'starWars'
+</p>
   <p>Na imagem abaixo os procedimentos podem ser observado no meu pc</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 
-<h2>Visão Frontend</h2>
-<p>Pode deixar a tela do backend aberto, e abra novamente o prompt de comando do seu computador.</p>
+<h2>Criamos nossa APi, agora vamos ao Front-End</h2>
+<p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
   
   ```
@@ -326,15 +327,27 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img1a.jpg" alt="Instalando o react" /></p>
 <p>Vamos instalar agora a biblioteca axios</p>
 <p>Entre na pasta app</p>
-<p>Para instalar o axios escreva no prompt: <strong>npm i axios</strong></p>
+<p>
+  Para instalar o axios escreva no prompt:
+
+  ```
+ npm i axios
+```
+</p>
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
+
 <h3>Comandos no frontend! Lembrando que o backend esta rodando e, ativo na porta 3000</h3>
 <ul>
    <li>
-     <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8): <strong> npm star</strong></p>
+     <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):
+
+       ```
+       npm star
+       ```
+       </p>
      <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor estara ligado e operante</p>
      <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>     
@@ -373,6 +386,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
    <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
    </li>
  </ul> 
+ <h2>1º teste</h2>
  <h3>Vamos testar o botão do formulario .</h3>
  <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
  <p>
@@ -394,6 +408,7 @@ passar as informações como expert no assunto, o que for aprendendo vou compart
  </p>
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
+
  <h2>Momento reflexão</h2>
  <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um array de dados que foi consumido perfeitamente pela nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
  <p>
