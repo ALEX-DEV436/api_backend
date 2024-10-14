@@ -547,14 +547,14 @@ o cliente todos os personagens em um array</p>
 </p>
 <p>Aqui utilizamos o methodo find passando o nome que vem do Front-End para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
 <p>Veja a imagem</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNome.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
         <p>img:19</p> 
 </p>
 
 <h2>Após os testes vamos implementar a funcionalidades do projeto</h2>
 <p>Devido a outras obrigações, logo volto para explicar as implementações </p>
 <p>Abaixo uma imagem para ir acompanhando o desenvolvimento</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4.jpg" alt="Implementando as funcionalidades" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4a.jpg" alt="Implementando as funcionalidades" /></p>
 <h2>Contribuições são bem vindas</h2>
 <p>Por ser o nosso primeiro projeto com essas tecnologias , não concluimos o desafio com todo processo realizado , caso seja do seu interesse .<br />
   Vamos precisar para terminar:
