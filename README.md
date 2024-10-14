@@ -91,7 +91,11 @@ Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa 
 <ol>
   <li><strong>NodeJs:</strong> Para o desenvolvimento da aplicação.</li>
   <li><strong>React:</strong> Framework para construção de nossa interface.</li>
-  <li><strong>Express:</strong> Biblioteca para o nosso servidor.</li> 
+  <li><strong>Express:</strong> Biblioteca para criar o nosso servidor.</li> 
+  <li><strong>Nodemon:</strong> Biblioteca para manter o nosso servidor.</li>
+  <li><strong>Cors:</strong> Biblioteca </li>
+  <li><strong>Git:</strong> Ajuda no desenvovimento de projetos por equipes.</li>
+  <li><strong>GitHub:</strong> Compartilhamento de projetos.</li>
   <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
 
