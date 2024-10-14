@@ -1,21 +1,21 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é? Api, Node.js, React,Rest, Express, Nodemon, Cors, Git, GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir juntos como desbravar essas tecnologias e expandir nossos horizontes no desenvolvimento de aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
-Warning: atualizado em 13/10/2024 trabalhando no codigo, corrigindo o README<br />
+Warning: atualizado em 14/10/2024 trabalhando no codigo, corrigindo o README<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
 <p>
-Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API. Tenho experiência como desenvolvedor Full stack, entretanto estou começando a trabalhar com essas ferramentas agora, pois sempre desenvolvi da forma tradicional. É uma oportunidade única! Acompanhe toda a metodologia que utilizo quando enfrento um novo desafio para conhecer uma ferramenta nova de trabalho.</p>
+Aqui você encontrará um ambiente de informação e animação para o desenvolvimento de uma API uma tecnologia muito utilizada no mercado de trabalho. Tenho experiência como desenvolvedor Full stack, entretanto estou começando agora a trabalhar com essas ferramentas agora, pois sempre desenvolvi da forma tradicional e para uso pessoal. É uma oportunidade única! Acompanhe toda a metodologia que utilizo quando enfrento um novo desafio para conhecer uma ferramenta nova de trabalho.</p>
 <p>
-Vamos desenvolver uma API muito bacana utilizando Node.js para o Back-End e o React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
+Vamos desenvolver uma API muito bacana utilizando Node.js para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
 <p>
-Um adendo: apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação completa e funcional. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que são super úteis no mercado de trabalho atualmente.<p>
+Um adendo: apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação completa,funcional e, com bastante aprendizado. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que vão ser super úteis no mercado atualmente.<p>
 <p>
-Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgante. A inquietude na vida de um desenvolvedor Full Stack, nos permite não ficarmos presos (digo restritamente, pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design; somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vou focar neste projeto. Venha comigo nesta jornada, e "juntos & misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer. Vai ser muitooo! divertido!!&nbsp;&nbsp;let's go!  
+Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgante. A inquietude na vida de um desenvolvedor Full Stack, nos permite não ficarmos presos (digo restritamente, pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design; somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vou focar neste projeto. Venha comigo nesta jornada, e "juntos & tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer. Vai ser muitooo! divertido!!&nbsp;&nbsp;let's go!  
 </p>
 <h2>Prototipo</h2>
-<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele fica perfeito.Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
+<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
 1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos(no caso do prototipo). Vou tentar colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Vejam lá ! E um forte abraço!
 </p>
 <p>
@@ -53,8 +53,8 @@ Animados? Espero que sim! Você vai vivenciar uma experiência única e empolgan
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer o conceito de componentes para o projeto; <br />  
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização de personagens cadastrado; <br />  
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer os conceito de componentes para o projeto; <br />  
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
 <p>
@@ -604,6 +604,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
  </p>
 Warning: atualizado em:
 <ul> 
+  <li>13/10/2024 trabalhando no codigo, corrigindo o README</li>
   <li>11/10/2024 trabalhando no codigo, corrigindo o README</li>
   <li>09/10/2024 Organizando o README, corrigindo titulo, melhorando os textos,trabalhando no codigo</li>
   <li>01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos, lapidando o prototipo, a primeira após a publicação</li>
