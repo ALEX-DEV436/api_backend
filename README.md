@@ -334,6 +334,7 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
  npm i axios
 ```
 </p>
+
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
