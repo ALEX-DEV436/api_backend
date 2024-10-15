@@ -70,18 +70,18 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
-Vamos criar uma API REST que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem e, cadastra-lo em uma lista de favoritos.
-Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End deve, comunicar com a nossa API no Back-End, que, por sua vez, fará uma solicitação à API oficial da Star Wars para obter o personagem que deve ser pesquisado pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassa para o usuario a informação.
+Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-end interativo, que deve facilitar a busca por seu personagem e, cadastra-lo em uma lista de favoritos.
+Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End deve, comunicar com a nossa API no Back-End, que, por sua vez, fará uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.
 
 As principais funcionalidades da aplicação incluem:
 <ul>
 <li><strong>Busca de Personagens:</strong> O cliente deve buscar pelo nome um personagem. Nossa API recebe essa solicitação e busca a resposta na API da star - Wars .</li>
 
-<li><strong>Lista de Favoritos:</strong> Após a nossa API apresentar os resultados ao usuario, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Atenção, vamos precisar guardar essa informação em alguma base de dados(a definir) persistente ou não.</li>
+<li><strong>Cadastro de personagem:</strong> Após a nossa API apresentar os resultados ao usuário, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.Atenção, vamos precisar guardar essa informação em alguma base de dados(a definir) persistente ou não.</li>
 
-<li><strong>Visualização de Favoritos:</strong> Sera fornecido ao usuario um segundo botão/link que o possibilitará  visualizar sua lista de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
+<li><strong>Visualização da lista de Favoritos:</strong> Será fornecido ao usuário um segundo botão/link que o possibilitará  visualizar sua lista de personagens favoritos, proporcionando assim uma experiência rica e personalizada.</li>
 </ul>
-Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-End e Back-End, possibilitando assim criar uma experiência rica, fluida e dinâmica para os nossos clientes.
+Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa entre Front-End e Back-End, fornecendo uma experiência rica, fluida e dinâmica para os nossos usuários.
 </p>
 
 <h3>Tecnologias utilizadas</h3>
@@ -89,13 +89,13 @@ Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa 
 &nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_nodejs.png" alt="Badges_nodeJS" />
 </p>
 <ol>
-  <li><strong>NodeJs:</strong> Para o desenvolvimento da aplicação.</li>
+  <li><strong>NodeJs:</strong> Para o desenvolvimento de toda nossa aplicação.</li>
   <li><strong>React:</strong> Framework para construção de nossa interface.</li>
   <li><strong>Express:</strong> Biblioteca para criar o nosso servidor.</li> 
-  <li><strong>Nodemon:</strong> Biblioteca para manter o nosso servidor.</li>
+  <li><strong>Nodemon:</strong> Biblioteca para manter o nosso servidor ativo.</li>
   <li><strong>Cors:</strong> Biblioteca </li>
   <li><strong>Git:</strong> Ajuda no desenvovimento de projetos por equipes.</li>
-  <li><strong>GitHub:</strong> Compartilhamento de projetos.</li>
+  <li><strong>GitHub:</strong> Compartilhamento de projetos e códigos.</li>
   <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
 
@@ -105,10 +105,11 @@ Vamos integrar as tecnologias Node.js e React, criando uma aplicação completa 
 
 Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de avançarmos!... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
-<p>Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução do problema.<br/>  
-  <p>Para quem está começando! Começe com o basico, se é muita coisa para aprender, faça a divisão do problema em parte menores. </p>
-<p>Como essas ferramentas não fazem parte da nossa rotina de trabalho, devemos começar perguntando para cada tecnologia que vamos usar: <br /><br />
-  1º -O que? <br />
+<p>Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução de um problema.<br/>  
+  <p>Para quem está começando! Começe com o basico, se é muita coisa para aprender, faça a divisão do problema em parte menores e, vá resolvendo cada parte, assim desta
+  forma todo o problema é resolvido</p>
+<p>Como essas ferramentas não fazem parte da minha rotina de trabalho, começo perguntando para cada tecnologia que vamos usar: <br /><br />
+  1º -O que é? <br />
   2º - O que faz?  <br />
   3º - E como faz? <br /><br />
  </p>
