@@ -6,13 +6,13 @@ Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
 <p>
-Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API, uma tecnologia muito utilizada no mercado de trabalho. Tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender!&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um novo desafio para conhecer uma ferramenta nova de trabalho.</p>
+Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender!&nbsp;&nbsp;Pois vamos aprender juntos.&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um novo desafio para conhecer uma ferramenta nova de trabalho.</p>
 <p>
-Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST(diretrizes), garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
+Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
 <p>
 Um adendo:&nbsp;&nbsp;apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação:&nbsp;&nbsp;completa,funcional e, com bastante aprendizado. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que vão ser super úteis no mercado atualmente.<p>
 <p>
-Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante... A inquietude na vida de um desenvolvedor Full Stack!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente, pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vou focar neste projeto. Venha comigo nesta jornada, e "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go!  
+Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante... A inquietude na vida de um desenvolvedor Full Stack!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente... pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vou focar neste projeto. Venha comigo nesta jornada, e "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go!  
 </p>
 <h2>Prototipo</h2>
 <p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
@@ -28,7 +28,7 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Express; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar servidor com o express no Back-End; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma API; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar nossa API; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma rota para acessar nossa API; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Nodemon para sempre reiniciar nosso servidor; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Servir a API; <br />
@@ -39,19 +39,19 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar a forma de entrada da pesquisa (formulario); <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados no back end para ser cosumida no front-end; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Utilizar o fetch para consumir nossa API no backend; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados no back end para ser consumida no front-end; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados para ser consumida por nossa API; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Usar try e o catch; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Usar o Axio; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Acessar a API da Star Wars; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar endpoints fornecidos na documentação; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Analisar retornos dos end points.Que tipos retornam?; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar a pesquisa pelo nome do personagem enviado pelo formulario; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de endpoints fornecidos na documentação da API Star Wars; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de retornos dos end points.Que tipos retornam?; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de pesquisa pelo nome do personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Mostrar resultado da consulta pelo nome da API  Star Wars na tela do usuario; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar base de dados para cadastramento de personagem na lista de favoritos; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma função para mostrar lista de personagem; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar dados do personagem após ser clicado na lista; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para cadastramento de personagem na lista de favoritos; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para mostrar lista de personagem; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para busca de dados do personagem após ser clicado na lista; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
