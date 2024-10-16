@@ -356,11 +356,11 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
        npm star
        ```
      </li>  
-    <li>       
+    
+  <li>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor vai esta ligado e operante </p>
-     <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p></li>
-  <li>    
+     <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>
      <p>2º Lembre-se que no frontend codificamos, mais ele se caracteriza mais pela parte visual.</p>
      <p>Portanto para isso vamos criar um formulario basico para teste</p>
      <p>
