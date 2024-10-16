@@ -269,7 +269,7 @@ tudo pelo prompt.</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
    Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
 </p>
-<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR NOSSA API???</h2>
+<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h2>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
@@ -294,7 +294,7 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
   ```
  </p>
 
-<h3>Criando uma rota para consumo da API</h3>
+<h3>Criando uma rota para o consumo de nossa API</h3>
 <p>
 
   ```
@@ -304,7 +304,7 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
   ```
 </p>
 <h3>Inicializando o servidor</h3>
-<p>No terminal do visual code digite =></p>
+<p>Abra o terminal do visual code e digite =></p>
 <p>
 
   ```
@@ -314,10 +314,11 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
   na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'starWars'
 </p>
-  <p>Na imagem abaixo os procedimentos podem ser observado no meu pc</p>
+  <p>Na imagem abaixo os procedimentos podem ser observados.</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 
-<h2>Criamos nossa APi, agora vamos ao Front-End</h2>
+<h2>Criamos nossa APi no Back-End, agora vamos ao Front-End</h2>
+<p></p>
 <p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
   
