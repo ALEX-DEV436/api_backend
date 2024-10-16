@@ -318,7 +318,10 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 
 <h2>Criamos nossa APi no Back-End, agora vamos ao Front-End</h2>
-<p></p>
+<p>
+  Após criar a API, decidi começar no React com a interface da aplicação, pois é ponto de entrada de nosso sistema, nosso gatilho que inicia toda a sequencia de
+  ação e decisão que desenvolveremos.
+</p>
 <p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
   
@@ -344,20 +347,18 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
-
-<h3>Comandos no frontend! Lembrando que o backend esta rodando e, ativo na porta 3000</h3>
+<h3>Comandos no frontend! </h3>
 <ul>
    <li>
-     <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):
-
+     <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p>
+      <p>
+        
        ```
        npm star
        ```
-       </p>
-
-       
+       </p>       
      <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
-     <p>Não dando erro o servidor estara ligado e operante</p>
+     <p>Não dando erro o servidor vai esta ligado e operante </p>
      <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>     
    </li>
   <li>    
