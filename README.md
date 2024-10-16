@@ -350,7 +350,12 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
 <h3>Comandos no frontend! </h3>
 <ul>
   <li><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </li> 
-  
+  <li>    
+    
+       ```
+       npm star
+       ```
+     </li>  
     <li>       
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor vai esta ligado e operante </p>
