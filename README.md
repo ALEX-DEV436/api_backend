@@ -349,13 +349,8 @@ passar as informações como expert no assunto, o que for aprendendo vou tentar 
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
 <h3>Comandos no frontend! </h3>
 <ul>
-   <li>
-     <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p>      
-        
-       
-       npm star
-       
-     </li>  
+  <li><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </li> 
+  
     <li>       
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor vai esta ligado e operante </p>
