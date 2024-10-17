@@ -283,7 +283,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
-<h3>Criando o servidor</h3>
+<h4>Criando o servidor</h4>
  <p>
    
   ```
@@ -293,7 +293,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
 </p>
 
-<h3>Abrindo uma porta para o servidor</h3>
+<h4>Abrindo uma porta para o servidor</h4>
   
 <p>
 
@@ -304,7 +304,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
  </p>
 
-<h3>Construindo uma rota para o consumo de nossa API</h3>
+<h4>Construindo uma rota para o consumo de nossa API</h4>
 <p>
 
   ```
@@ -313,7 +313,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
     });
   ```
 </p>
-<h3>Inicializando o servidor</h3>
+<h4>Inicializando o servidor</h4>
 <p>Abra o terminal do visual code e digite =></p>
 <p>
 
