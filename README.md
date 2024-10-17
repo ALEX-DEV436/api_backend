@@ -1,5 +1,5 @@
-.lista{
-font-size='24';
+style{
+.lista(font-size='24');
 }
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
 
