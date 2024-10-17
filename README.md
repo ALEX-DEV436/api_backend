@@ -159,8 +159,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 
 Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso trabalho.<br />
 </p>
-<h2>Vamos começar! Visão - Back-End</h2>  
-<h3>Setup</h3>
+<h2>Setup</h2>
 <h4>Iniciando os trabalhos</h4>
 <h4>Instalação dos aplicativos</h4>
 <ul>
@@ -281,7 +280,8 @@ Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e,
 <p>
 Para finalizar-mos, como explicar nessa história que uma API se trata de uma interface? Bom, nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base que trata os tomates antes de repassá-los, pois, conforme as demandas dos clientes, os tomates devem ser bem selecionados. Consegue identificar a APi sendo uma interface?
 </p>
-<h3>Implementando nossa API</h3>
+<h3>Visão - Back-End</h3> 
+<h4>Implementando nossa API</h4>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
 <h3>Criando o servidor</h3>
  <p>
@@ -327,7 +327,8 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   <p>Na imagem abaixo os procedimentos podem ser observados.</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 
-<h2>Implementamos nossa APi no Back-End, agora vamos ao Front-End</h2>
+<h3>Visão - Front-End</h3> 
+<h4>Implementamos nossa APi no Back-End, agora vamos ao Front-End</h4>
 <p>
   Após criar a API, decidi começar no React com a interface da aplicação, pois é ponto de entrada de nosso sistema, nosso gatilho que inicia toda a sequencia de
   ações e decisões que vamos desenvolver.
@@ -353,7 +354,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  npm i axios
  ```
 </p>
-<h2>Abrindo o visual code</h2>
+<h4>Abrindo o visual code</h4>
 <p>
   
    ```
@@ -411,8 +412,8 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
    <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
    </li>
  </ul> 
- <h2>1º teste</h2>
- <h3>Vamos testar o botão do formulario .</h3>
+ <h4>1º teste</h4>
+ <h5>Vamos testar o botão do formulario .</h5>
  <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
  <p>
 
@@ -446,7 +447,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>API criada , servidores iniciado , criamos o ouvido no Back End (metodo get) e a boca no Front End (formulario)</p>
 <p>Vamos testar nossa API consumindo a API da starWars</p>
   
-<h2>Teste dos endpoints</h2>
+<h3>Teste dos endpoints</h3>
 <p>
    <p>
       Um personagem.<br />
@@ -492,7 +493,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   
   </li>
  </ul> 
-<h2>Vamos testar a comunicação entre backend e frontend</h2>
+<h3>Vamos testar a comunicação entre backend e frontend</h3>
 <p>
   
 ```   
@@ -591,7 +592,7 @@ o cliente todos os personagens em um array</p>
       
 </p>
 
-<h2>Testes de implementação de funcionalidades</h2>
+<h3>Testes de implementação de funcionalidades</h3>
 <p>Depois de vários testes de conhecimento da ferramenta, vamos para os testes de funcionalidades. Nesta parte, no arquivo 'serve', fiz as funções que 
   são responsáveis pela busca e cadastramento dos personagens, assim como pela exibição da lista de favoritos. 
   Não tive a preocupação de criar componentes e separar os serviços; apenas fiz um rascunho de como será a implementação das funções da nossa aplicação.
