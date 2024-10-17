@@ -281,7 +281,7 @@ Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e,
 <p>
 Para finalizar-mos, como explicar nessa história que uma API se trata de uma interface? Bom, nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base que trata os tomates antes de repassá-los, pois, conforme as demandas dos clientes, os tomates devem ser bem selecionados. Consegue identificar a APi sendo uma interface?
 </p>
-<h3>Criando nossa API</h3>
+<h3>Implementando nossa API</h3>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
 <h3>Criando o servidor</h3>
  <p>
@@ -304,7 +304,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
  </p>
 
-<h3>Criando uma rota para o consumo de nossa API</h3>
+<h3>Construindo uma rota para o consumo de nossa API</h3>
 <p>
 
   ```
@@ -322,15 +322,15 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
-  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'starWars'
+  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'starWars', ou seja a mensagem esta sendo originada de nossa interface.
 </p>
   <p>Na imagem abaixo os procedimentos podem ser observados.</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
 
-<h2>Criamos nossa APi no Back-End, agora vamos ao Front-End</h2>
+<h2>Implementamos nossa APi no Back-End, agora vamos ao Front-End</h2>
 <p>
   Após criar a API, decidi começar no React com a interface da aplicação, pois é ponto de entrada de nosso sistema, nosso gatilho que inicia toda a sequencia de
-  ação e decisão que desenvolveremos.
+  ações e decisões que vamos desenvolver.
 </p>
 <p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
@@ -353,6 +353,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  npm i axios
  ```
 </p>
+<h2>Abrindo o visual code</h2>
+<p>
+  
+   ```
+  code .
+ ```
+</p> 
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
 <p>Mais é opcional!</p>
