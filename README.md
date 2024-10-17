@@ -272,11 +272,16 @@ tudo pelo prompt.</p>
 <h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h2>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
+<h3>Antes de codar vamos entender rapidamente o que é uma API</h3>
 <p>
-  Api, tecnologia muito presente no mercado de trabalho, minhas primeiras impressões é trata-se de algo que fica entre a base de dados real e o cliente. Fiz uma analogia na minha cabeça para entendermos melhor. Vamos pensar em nossa salada de tomates, imagine voce com vontade de comer uma salada! Abre a geladeira e não têm nenhum. Provalvemente iria até a quintanda para compra-lo, comendo sua salada começe a pensar como esse tomate chegou a sua mesa? Em sua grande maioria ele é plantado em uma fazenda de tomate e observe voce não tem acesso ao agricultor, o quintandeiro tambem não, temos um terceiro personagem o atravessador, que pega o tamate do agricultor, repassa para o quitandeiro, que por sua vez disponibiliza
-para voce. Nessa estoria você pode idendificar o usuario, Front-End e Api? No final têm a resposta!Mas estamos criando nossa propria Api! Como fica? Continuando a estoria, o quintandeiro não pega direto do atravessador, compra de um mercado, que possui um fornecedor que pega do nosso atavessador.Já identifica o Back-End e nossa API? Para finalizar como explicar nessa estoria que uma Api trata-se de uma interface? Bom, o nosso atravessador e fornecedor que são os que ganham mais dinheiro possui uma base que trata os tomates 
-  antes de repassa-los, pois conforme os clientes o tomates devem ser bem selecionados.Consegue identicar a interface?
+  Api, tecnologia muito presente no mercado de trabalho, minhas primeiras impressões é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente. Fiz uma analogia na minha cabeça para entender melhor. Vamos pensar em nossa salada de tomates, imagine voce com vontade de comer uma salada! Abre a geladeira e não têm nenhum tomate. Provalvemente iria até a quintanda para compra-lo. Enquanto come sua salada, começa a pensar: como esse tomate chegou à sua mesa? O caminho que ele seguiu para chegar em minha mesa?</p>
+<p>
+Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e, você não tem acesso ao agricultor...O quitandeiro também não. Entra em cena um terceiro personagem, o atravessador, que pega o tomate do agricultor, repassa para o quitandeiro, que, por sua vez, disponibiliza para você comprar. Nessa história, já temos três personas de nosso projeto o usuário, o front-end e a Api! Consegue identificá-los? No rodape do projeto, a resposta! Mas estamos criando nossa própria API! Como fica precisamos incluir mais duas personas? Continuando a história, nosso quitandeiro não pega diretamente do atravessador; ele compra de um mercado, que possui um fornecedor que obtém os tomates diretamente de
+  nosso atravessador. Já consegue identificar o back-end e nossa API?</p>
+<p>
+Para finalizar-mos, como explicar nessa história que uma API se trata de uma interface? Bom, nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base que trata os tomates antes de repassá-los, pois, conforme as demandas dos clientes, os tomates devem ser bem selecionados. Consegue identificar a APi sendo uma interface?
 </p>
+<h3>Criando nossa API</h3>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
 <h3>Criando o servidor</h3>
  <p>
