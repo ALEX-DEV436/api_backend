@@ -152,7 +152,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    <li>10°Git - https://git-scm.com/</li>
    <li>11°GitHub - https://github.com/ </li>
  </ul> 
- <h2>Dá uma passada em cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes! </h2>
+ <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
  <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb)!Ops, desculpe! no codigo</p>
  <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.Claro que conforme avançamos no projeto podemos ter que instalar outras, mais de acordo com a nescessidade.
