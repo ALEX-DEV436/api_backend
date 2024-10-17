@@ -272,6 +272,11 @@ tudo pelo prompt.</p>
 <h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h2>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
+<p>
+  Api, tecnologia muito presente no mercado de trabalho, minhas primeiras impressões é trata-se de algo que fica entre a base de dados real e o cliente. Fiz uma analogia na minha cabeça para entendermos melhor. Vamos pensar em nossa salada de tomates, imagine voce com vontade de comer uma salada! Abre a geladeira e não têm nenhum. Provalvemente iria até a quintanda para compra-lo, comendo sua salada começe a pensar como esse tomate chegou a sua mesa? Em sua grande maioria ele é plantado em uma fazenda de tomate e observe voce não tem acesso ao agricultor, o quintandeiro tambem não, temos um terceiro personagem o atravessador, que pega o tamate do agricultor, repassa para o quitandeiro, que por sua vez disponibiliza
+para voce. Nessa estoria você pode idendificar o usuario, Front-End e Api? No final têm a resposta!Mas estamos criando nossa propria Api! Como fica? Continuando a estoria, o quintandeiro não pega direto do atravessador, compra de um mercado, que possui um fornecedor que pega do nosso atavessador.Já identifica o Back-End e nossa API? Para finalizar como explicar nessa estoria que uma Api trata-se de uma interface? Bom, o nosso atravessador e fornecedor que são os que ganham mais dinheiro possui uma base que trata os tomates 
+  antes de repassa-los, pois conforme os clientes o tomates devem ser bem selecionados.Consegue identicar a interface?
+</p>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
 <h3>Criando o servidor</h3>
  <p>
@@ -605,6 +610,15 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
 <h2>Um forte abraço e até a próxima!</h2>
   
       
+ </p>
+ <p>
+   RESPOSTAS:<br />
+   Você  => Usuário;<br />
+   Quitandeiro => Front-End;<br />
+   Atravessador => API;<br />
+   Mercado => Back-End; <br />
+   Fornecedor => nossa API<br />
+   Base => Interface<br />
  </p>
 Warning: atualizado em:
 <ul> 
