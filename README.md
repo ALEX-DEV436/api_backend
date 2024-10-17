@@ -233,21 +233,21 @@ tudo pelo prompt.</p>
 <p>Chegou até aqui! Tudo tranquilo? Tá suave na nave? Se divertindo? Então vamos lá...</p>
 <p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha maquina</p>
 
-<p>1º Para ver se o git esta instalado</p>
+<h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
 <p>
 
   ```
   git --version
 ```
 </p>
-<p>2º Para ver se o Node.js esta instalado</p>
+<h5>2º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
 
   ```
   node --version
 ```
 </p> 
-<p>3°Para ver se visual code esta instalado</p>
+<h5>3°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
 <p>
 
   ```
