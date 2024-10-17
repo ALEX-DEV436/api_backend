@@ -160,7 +160,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso trabalho.<br />
 </p>
 <h2>Setup</h2>
-<h4>Iniciando os trabalhos</h4>
+<h3>Iniciando os trabalhos</h3>
 <h4>Instalação dos aplicativos</h4>
 <ul>
 <li>1° Node - https://nodejs.org/en/download/package-manager</li>
@@ -175,7 +175,7 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortavel para você.
 </p>
 
-<h2>Comandos iniciais no Prompt</h2>
+<h4>Comandos iniciais no Prompt</h4>
 <p>1º Criar a pasta =></p> 
 <p>
   
@@ -205,7 +205,7 @@ tudo pelo prompt.</p>
 
 <p><br/>
  <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
- <h2>Instalações das bibliotecas</h2>
+ <h4>Instalações das bibliotecas</h4>
   
 <p> 1º express => </p>
 <p>
@@ -255,7 +255,7 @@ tudo pelo prompt.</p>
 ```
 </p>
 
-<h2>Abrindo o visual code</h2>
+<h4>Abrindo o visual code</h4>
 <p>
   
    ```
@@ -268,10 +268,10 @@ tudo pelo prompt.</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
    Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
 </p>
-<h2>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h2>
+<h4>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h4>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
-<h3>Antes de codar vamos entender rapidamente o que é uma API</h3>
+<h4>Antes de codar vamos entender rapidamente o que é uma API</h4>
 <p>
   Api, tecnologia muito presente no mercado de trabalho, minhas primeiras impressões é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente. Fiz uma analogia na minha cabeça para entender melhor. Vamos pensar em nossa salada de tomates, imagine voce com vontade de comer uma salada! Abre a geladeira e não têm nenhum tomate. Provalvemente iria até a quintanda para compra-lo. Enquanto come sua salada, começa a pensar: como esse tomate chegou à sua mesa? O caminho que ele seguiu para chegar em minha mesa?</p>
 <p>
