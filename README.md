@@ -176,14 +176,14 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 </p>
 
 <h4>Comandos iniciais no Prompt</h4>
-<p>1º Criar a pasta =></p> 
+<h5>1º&nbsp;&nbsp;Criar a pasta =></h5> 
 <p>
   
   ```
   mkdir suaPasta
   ```
 </p> 
- <p> 2º Entrar na pasta => </p>
+ <h5>2º&nbsp;&nbsp;Entrar na pasta => </h5>
 <p>
 
    ```
@@ -191,7 +191,7 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
  ```
 </p>
 
-<p>3° Criar o projeto =></p> 
+<h5>3°&nbsp;&nbsp;Criar o projeto =></h5>
 <p>
   
   ``` 
@@ -207,21 +207,21 @@ tudo pelo prompt.</p>
  <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
  <h4>Instalações das bibliotecas</h4>
   
-<p> 1º express => </p>
+<h5>1º&nbsp;&nbsp;express =></h5>
 <p>
   
   ```
   npm i express
  ```
 </p>
-<p>2º nodemon =></p> 
+<h5>2º&nbsp;&nbsp;nodemon =></h5> 
 <p>
 
    ```
   npm i nodemon
  ```
 </p>
-<p>3° cors =></p> 
+<h5>3°&nbsp;&nbsp;cors =></h5> 
 <p>
 
    ```
