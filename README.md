@@ -38,6 +38,7 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar servidor com o express no Front-End; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar a forma de entrada da pesquisa (formulario); <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br />
+  <h4>Testes de introdução</h4>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados no back end para ser consumida no front-end; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados para ser consumida por nossa API; <br />
@@ -48,10 +49,12 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de retornos dos end points.Que tipos retornam?; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de pesquisa pelo nome do personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
+   <h4>Testes de Desenvolvimento</h4>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para cadastramento de personagem na lista de favoritos; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para mostrar lista de personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para busca de dados do personagem após ser clicado na lista; <br />
+   <h4>Testes de Implementação</h4>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
