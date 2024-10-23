@@ -294,7 +294,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
    
   ```
     const express =require('express');
-     app = express();
+    const app = express();
     app.use(express);
   ```
 </p>
