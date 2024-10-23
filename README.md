@@ -368,16 +368,16 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Mais é opcional!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
 <h3>Comandos no frontend! </h3>
-<ul style='list-style-type:none'>
-  <li><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </li> 
-  <li>    
+
+  <p><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </p> 
+  <p>    
     
        ```
        npm star
        ```
-     </li> 
+     </p> 
      
-  <li>  
+  <p>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor vai esta ligado e operante </p>
      <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>
@@ -408,13 +408,11 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
            </div>
     ```  
      </p>     
-   </li> 
-   <li> Resultado:</li>
-   <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
-   </li>
- </ul>  
+   </p> 
+<p> Resultado:</p>
+<p> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
+</p>
  <h4>Testes de introdução as tecnologias</h4>
-
  <h6>Vamos testar o botão do formulario .</h6>
  <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
  <p>
