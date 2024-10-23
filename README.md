@@ -391,52 +391,56 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
          <div className='conteiner-form'>
             <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
                <h2>Busque seu personagem </h2>
-                <form className ='formulario'>
-                <input 
-                id='inputID'
-                type='text'
-                name='personagem'
-                placeholder='personagem'
-                required
-                />
-                <button 
-                className='btn-login'
-                type='submit'              
-                >Pesquisar</button>
+                  <form className ='formulario'>
+                     <input 
+                        id='inputID'
+                        type='text'
+                        name='personagem'
+                        placeholder='personagem'
+                        required
+                     />
+                    <button 
+                       className='btn-login'
+                       type='submit'              
+                      >Pesquisar
+                   </button>
                 </form>
            </div>
-
-     </p>
-     
-     ```    
+    ```  
+     </p>     
    </li> 
    <li> Resultado:</li>
    <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
    </li>
  </ul>  
- h4>Testes de introdução as tecnologias</h4>
+ <h4>Testes de introdução as tecnologias</h4>
+
  <h6>Vamos testar o botão do formulario .</h6>
  <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
  <p>
-
-<i>function App() {</i><br />
-   <i> const [personagem, setPersonagem] = useState(''); </i>  <br /> 
-   <i>  const handlePesquisar = async (e) =>{</i>  <br />
-     
-      <i>  e.preventDefault();</i>  <br />
-
-           <i>console.log(personagem);</i>   <br /> 
-
-         <i> const response = await axios.post('http://localhost:3000/pesquisar',JSON.stringify({personagem}),    {</i>  <br />
-       <i>  headers:{ 'Content-Type' : 'application/json'}</i><br />      
-     <i>}</i>  <br />
-  <i>);</i><br />
-<i>};</i><br />
    
- </p>
+              ```
+             function App() {
+                const [personagem, setPersonagem] = useState('');
+                const handlePesquisar = async (e) =>{     
+                e.preventDefault();
+                console.log(personagem);
+                const response = await axios.post('http://localhost:3000/pesquisar',JSON.stringify({personagem}),   
+                                                   headers:{ 'Content-Type' : 'application/json'}     
+                       }
+                 );
+            };
+             ```   
+ </p> 
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 
+
+ 
+ 
+ 
+ 
+ 
  <h2>Momento reflexão</h2>
  <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um array de dados que foi consumido perfeitamente pela nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
  <p>
