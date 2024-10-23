@@ -179,14 +179,14 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 </p>
 
 <h4>Comandos iniciais no Prompt para criarmos um projeto Node.js</h4>
-<h5>1º&nbsp;&nbsp;Criar a pasta =></h5> 
+<h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferencia</h5> 
 <p>
   
   ```
   mkdir suaPasta
   ```
 </p> 
- <h5>2º&nbsp;&nbsp;Entrar na pasta => </h5>
+ <h5>2º&nbsp;&nbsp;Entrar na pasta => Despois de criar voce precisa entrar na pasta para o proximo passo </h5>
 <p>
 
    ```
@@ -194,20 +194,21 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
  ```
 </p>
 
-<h5>3°&nbsp;&nbsp;Criar o projeto =></h5>
+<h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado</h5>
 <p>
   
   ``` 
   npm init
    ```
   </p>
-<p>  Obs: Na internet, há diversos tutoriais disponíveis que podem auxiliar no passo a passo para a realização desses procedimentos.</p>
-<p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js na pasta desejada, isso
-tudo pelo prompt.</p>
+<p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
+tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada.</p>
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
 
 <p><br/>
  <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
+ <p>As bibliotecas são partes importantes na construção de uma API , pois facilitam na criação de servidor e tambem na comunicação entre
+    as partes , em todas as fontes pesquisadas foram utilizadas e por isso coloco aqui as que vamos utilizar neste projeto;</p>
  <h4>Instalações das bibliotecas</h4>
   
 <h5>1º&nbsp;&nbsp;express =></h5>
@@ -233,7 +234,7 @@ tudo pelo prompt.</p>
 </p>
 <p>Veja como ficou as minhas instalações</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
-<p>Chegou até aqui! Tudo tranquilo? Tá suave na nave? Se divertindo? Então vamos lá...</p>
+<p>Chegou até aqui! Tudo tranquilo? Tá, suave na nave? Se divertindo? Então vamos lá...</p>
 <p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha maquina</p>
 
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
@@ -257,7 +258,7 @@ tudo pelo prompt.</p>
   code --version
 ```
 </p>
-
+<p>Vamos entra no projeto atraves do visual code, para começarmos a trabalhar</p>
 <h4>Abrindo o visual code</h4>
 <p>
   
@@ -265,7 +266,7 @@ tudo pelo prompt.</p>
   code .
  ```
 </p> 
-<p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o programa.Comigo resolveu.</p>
+<p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual.Comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
@@ -274,13 +275,14 @@ tudo pelo prompt.</p>
 <h4>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h4>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
-<h4>Antes de codar vamos entender rapidamente o que é uma API</h4>
+<h4>Antes de colocar a mão no codigo vamos entender rapidamente o que é uma API. Na minha percepção!</h4>
 <p>
-  Api, tecnologia muito presente no mercado de trabalho, minhas primeiras impressões é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente. Fiz uma analogia na minha cabeça para entender melhor o conceito. Vamos pensar em tomates! Imagine voce com vontade de comer uma salada! Abre a geladeira e não têm nenhum tomate. Provalvemente vai até a quintanda para compra-lo. Enquanto come sua salada, começa a pensar: como esse tomate chegou à sua mesa? O caminho que ele seguiu até a minha salada?</p>
+  Api, uma tecnologia muito presente no mercado de trabalho, minhas primeiras impressões é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente ou solicitante. Fiz uma analogia na minha cabeça para entender melhor o conceito. Vamos pensar em tomates! Imagine voce com vontade de comer uma salada! Abre a geladeira e não têm nenhum tomate. Provalvemente vai até a quintanda para compra-lo. Enquanto come sua salada, começa a pensar: como esse tomate chegou à sua mesa? O caminho que ele seguiu até vira a minha salada?</p>
 <p>
-Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e, você não tem acesso ao agricultor...O quitandeiro também não. Entra em cena um terceiro personagem, o atravessador, que pega o tomate do agricultor, repassa para o quitandeiro, que, por sua vez, disponibiliza para você comprar. Nessa história, já temos três personas de nosso projeto o usuário, o front-end e a Api! Consegue identificá-los? No rodape do projeto, deixei a resposta! Mas estamos criando nossa própria API! Como fica? Precisamos incluir mais duas personas!Então vamos continuar a nossa história!O quitandeiro não pega diretamente do atravessador; ele compra de um mercado, que possui um fornecedor que obtém os tomates diretamente de nosso atravessador. Já consegue identificar o back-end e nossa API?</p>
+Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e, você não tem acesso ao agricultor...O quitandeiro também não... Entra em cena um terceiro personagem, o atravessador, que pega o tomate do agricultor, repassa para o quitandeiro, que, por sua vez, disponibiliza para você comprar. Nessa história, já temos três personas de nosso projeto o usuário, o front-end e a Api! Consegue identificá-los? No rodape do projeto, deixei a resposta! Mas estamos criando nossa própria API! Como fica? Precisamos incluir mais duas personas!Então vamos continuar a nossa história!Vamos imaginar que o quitandeiro não pega diretamente do nosso atravessador acima; ele compra de um mercado/atacadão, que por sua vez possui um fornecedor que obtém os tomates diretamente de nosso atravessador. Já consegue identificar o back-end e nossa API?</p>
 <p>
-Para finalizar-mos, como explicar nessa história que uma API se trata de uma interface? Bom, nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base que trata os tomates antes de repassá-los, pois, conforme os clientes, os tomates devem ser selecionados e limpos. E agora consegue identificar a APi sendo uma interface?
+Para finalizar-mos, como explicar nessa história que uma API se trata de uma interface que trata os dados? Bom, nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base (galpão) que trata os tomates antes de repassá-los, pois, conforme a 
+  categoria de clientes, os tomates devem ser selecionados e limpos. E agora consegue identificar a APi sendo uma interface? Na minha cabeça deu certo!!!
 </p>
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
