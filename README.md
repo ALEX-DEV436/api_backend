@@ -324,7 +324,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>
 
   ```
-    npm run start
+    npm start
   ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
