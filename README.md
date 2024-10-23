@@ -235,7 +235,7 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <p>Veja como ficou as minhas instalações</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
 <p>Chegou até aqui! Tudo tranquilo? Tá, suave na nave? Se divertindo? Então vamos lá...</p>
-<p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha maquina</p>
+<p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha máquina</p>
 
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
 <p>
@@ -277,9 +277,9 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h4>PRONTO&nbsp;!!!&nbsp;&nbsp;TUDO CERTO&nbsp;!!!&nbsp;&nbsp;VAMOS COMEÇAR A CODAR&nbsp;???</h4>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
-<h4>Antes de colocar a mão no codigo vamos entender rapidamente o que é uma API. Na minha percepção&nbsp;!</h4>
+<h4>Antes de colocar a mão no codigo vamos entender rapidamente o que é uma API. Na minha percepção&nbsp;:</h4>
 <p>
-  Api&nbsp;!&nbsp; Uma tecnologia muito presente no mercado de trabalho, minhas primeiras impressões sobre este tema é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente ou solicitante. Fiz uma analogia na minha cabeça para entender melhor o conceito. Vamos pensar em tomates&nbsp;!&nbsp; Imagine voce com vontade de comer uma salada&nbsp;!&nbsp; Abre a geladeira e não vê nenhum tomate. Provalvemente vai até a quintanda mais proxima para compra-lo. Enquanto come tranquilamente sua salada, começa a pensar&nbsp;:&nbsp; Como esse tomate chegou à minha mesa&nbsp;?&nbsp;Qual foi o caminho que ele percorreu até se transformar em minha salada preferida&nbsp;?</p>
+API&nbsp;!&nbsp; Uma tecnologia muito presente no mercado de trabalho, minhas primeiras impressões sobre este tema é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente ou solicitante. Fiz uma analogia na minha cabeça para entender melhor o conceito. Vamos pensar em tomates&nbsp;!&nbsp; Imagine voce com vontade de comer uma salada&nbsp;!&nbsp; Abre a geladeira e não vê nenhum tomate. Provalvemente vai até a quintanda mais proxima para compra-lo. Enquanto come tranquilamente sua salada, começa a pensar&nbsp;:&nbsp; Como esse tomate chegou à minha mesa&nbsp;?&nbsp;Qual foi o caminho que ele percorreu até se transformar em minha salada preferida&nbsp;?</p>
 <p>
 Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e observe, não tenho acesso ao agricultor...&nbsp;&nbsp;O quitandeiro onde comprei também não&nbsp;!... &nbsp;Entra em cena um terceiro personagem em nossa historia... &nbsp;&nbsp;O ATRAVESSADOR, que pega o tomate do agricultor, repassa para o quitandeiro, que, por sua vez, disponibiliza em sua quitanda para venda. Veja que nessa história, já temos três personas&nbsp;:&nbsp; usuário,  front-end e Api! Consegue identificá-los&nbsp;?&nbsp; No rodape do projeto, deixei a resposta&nbsp;!&nbsp; Mas continuando...&nbsp;&nbsp; estamos criando nossa própria API&nbsp;!&nbsp; Como fica&nbsp;?&nbsp; Precisamos incluir mais duas personas nesse imbróglio&nbsp;!&nbsp;Então vamos continuar a nossa histórinha&nbsp;!&nbsp;Imagine que o quitandeiro não pega o tomate diretamente do nosso atravessador acima; ele compra de um mercado/atacadão, que por sua vez possui um fornecedor que obtém os tomates diretamente desse atravessador. Já consegue identificar o back-end e nossa API&nbsp;?</p>
 <p>
