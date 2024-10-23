@@ -12,12 +12,12 @@ Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o fra
 <p>
 Um adendo:&nbsp;&nbsp;apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação:&nbsp;&nbsp;completa,funcional e, com bastante aprendizado. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que vão ser super úteis no mercado atualmente.<p>
 <p>
-Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante... A inquietude na vida de um desenvolvedor Full Stack!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente... pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vamos focar neste projeto. Venha comigo nesta jornada e, "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go!  
+Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante... A inquietude na vida de um desenvolvedor Full Stack!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente... pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vamos focar neste projeto. Venha comigo nesta jornada e, "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go&nbsp;!  
 </p>
 <h2>Prototipo</h2>
 <p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
 1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos(no caso do prototipo). Vou tentar colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Baixem os gifs e estudem as
-  imagens internas! Um forte abraço!
+  imagens internas&nbsp;! Um forte abraço&nbsp;!
 </p>
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo14.gif" alt="Prototipo do sistema em gif animado" /><br /> 
@@ -58,10 +58,11 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
+  <strong>Conclusão</strong><br /> <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer os conceito de componentes para o projeto; <br />  
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
 </p>
-<h3>API starWar - Vamos conhece-la um pouco já de inicio!</h3>
+<h3>API starWar - Vamos conhece-la um pouco já de inicio&nbsp;!</h3>
 <p>
   A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!Disponível em: https://swapi.dev/. Acesso em: 09 out. 2024.
 </p>
@@ -174,7 +175,7 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 
-<p>Vamos começar!!!!, abrindo o <strong>Prompt de Comando</strong> para criarmos a estrutura de pastas, onde guardaremos o nosso projeto e tambem vamos instalar as bibliotecas.
+<p>Vamos começar&nbsp;!!!,&nbsp; abrindo o <strong>Prompt de Comando</strong> para criarmos a estrutura de pastas, onde guardaremos o nosso projeto e tambem vamos instalar as bibliotecas.
 Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortavel para você.
 </p>
 
@@ -186,7 +187,7 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
   mkdir suaPasta
   ```
 </p> 
- <h5>2º&nbsp;&nbsp;Entrar na pasta => Despois de criar voce precisa entrar na pasta para o proximo passo </h5>
+ <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar voce precisa entrar na pasta para o proximo passo </h5>
 <p>
 
    ```
@@ -203,7 +204,7 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
   </p>
 <p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
 tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada.</p>
-<p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo:  </p>
+<p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo&nbsp;:  </p>
 
 <p><br/>
  <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
@@ -234,7 +235,7 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 </p>
 <p>Veja como ficou as minhas instalações</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
-<p>Chegou até aqui! Tudo tranquilo? Tá, suave na nave? Se divertindo? Então vamos lá...</p>
+<p>Chegou até aqui! Tudo tranquilo&nbsp;? Tá, suave na nave? Se divertindo&nbsp;?&nbsp;Então vamos lá...</p>
 <p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha máquina</p>
 
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
@@ -328,7 +329,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
-  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'HomeWorld - starWars', ou seja a mensagem esta sendo originada de nossa interface.
+  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'HomeWorld - starWars', ou seja a mensagem esta sendo originada de nossa interface.<br/>
   Na linha  <strong><i></strong>app.use(express.json());</i> veja que o express , vem com .json, colocamos sem, mais não abre no navegador;
 </p>
   <p>Na imagem abaixo podemos ver os comandos em meu pc.</p>
