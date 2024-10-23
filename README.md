@@ -1,18 +1,18 @@
-#"Desenvolvimento de uma Aplicação Full Stack com Node.js e React: Utilizando uma API para Integração entre Front-end e Back-end"
+#"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é? Api, Node.js, React,Rest, Express, Nodemon, Cors, Git, GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda! Vamos nessa! 🚀</h2>
+<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia&nbsp;!&nbsp;&nbsp; Neste projeto, vamos entender juntos, o que é&nbsp;?&nbsp;&nbsp; Api, Node.js, React,Rest, Express, Nodemon, Cors, Git, GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda! Vamos nessa&nbsp;&nbsp;&nbsp;! 🚀</h2>
 Warning: atualizado em 21/10/2024 trabalhando no codigo, melhorando o readme<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
 <p>
-Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender!&nbsp;&nbsp;Pois vamos juntos conhecer essas tecnologias.&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um desafio para conhecer novas ferramentas de trabalho.</p>
+Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender&nbsp;!&nbsp;&nbsp;Pois vamos juntos conhecer essas tecnologias.&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um desafio para conhecer novas ferramentas de trabalho.</p>
 <p>
 Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
 <p>
 Um adendo:&nbsp;&nbsp;apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação:&nbsp;&nbsp;completa,funcional e, com bastante aprendizado. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que vão ser super úteis no mercado atualmente.<p>
 <p>
-Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante... A inquietude na vida de um desenvolvedor Full Stack!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente... pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vamos focar neste projeto. Venha comigo nesta jornada e, "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go&nbsp;!  
+Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante...&nbsp;A inquietude na vida de um desenvolvedor Full Stack&nbsp;!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente...&nbsp; pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vamos focar neste projeto. Venha comigo nesta jornada e, "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go&nbsp;!  
 </p>
 <h2>Prototipo</h2>
 <p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
@@ -22,7 +22,7 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo14.gif" alt="Prototipo do sistema em gif animado" /><br /> 
 </p>
-<p>Para organizamos nosso projeto até a sua conclusão, vamos a um checklist basico:</p>
+<p>Para organizamos nosso projeto até a sua conclusão, vamos a um checklist basico&nbsp;:</p>
 <p>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Iniciar o projeto; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
@@ -56,8 +56,8 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para busca de dados do personagem após ser clicado na lista; <br /> <br />
   <strong>Testes de implementação</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br /><br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar lógica de apresentação do nome dos filmes em vez de URL <br /><br />
   <strong>Conclusão</strong><br /> <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer os conceito de componentes para o projeto; <br />  
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
@@ -73,7 +73,7 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
    <li>/people/:id/ -- obter um recurso específico de um personagem</li>
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
-<h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio?</strong></h2>
+<h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h2>
 Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
 Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End, comunicará com a nossa API no Back-End, que, por sua vez, faz uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.
 
@@ -105,13 +105,13 @@ Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicaç�
 
 <h2>Introdução</h2>
 
-<p>Minhas primeiras providências ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder!"
+<p>Minhas primeiras providências ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder&nbsp;!"
 
-Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de avançarmos!... É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
+Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de avançarmos&nbsp;!...&nbsp; É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
 <p>Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução de um problema.<br/>  
   <p>Para quem está começando! Começe com o basico e, se é muita coisa para aprender, faça a divisão do problema em parte menores, vá resolvendo cada parte, assim desta
-  forma todo o problema é resolvido</p>
+  forma todo o problema é resolvido.</p>
 <p>Como essas ferramentas não fazem parte da minha rotina de trabalho, começo perguntando para cada tecnologia que vou usar&nbsp;: <br /><br />
   1º -O que é&nbsp;? <br />
   2º - O que faz&nbsp;?  <br />
@@ -136,10 +136,10 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
   
 
  <p> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
- Voce pode esta pensando! Assincrona? Orientada por eventos? Esta me xingando!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
+ Voce pode esta pensando! Assincrona&nbsp;? Orientada por eventos? Esta me xingando&nbsp;!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
  </p>
 <p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias. Mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
-<p>Voltando ao desafio! Para responder a essas perguntas, temos ajuda, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
+<p>Voltando ao desafio&nbsp;! Para responder a essas perguntas, temos ajuda, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
   com seus recursos ilimitados e, muita, mais muita mesmo... disponibilidade em nos auxiliar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
 <h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...</h2>
 <h3>Fontes pesquisadas para este trabalho</h3>
@@ -156,9 +156,9 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    <li>10°Git - https://git-scm.com/</li>
    <li>11°GitHub - https://github.com/ </li>
  </ul> 
- <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes! </h5>
+ <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
- <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb)!Ops, desculpe! no codigo</p>
+ <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb)!Ops, desculpe&nbsp;! no codigo</p>
  <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.Claro que conforme avançamos no projeto podemos ter que instalar outras, mais de acordo com a nescessidade.
 
 Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso trabalho.<br />
