@@ -376,14 +376,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h3>Comandos no frontend! </h3>
 
   <p><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </p> 
-  <p>    
+
     
        ```
-       npm run start
-       
+       npm run start       
        ```
      
-     </p> 
+  
      
   <p>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
