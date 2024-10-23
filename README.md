@@ -178,7 +178,7 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortavel para você.
 </p>
 
-<h4>Comandos iniciais no Prompt</h4>
+<h4>Comandos iniciais no Prompt para criarmos um projeto Node.js</h4>
 <h5>1º&nbsp;&nbsp;Criar a pasta =></h5> 
 <p>
   
