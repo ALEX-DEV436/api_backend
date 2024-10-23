@@ -57,7 +57,7 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   <strong>Testes de implementação</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de erro de: Digitação, Ausencia de personagem, Nome invalido; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br />
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar logica de apresentação do nome dos filmes em vez de URL <br /><br />
   <strong>Conclusão</strong><br /> <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer os conceito de componentes para o projeto; <br />  
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
@@ -112,20 +112,20 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <p>Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução de um problema.<br/>  
   <p>Para quem está começando! Começe com o basico e, se é muita coisa para aprender, faça a divisão do problema em parte menores, vá resolvendo cada parte, assim desta
   forma todo o problema é resolvido</p>
-<p>Como essas ferramentas não fazem parte da minha rotina de trabalho, começo perguntando para cada tecnologia que vou usar: <br /><br />
-  1º -O que é? <br />
-  2º - O que faz?  <br />
-  3º - E como faz? <br /><br />
+<p>Como essas ferramentas não fazem parte da minha rotina de trabalho, começo perguntando para cada tecnologia que vou usar&nbsp;: <br /><br />
+  1º -O que é&nbsp;? <br />
+  2º - O que faz&nbsp;?  <br />
+  3º - E como faz&nbsp;? <br /><br />
  </p>
  <p>
    Para exemplo vamos pegar o nodeJS, observe:<br /><br />
-  1º O que é?<br /><br />  
+  1º O que é&nbsp;?<br /><br />  
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
    A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.Disponível em: https://pt.wikipedia.org/wiki/Node.js  . Acesso em: 09 out. 2024.<br /><br />
   2º O que faz ou para que serve?<br /><br />
    O Node.js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
    em JavaScript, o Node.js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
-   3º E como faz ou como posso usar?<br /><br />
+   3º E como faz ou como posso usar&nbsp;?<br /><br />
   <p> Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
    
    ```
