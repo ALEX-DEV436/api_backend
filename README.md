@@ -329,7 +329,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
-  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'starWars', ou seja a mensagem esta sendo originada de nossa interface.
+  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'HomeWorld - starWars', ou seja a mensagem esta sendo originada de nossa interface.
 </p>
   <p>Na imagem abaixo os procedimentos podem ser observados.</p>
   <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
