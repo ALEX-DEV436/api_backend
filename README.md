@@ -267,6 +267,8 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
  ```
 </p> 
 <p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
+<p>Veja que criei uma pasta '<strong><i>src</i></strong>' dentro dela coloquei o arquivo '<strong><i>serve.js</i></strong>' e fiz a edição do arquivo '<strong><i>package.json</i></strong>' introduzindo a seguinte linha de codigo
+'<strong><i>,"start": "nodemon src/serve.js</i>"</strong>'</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
