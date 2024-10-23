@@ -36,7 +36,7 @@ Animados?&nbsp;&nbsp;Espero que sim!!!&nbsp;&nbsp; Você vai vivenciar uma exper
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar o projeto no React-Front-end; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o servidor no Front-End; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar servidor com o express no Front-End; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar a forma de entrada da pesquisa (formulario); <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Desenvolver a forma de entrada da pesquisa; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br /> <br />
   <strong>Testes de introdução as tecnologias</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
@@ -375,8 +375,8 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
        ```
        npm star
        ```
-     </li>  
-    <li><h4>Testes de introdução as tecnologias</h4></li>
+     </li> 
+     
   <li>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor vai esta ligado e operante </p>
@@ -413,9 +413,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
    <li> Resultado:</li>
    <li> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
    </li>
- </ul> 
- <h4>1º teste</h4>
- <h5>Vamos testar o botão do formulario .</h5>
+ </ul>  
+ h4>Testes de introdução as tecnologias</h4>
+ <h6>Vamos testar o botão do formulario .</h6>
  <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
  <p>
 
