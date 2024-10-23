@@ -391,14 +391,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
      <p>2º Quando vou começar uma aplicação nova, sempre inicio pelo ponto de entrada.Pois é apartir deste ponto que o nosso sistema vai rodar. Não funcionando corretamente 
      todo o nosso sistema fica comprometido</p>
      <p>Portanto para isso vamos criar um formulario basico de entrada para teste</p>
-     <p>
+  
        
     ```    
     <div className="App">
       <header className="App-header">
-         <div className='conteiner-form'>
-            <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
-               <h2>Busque seu personagem </h2>
+         <div className='conteiner-form'>            
+               <h1>Lista de personagens da saga starWars</h1>  
                   <form className ='formulario'>
                      <input 
                         id='inputID'
@@ -412,10 +411,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                        type='submit'              
                       >Pesquisar
                    </button>
-                </form>
-           </div>
+                </form> 
+         </div>
+     </header>       
+  </div>
+     
     ```  
-     </p>     
+     
    </p> 
 <p> Resultado:</p>
 <p> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
