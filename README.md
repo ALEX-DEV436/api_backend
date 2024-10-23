@@ -293,9 +293,10 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  <p>
    
   ```
-    const express =require('express');
-    const app = express();
-    app.use(express);
+   const express = require('express');
+   const app = express();
+   app.use(express.json());
+
   ```
 </p>
 
