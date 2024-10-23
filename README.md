@@ -368,7 +368,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Mais é opcional!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
 <h3>Comandos no frontend! </h3>
-<ul>
+<ul style='list-style-type:none'>
   <li><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </li> 
   <li>    
     
