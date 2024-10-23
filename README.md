@@ -272,12 +272,12 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
-   Obs:Compare sua tela com a minha! Acompanhe as setas na imagem para observar os pontos que considero importantes.
+   Obs:Compare sua tela com a minha&nbsp;! Acompanhe as setas na imagem para observar os pontos que considero importantes.
 </p>
-<h4>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h4>
+<h4>PRONTO&nbsp;!!!&nbsp;&nbsp;TUDO CERTO&nbsp;!!!&nbsp;&nbsp;VAMOS COMEÇAR A CODAR&nbsp;???</h4>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
-<h4>Antes de colocar a mão no codigo vamos entender rapidamente o que é uma API. Na minha percepção!</h4>
+<h4>Antes de colocar a mão no codigo vamos entender rapidamente o que é uma API. Na minha percepção&nbsp;!</h4>
 <p>
   Api&nbsp;!&nbsp; Uma tecnologia muito presente no mercado de trabalho, minhas primeiras impressões sobre este tema é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente ou solicitante. Fiz uma analogia na minha cabeça para entender melhor o conceito. Vamos pensar em tomates&nbsp;!&nbsp; Imagine voce com vontade de comer uma salada&nbsp;!&nbsp; Abre a geladeira e não vê nenhum tomate. Provalvemente vai até a quintanda mais proxima para compra-lo. Enquanto come tranquilamente sua salada, começa a pensar&nbsp;:&nbsp; Como esse tomate chegou à minha mesa&nbsp;?&nbsp;Qual foi o caminho que ele percorreu até se transformar em minha salada preferida&nbsp;?</p>
 <p>
@@ -287,7 +287,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p>
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos: <br /> <br />
+<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;: <br /> <br />
 <h5>Criando o servidor</h5>
  <p>
    
