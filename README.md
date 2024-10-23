@@ -379,8 +379,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   <p>    
     
        ```
-       npm star
+       npm run start
        ```
+     
      </p> 
      
   <p>  
