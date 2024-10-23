@@ -272,7 +272,7 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
-   Obs:Compare sua tela com a minha, acompanhando as setas que indico na imagem para observar os pontos a serem considerados.
+   Obs:Compare sua tela com a minha! Acompanhe as setas na imagem para observar os pontos que considero importantes.
 </p>
 <h4>PRONTO!!!!!!!! TUDO CERTO !!!!! VAMOS COMEÇAR A CODAR???</h4>
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
