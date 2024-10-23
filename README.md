@@ -266,7 +266,7 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
   code .
  ```
 </p> 
-<p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual.Comigo resolveu.</p>
+<p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
 <p>
   <p>Imagem do visual code aberto após o comando code .</p>
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
@@ -293,7 +293,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   ```
     const express =require('express');
     const app = express();
-    const app.use(express);
+    app.use(express);
   ```
 </p>
 
@@ -313,7 +313,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 
   ```
     app.get('/', (req,res) =>{
-         res.send('starWars');{
+         res.send('starWars');
     });
   ```
 </p>
