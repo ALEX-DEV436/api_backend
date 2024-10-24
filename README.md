@@ -467,7 +467,10 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  </p> 
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
-
+<p>
+  Veja que neste teste já introduzir o <strong>Hook useState</strong> sem testa-lo neste momento, somente para ver se aparece algum erro no codigo. Neste artigo da Alura podemos entender sobre hooks e sua utilidade no react: <a href="https://www.alura.com.br/artigos/react-hooks?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164068847699&hsa_ad=703853156311&hsa_src=g&hsa_tgt=aud-527303763294:dsa-2273097816642&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI_L6HhrmmiQMV8WFIAB3lKCtjEAAYASAAEgJ1yvD_BwE">Sobre Hooks</a><br/>
+  Neste projeto vamos utilizar muito o <strong>useState</strong> .
+</p>
 
  
  
