@@ -471,7 +471,7 @@ export default App;
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <h4>Utilizando o Axio;</h4> 
-<p>No projeto react<strong><i>App.js</i></strong> digite&nbsp;:</p>
+<p>No projeto react<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
   ```
 
@@ -491,7 +491,7 @@ export default App;
    }
      export default App;
  ```
-<p>No back-end<strong><i>serve.js</i></strong> digite&nbsp;:</p>
+<p>No back-end<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
    ```
     const express = require('express');
