@@ -423,8 +423,8 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p> Resultado:</p>
 <p> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
 </p>
- <h4>Testes de introdução as tecnologias</h4>
- <h6>Vamos testar o botão do formulario .</h6>
+ <h3>Testes de introdução as tecnologias</h3>
+ <h4>Teste d clique no botão.</h4>
  <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
  <p>
    
@@ -472,15 +472,15 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   Neste projeto vamos utilizar muito o <strong>useState</strong> .
 </p>
 
-Criar uma base de dados no back end para ser consumida no front-end; <br />
-Criar uma base de dados para ser consumida por nossa API; <br />
-Uso do try e o catch; <br />
-Utilizando o Axio; <br />
-Teste de acesso a API da Star Wars; <br />
-Teste de endpoints fornecidos na documentação da API Star Wars; <br />
-Teste de retornos dos end points.Que tipos retornam?; <br />
-Teste de pesquisa pelo nome do personagem; <br />
-Teste de consumo da API externa , atraves de nossa API; <br /><br /> 
+<h4>Criar uma base de dados no back end para ser consumida no front-end;</h4> 
+<h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
+<h4>Uso do try e o catch;</h4> 
+<h4>Utilizando o Axio;</h4> 
+<h4>Teste de acesso a API da Star Wars; </h4>
+<h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
+<h4>Teste de retornos dos end points.Que tipos retornam?;</h4> 
+<h4>Teste de pesquisa pelo nome do personagem;</h4>
+<h4>Teste de consumo da API externa , atraves de nossa API;</h4> 
  
  
  <h2>Momento reflexão</h2>
