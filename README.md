@@ -471,7 +471,49 @@ export default App;
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <h4>Utilizando o Axio;</h4> 
+<p>No projeto react<strong><i>App.js</i></strong> digite&nbsp;:</p>
+
+  ```
+
+   import './App.css';
+   import axios from 'axios';
+
+   function App() {   
+      axios.get('http://localhost:3000/')
+      .then((response) =>{
+      const retorno =response.data;  
+      console.log(retorno);
+    
+    })
+      .catch((error) => console.log(error))
+      .finally(''); 
+  
+   }
+     export default App;
+ ```
+<p>No back-end<strong><i>serve.js</i></strong> digite&nbsp;:</p>
+
+   ```
+    const express = require('express');
+    const app = express();
+    app.use(express.json());
+    const cors = require('cors');
+    app.use(cors());
+
+    app.get('/', (req,res)=>{     
+    
+    res.send('Resposta do servidor'); 
+   
+    });
+
+    app.listen(3000, () =>{
+    console.log('Servidor rodando');
+
+   });
+   ```
+
 <h4>Criar uma base de dados no back end para ser consumida no front-end;</h4> 
+
 <h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
 <h4>Uso do try e o catch;</h4>
 <h4>Teste de acesso a API da Star Wars; </h4>
