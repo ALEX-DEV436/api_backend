@@ -461,9 +461,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </div>
   );
 }
-
-export default App;
-             ```   
+   export default App;
+   
+     ```   
  </p> 
  <p>Resultado.</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
