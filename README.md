@@ -478,12 +478,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h4>Utilizando o Axio;</h4> 
 <h4>Teste de acesso a API da Star Wars; </h4>
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
-<h4>Teste de retornos dos end points.Que tipos retornam?;</h4> 
-<h4>Teste de pesquisa pelo nome do personagem;</h4>
-<h4>Teste de consumo da API externa , atraves de nossa API;</h4> 
- 
- 
- <h2>Momento reflexão</h2>
+<h2>Momento reflexão</h2>
  <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um array de dados que foi consumido perfeitamente pela nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
  <p>
    É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de nossa API. Esta, por sua vez, retornará ao front-end os dados e as características do personagem. Junto com essas informações, o personagem virá acompanhado de um botão/link que, ao ser clicado, permitirá adicioná-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pelo front-end por meio de um botão/link dedicado.
@@ -541,6 +536,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   
   </li>
  </ul> 
+<h4>Teste de retornos dos end points.Que tipos retornam?;</h4> 
+<h4>Teste de pesquisa pelo nome do personagem;</h4>
+<h4>Teste de consumo da API externa , atraves de nossa API;</h4>  
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
 <p>
   
