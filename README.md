@@ -41,10 +41,10 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br /> <br />
   <strong>Testes de introdução as tecnologias</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Utilizando o Axio; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados no back end para ser consumida no front-end; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados para ser consumida por nossa API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Uso do try e o catch; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Utilizando o Axio; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Uso do try e o catch; <br /> 
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de acesso a API da Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de endpoints fornecidos na documentação da API Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de retornos dos end points.Que tipos retornam?; <br />
@@ -471,11 +471,10 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   Veja que neste teste já introduzir o <strong>Hook useState</strong> sem testa-lo neste momento, somente para ver se aparece algum erro no codigo. Neste artigo da Alura podemos entender sobre hooks e sua utilidade no react: <a href="https://www.alura.com.br/artigos/react-hooks?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164068847699&hsa_ad=703853156311&hsa_src=g&hsa_tgt=aud-527303763294:dsa-2273097816642&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI_L6HhrmmiQMV8WFIAB3lKCtjEAAYASAAEgJ1yvD_BwE">Sobre Hooks</a><br/>
   Neste projeto vamos utilizar muito o <strong>useState</strong> .
 </p>
-
+<h4>Utilizando o Axio;</h4> 
 <h4>Criar uma base de dados no back end para ser consumida no front-end;</h4> 
 <h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
-<h4>Uso do try e o catch;</h4> 
-<h4>Utilizando o Axio;</h4> 
+<h4>Uso do try e o catch;</h4>
 <h4>Teste de acesso a API da Star Wars; </h4>
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
 <h5>Momento reflexão</h5>
