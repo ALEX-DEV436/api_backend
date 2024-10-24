@@ -355,7 +355,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Vamos instalar agora a biblioteca axios</p>
 <p>Entre na pasta app</p>
 <p>
-  Para instalar o axios escreva no prompt:
+  Para instalar o axios&nbsp;:
 </p>
 <p>
   
@@ -363,7 +363,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  npm i axios
  ```
 </p>
-<h4>Abrindo o visual code</h4>
+<h4>Abrindo o visual code&nbsp;:</h4>
 <p>
   
    ```
@@ -372,9 +372,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p> 
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
-<p>Mais é opcional!</p>
+<p>Mais é opcional&nbsp;!</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
-<h3>Comandos no frontend! </h3>
+<h3>Comandos no frontend&nbsp;! </h3>
 
   <p><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </p> 
 
@@ -391,7 +391,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
      <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>
      <p>2º Quando vou começar uma aplicação nova, sempre inicio pelo ponto de entrada.Pois é apartir deste ponto que o nosso sistema vai rodar. Não funcionando corretamente 
      todo o nosso sistema fica comprometido</p>
-     <p>Portanto para isso vamos criar um formulario basico de entrada para teste</p>
+     <p>Portanto para isso vamos criar um formulário básico de entrada para teste</p>
   
        
     ```    
@@ -425,20 +425,44 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p>
  <h4>Testes de introdução as tecnologias</h4>
  <h6>Vamos testar o botão do formulario .</h6>
- <p>Para isso criamos uma função com algum texto, colocamos um console log digitando <strong>console.log(funcaoCriada());</strong> e, clicamos.Verificamos no console se houve resposta atraves do texto passado na função.</p>
+ <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
  <p>
    
               ```
-             function App() {
-                const [personagem, setPersonagem] = useState('');
-                const handlePesquisar = async (e) =>{     
-                e.preventDefault();
-                console.log(personagem);
-                const response = await axios.post('http://localhost:3000/pesquisar',JSON.stringify({personagem}),   
-                                                   headers:{ 'Content-Type' : 'application/json'}     
-                       }
-                 );
+            import './App.css';
+            import { useState } from 'react';
+            function App() {    
+              const [personagem, setPersonagem] = useState('');
+              const handlePesquisar = async (e) =>{     
+                 e.preventDefault();  
+                 console.log('O botão foi clicado'); 
             };
+               return (       
+                 <div className="App">
+                  <header className="App-header">
+                    <div className='conteiner-form'>          
+                      <h1>Lista de personagens da saga starWars</h1>    
+                    <form className ='formulario'>
+                      <input 
+                        id='inputID'
+                        type='text'
+                        name='personagem'
+                        placeholder='Nome do personagem'
+                        required onChange={(e) => setPersonagem(e.target.value) }
+                     />
+                     <button 
+                       className='btn-login'
+                       type='submit'
+                       onClick={(e) => handlePesquisar(e)}>Pesquisar
+                    </button>
+              </form> 
+       </div>
+   </header>       
+</div>
+  );
+}
+
+export default App;
              ```   
  </p> 
  <p>Resultado.</p>
