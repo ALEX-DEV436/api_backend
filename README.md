@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia&nbsp;!&nbsp;&nbsp; Neste projeto, vamos entender juntos, o que é &nbsp;&nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda&nbsp;!&nbsp;Vamos nessa&nbsp;!&nbsp; 🚀</h2>
-Warning: atualizado em 23/10/2024 trabalhando no codigo, corrigindo codigo do readme<br />
+Warning: atualizado em 23/10/2024 trabalhando no código, corrigindo código do readme<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
@@ -678,12 +678,13 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
    Base => Interface<br />
  </p>
 Warning: atualizado em:
-<ul> 
-  <li>21/10/2024 trabalhando no codigo, melhorando o readme</li>
-  <li>15/10/2024 trabalhando no codigo, criando definição de API, corrigindo o readme</li>
-  <li>14/10/2024 trabalhando no codigo, corrigindo o README</li>
-  <li>13/10/2024 trabalhando no codigo, corrigindo o README</li>
-  <li>11/10/2024 trabalhando no codigo, corrigindo o README</li>
+<ul>
+  <li>23/10/2024 trabalhando no código, corrigindo código do readme</li>
+  <li>21/10/2024 trabalhando no código, melhorando o readme</li>
+  <li>15/10/2024 trabalhando no código, criando definição de API, corrigindo o readme</li>
+  <li>14/10/2024 trabalhando no código, corrigindo o README</li>
+  <li>13/10/2024 trabalhando no código, corrigindo o README</li>
+  <li>11/10/2024 trabalhando no código, corrigindo o README</li>
   <li>09/10/2024 Organizando o README, corrigindo titulo, melhorando os textos,trabalhando no codigo</li>
   <li>01/10/2024 Organizando o README, corrigindo a apresentaçãos dos codigos, melhorando as imagens, melhorando os textos, lapidando o prototipo, a primeira após a publicação</li>
   <li>30/09/2024 Implementação das funcionalidade do projeto;Atualizado os arquivos das pastas backEnd e frontEnd; Corrigindo a apresentação dos blocos de codigos</li>
