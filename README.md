@@ -472,9 +472,15 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
   Neste projeto vamos utilizar muito o <strong>useState</strong> .
 </p>
 
- 
- 
- 
+Criar uma base de dados no back end para ser consumida no front-end; <br />
+Criar uma base de dados para ser consumida por nossa API; <br />
+Uso do try e o catch; <br />
+Utilizando o Axio; <br />
+Teste de acesso a API da Star Wars; <br />
+Teste de endpoints fornecidos na documentação da API Star Wars; <br />
+Teste de retornos dos end points.Que tipos retornam?; <br />
+Teste de pesquisa pelo nome do personagem; <br />
+Teste de consumo da API externa , atraves de nossa API; <br /><br /> 
  
  
  <h2>Momento reflexão</h2>
