@@ -424,7 +424,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
 </p>
  <h3>Testes de introdução as tecnologias</h3>
- <h4>Teste d clique no botão.</h4>
+ <h4>Teste do clique no botão.</h4>
  <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
  <p>
    
