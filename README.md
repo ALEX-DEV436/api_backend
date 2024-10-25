@@ -514,36 +514,36 @@ export default App;
 <h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-    ```
+      ```
 
-    const express = require('express');
-    const app = express();
-    app.use(express.json());
-    const cors = require('cors');
-    app.use(cors());
+      const express = require('express');
+      const app = express();
+      app.use(express.json());
+      const cors = require('cors');
+      app.use(cors());
 
-    const dados = {
-    "Nome": "Luke Skywalker",
-  	"Altura": "172",
-  	"Peso": "77",
-  	"Cabelo": "loiro",
-  	"Cor da pele": "branca",
-  	"Olhos": "azul",
-  	"gênero": "masculino",
-   }
+      const dados = {
+      "Nome": "Luke Skywalker",
+    	"Altura": "172",
+    	"Peso": "77",
+    	"Cabelo": "loiro",
+    	"Cor da pele": "branca",
+    	"Olhos": "azul",
+    	"gênero": "masculino",
+       }
 
-     app.get('/', (req,res)=>{    
+      app.get('/', (req,res)=>{    
     
-     res.send(dados);
+      res.send(dados);
    
    
-  });
+      });
 
-app.listen(3000, () =>{
-    console.log('Servidor rodando');
+     app.listen(3000, () =>{
+     console.log('Servidor rodando');
 
-});
-```
+     });
+    ```
 <h4>Consumir a base de dados no front-end;</h4> 
 <h4>Uso do try e o catch;</h4>
 <h4>Teste de acesso a API da Star Wars; </h4>
