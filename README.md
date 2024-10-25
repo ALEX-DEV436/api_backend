@@ -517,8 +517,8 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         const dados = {
                        "Nome": "Luke Skywalker",
                        "Altura": "172",
-    	               "Peso": "77",
-    	               "Cabelo": "loiro",
+                       "Peso": "77",
+                       "Cabelo": "loiro",
     	               "Cor da pele": "branca",
     	               "Olhos": "azul",
       	               "gênero": "masculino",
