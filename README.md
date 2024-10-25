@@ -391,9 +391,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
      <p>Portanto para isso vamos criar um formulário básico de entrada para teste</p>  
        
     ```    
-    <div className="App">
-      <header className="App-header">
-         <div className='conteiner-form'>            
+      <div className="App">
+        <header className="App-header">
+           <div className='conteiner-form'>            
                <h1>Lista de personagens da saga starWars</h1>  
                   <form className ='formulario'>
                      <input 
@@ -406,12 +406,12 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                     <button 
                        className='btn-login'
                        type='submit'              
-                      >Pesquisar
+                       >Pesquisar
                    </button>
                 </form> 
-          </div>
-       </header>       
-    </div>
+            </div>
+         </header>       
+      </div>
      
     ```  
      
@@ -425,42 +425,39 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>
    
        ```
-           import './App.css';
+          import './App.css';
            
           function App() {     
-          const handlePesquisar = async (e) =>{     
-          e.preventDefault();
-  
-          console.log('O botão foi clicado');
- 
-       };
+             const handlePesquisar = async (e) =>{     
+                  e.preventDefault();  
+                  console.log('O botão foi clicado'); 
+             };
  
           return (       
-           <div className="App">
-             <header className="App-header">
-              <div className='conteiner-form'>          
-                 <h1>Lista de personagens da saga starWars</h1>    
-                 <form className ='formulario'>
-                   <input 
-                      id='inputID'
-                      type='text'
-                      name='personagem'
-                      placeholder='Nome do personagem'
-                      required 
-                   />
-                  <button 
-                     className='btn-login'
-                     type='submit'
-                     onClick={(e) => handlePesquisar(e)}>Pesquisar
-                 </button>
-              </form> 
-               </div>
-            </header>       
-          </div>
-        );
-     }
-
-     export default App;
+             <div className="App">
+                 <header className="App-header">
+                    <div className='conteiner-form'>          
+                        <h1>Lista de personagens da saga starWars</h1>    
+                        <form className ='formulario'>
+                            <input 
+                               id='inputID'
+                               type='text'
+                               name='personagem'
+                               placeholder='Nome do personagem'
+                               required 
+                            />
+                           <button 
+                              className='btn-login'
+                              type='submit'
+                              onClick={(e) => handlePesquisar(e)}>Pesquisar
+                           </button>
+                      </form> 
+                   </div>
+               </header>       
+           </div>
+         );
+       }
+        export default App;
    
      ```   
 </p> 
@@ -475,11 +472,11 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
            import axios from 'axios';
 
            function App() {   
-             axios.get('http://localhost:3000/')
-            .then((response) =>{
-            const retorno =response.data;  
-            console.log(retorno);    
-          })
+              axios.get('http://localhost:3000/')
+             .then((response) =>{
+             const retorno =response.data;  
+             console.log(retorno);    
+           })
            .catch((error) => console.log(error))
            .finally(''); 
   
@@ -497,11 +494,11 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
           app.use(cors());
 
           app.get('/', (req,res)=>{    
-          res.send('Resposta do servidor');    
+             res.send('Resposta do servidor');    
          });
 
           app.listen(3000, () =>{
-          console.log('Servidor rodando');
+             console.log('Servidor rodando');
         });
     ```
     
@@ -527,11 +524,11 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         }
 
         app.get('/', (req,res)=>{   
-         res.send(dados);  
+           res.send(dados);  
         });
 
         app.listen(3000, () =>{
-       console.log('Servidor rodando');
+           console.log('Servidor rodando');
        });
     ```
 <h4>Consumir a base de dados no front-end&nbsp;(react);</h4> 
@@ -544,9 +541,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         function App() {  
            axios.get('http://localhost:3000/')
            .then((response) =>{
-           const retorno =response.data;  
-           console.log(retorno);    
-        })
+              const retorno =response.data;  
+              console.log(retorno);    
+          })
          .catch((error) => console.log(error))
          .finally(''); 
         }
