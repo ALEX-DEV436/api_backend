@@ -475,14 +475,14 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
            function App() {   
               axios.get('http://localhost:3000/')
              .then((response) =>{
-             const retorno =response.data;  
-             console.log(retorno);    
+              const retorno =response.data;  
+              console.log(retorno);    
            })
-           .catch((error) => console.log(error))
-           .finally(''); 
+            .catch((error) => console.log(error))
+            .finally(''); 
   
           }
-           export default App;
+            export default App;
      ```
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
@@ -515,21 +515,21 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         app.use(cors());
 
         const dados = {
-           "Nome": "Luke Skywalker",
-           "Altura": "172",
-    	     "Peso": "77",
-    	     "Cabelo": "loiro",
-    	     "Cor da pele": "branca",
-    	     "Olhos": "azul",
-      	   "gênero": "masculino",
+                       "Nome": "Luke Skywalker",
+                       "Altura": "172",
+    	               "Peso": "77",
+    	               "Cabelo": "loiro",
+    	               "Cor da pele": "branca",
+    	               "Olhos": "azul",
+      	               "gênero": "masculino",
         }
 
         app.get('/', (req,res)=>{   
-           res.send(dados);  
+               res.send(dados);  
         });
 
         app.listen(3000, () =>{
-           console.log('Servidor rodando');
+               console.log('Servidor rodando');
        });
     ```
 <h4>Consumir a base de dados no front-end&nbsp;(react);</h4> 
@@ -540,15 +540,15 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         import axios from 'axios';
 
         function App() {  
-           axios.get('http://localhost:3000/')
+            axios.get('http://localhost:3000/')
            .then((response) =>{
               const retorno =response.data;  
               console.log(retorno);    
           })
-         .catch((error) => console.log(error))
-         .finally(''); 
+           .catch((error) => console.log(error))
+           .finally(''); 
         }
-        export default App;
+           export default App;
      ```     
 <h4>Uso do try e o catch;</h4>
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
@@ -563,25 +563,23 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 
                   const dado = {
                         "Nome": "Luke Skywalker",
-	                      "Altura": "172",
-	                      "Peso": "77",
-	                      "Cabelo": "loiro",
-          	            "Cor da pele": "branca",
-          	            "Olhos": "azul",
-                      	"gênero": "masculino",
+	                        "Altura": "172",
+	                        "Peso": "77",
+	                        "Cabelo": "loiro",
+          	                "Cor da pele": "branca",
+          	                "Olhos": "azul",
+                      	        "gênero": "masculino",
                     }
-
                     app.get('/', (req,res)=>{     
-                          try{         
-                             res.send(dados);       
+                           try{         
+                              res.send(dados);       
                          } catch{
                              res.send("Usando Catch e try");
-                       }    
-   
+                         }   
                     });
 
                     app.listen(3000, () =>{
-                           console.log('Servidor rodando');
+                            console.log('Servidor rodando');
                     }); 
      ```
 <h4>Teste de acesso a API da Star Wars; </h4>
