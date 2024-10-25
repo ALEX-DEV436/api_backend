@@ -551,6 +551,39 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         export default App;
      ```     
 <h4>Uso do try e o catch;</h4>
+<p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+<p>Neste teste veja que simulei um erro para aparecer a mensagem <strong>"Usando Catch e try"</strong>. Descubra o erro! Simule outros! Introduza status nas msg! Brinque com as posibilidades. </p>
+
+     ```
+                  const express = require('express');
+                  const app = express();
+                  app.use(express.json());
+                  const cors = require('cors');
+                  app.use(cors());
+
+                  const dado = {
+                        "Nome": "Luke Skywalker",
+	                      "Altura": "172",
+	                      "Peso": "77",
+	                      "Cabelo": "loiro",
+          	            "Cor da pele": "branca",
+          	            "Olhos": "azul",
+                      	"gênero": "masculino",
+                    }
+
+                    app.get('/', (req,res)=>{     
+                          try{         
+                             res.send(dados);       
+                         } catch{
+                             res.send("Usando Catch e try");
+                       }    
+   
+                    });
+
+                    app.listen(3000, () =>{
+                           console.log('Servidor rodando');
+                    }); 
+     ```
 <h4>Teste de acesso a API da Star Wars; </h4>
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
 <h5>Momento reflexão</h5>
