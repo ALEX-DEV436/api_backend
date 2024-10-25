@@ -48,7 +48,7 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de endpoints fornecidos na documentação da API Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de retornos dos end points.Que tipos retornam?; <br />  
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
-   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br /> <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br /> <br />
   <strong>Testes de desenvolvimento</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de pesquisa pelo nome do personagem; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; <br />
@@ -118,7 +118,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
   2º - O que faz&nbsp;?  <br />
   3º - E como faz&nbsp;? <br /><br />
  </p>
- <p>
+<p>
    Para exemplo vamos pegar o nodeJS, observe:<br /><br />
   1º O que é&nbsp;?<br /><br />  
    Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
@@ -127,18 +127,18 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    O Node.js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
    em JavaScript, o Node.js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
    3º E como faz ou como posso usar&nbsp;?<br /><br />
-  <p> Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
+<p> Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
    
-   ```
-    npm init
-```
+      ```
+      npm init
+      ```
    
-   <p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p>
+<p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p>
   
 
- <p> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
+<p> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona&nbsp;? Orientada por eventos? Esta me xingando&nbsp;!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
- </p>
+</p>
 <p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias. Mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
 <p>Voltando ao desafio&nbsp;! Para responder a essas perguntas, temos ajuda, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
   com seus recursos ilimitados e, muita, mais muita mesmo... disponibilidade em nos auxiliar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
@@ -184,25 +184,25 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 <h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferencia</h5> 
 <p>
   
-  ```
-  mkdir suaPasta
-  ```
+     ```
+     mkdir suaPasta
+     ```
 </p> 
  <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar voce precisa entrar na pasta para o proximo passo </h5>
 <p>
 
-   ```
-  cd ./suaPasta/
- ```
+     ```
+     cd ./suaPasta/
+     ```
 </p>
 
 <h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado</h5>
 <p>
   
-  ``` 
-  npm init
-   ```
-  </p>
+     ``` 
+     npm init
+     ```
+</p>
 <p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
 tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada.</p>
 <p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo&nbsp;:  </p>
@@ -216,23 +216,23 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;express =></h5>
 <p>
   
-  ```
-  npm i express
- ```
+    ```
+    npm i express
+    ```
 </p>
 <h5>2º&nbsp;&nbsp;nodemon =></h5> 
 <p>
 
-   ```
-  npm i nodemon
- ```
+    ```
+    npm i nodemon
+    ```
 </p>
 <h5>3°&nbsp;&nbsp;cors =></h5> 
 <p>
 
-   ```
-  npm i cors
- ```
+    ```
+    npm i cors
+    ```
 </p>
 <p>Veja como ficou as minhas instalações</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
@@ -242,31 +242,31 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
 <p>
 
-  ```
-  git --version
-```
+    ```
+    git --version
+    ```
 </p>
 <h5>2º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
 
-  ```
-  node --version
-```
+   ```
+   node --version
+   ```
 </p> 
 <h5>3°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
 <p>
 
-  ```
-  code --version
-```
+    ```
+    code --version
+    ```
 </p>
 <p>Vamos entra no projeto atraves do visual code, para começarmos a trabalhar</p>
 <h4>Abrindo o visual code</h4>
 <p>
   
-   ```
-  code .
- ```
+    ```
+    code .
+    ```
 </p> 
 <p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
 <p>Veja que criei uma pasta '<strong><i>src</i></strong>' dentro dela coloquei o arquivo '<strong><i>serve.js</i></strong>' e fiz a edição do arquivo '<strong><i>package.json</i></strong>' introduzindo a seguinte linha de codigo
@@ -291,43 +291,43 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h4>Implementando nossa API</h4>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;: <br /> <br />
 <h5>Criando o servidor</h5>
- <p>
+<p>
    
-  ```
-   const express = require('express');
-   const app = express();
-   app.use(express.json());
-
-  ```
+     ```
+    const express = require('express');
+    const app = express();
+    app.use(express.json());
+ 
+    ```
 </p>
 
 <h5>Abrindo uma porta para o servidor</h5>
   
 <p>
 
-  ```
+    ```
     app.listen(3000,() =>{
          console.log('Testando o Servidor');
- });
-  ```
- </p>
+   });
+   ```
+</p>
 
 <h5>Construindo uma rota para o consumo de nossa API</h5>
 <p>
 
-  ```
+    ```
     app.get('/', (req,res) =>{
          res.send('starWars');
     });
-  ```
+   ```
 </p>
 <h5>Inicializando o servidor</h5>
 <p>Abra o terminal do visual code e digite =></p>
 <p>
 
-  ```
+    ```
     npm start
-  ```
+    ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
   na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'HomeWorld - starWars', ou seja a mensagem esta sendo originada de nossa interface.<br/>
@@ -345,9 +345,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
   
-  ```
-  npx create-react-app app
-  ```
+   ```
+   npx create-react-app app
+   ```
 </p>
 <p>Aguarde... demora um pouquinho!</p>
 <p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
@@ -359,16 +359,16 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p>
 <p>
   
-  ```
- npm i axios
- ```
+    ```
+   npm i axios
+   ```
 </p>
 <h4>Abrindo o visual code&nbsp;:</h4>
 <p>
   
    ```
-  code .
- ```
+   code .
+   ```
 </p> 
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
@@ -376,23 +376,19 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
 <h3>Comandos no frontend&nbsp;! </h3>
 
-  <p><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </p> 
-
+<p><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </p> 
     
        ```
        npm run start       
-       ```
+       ```  
      
-  
-     
-  <p>  
+<p>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
      <p>Não dando erro o servidor vai esta ligado e operante </p>
      <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>
      <p>2º Quando vou começar uma aplicação nova, sempre inicio pelo ponto de entrada.Pois é apartir deste ponto que o nosso sistema vai rodar. Não funcionando corretamente 
      todo o nosso sistema fica comprometido</p>
-     <p>Portanto para isso vamos criar um formulário básico de entrada para teste</p>
-  
+     <p>Portanto para isso vamos criar um formulário básico de entrada para teste</p>  
        
     ```    
     <div className="App">
@@ -413,22 +409,22 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                       >Pesquisar
                    </button>
                 </form> 
-         </div>
-     </header>       
-  </div>
+          </div>
+       </header>       
+    </div>
      
     ```  
      
-   </p> 
+</p> 
 <p> Resultado:</p>
 <p> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
 </p>
  <h3>Testes de introdução as tecnologias</h3>
  <h4>Teste do clique no botão.</h4>
  <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
- <p>
+<p>
    
-              ```
+       ```
            import './App.css';
            
           function App() {     
@@ -458,42 +454,43 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                      onClick={(e) => handlePesquisar(e)}>Pesquisar
                  </button>
               </form> 
-       </div>
-   </header>       
-</div>
-  );
-}
+               </div>
+            </header>       
+          </div>
+        );
+     }
 
-export default App;
+     export default App;
    
      ```   
- </p> 
- <p>Resultado.</p>
- <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
+</p> 
+<p>Resultado.</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <h4>Utilizando o Axio;</h4> 
 <p>No projeto react no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-  ```
+    ```
 
-   import './App.css';
-   import axios from 'axios';
+    import './App.css';
+    import axios from 'axios';
 
-   function App() {   
-      axios.get('http://localhost:3000/')
+    function App() {   
+       axios.get('http://localhost:3000/')
       .then((response) =>{
       const retorno =response.data;  
       console.log(retorno);
     
-    })
+     })
       .catch((error) => console.log(error))
       .finally(''); 
   
-   }
+    }
      export default App;
- ```
+   ```
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
    ```
+
     const express = require('express');
     const app = express();
     app.use(express.json());
@@ -515,7 +512,7 @@ export default App;
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
       ```
-
+      
       const express = require('express');
       const app = express();
       app.use(express.json());
