@@ -359,16 +359,16 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p>
 <p>
   
-    ```
-   npm i axios
-   ```
+      ```
+      npm i axios
+      ```
 </p>
 <h4>Abrindo o visual code&nbsp;:</h4>
 <p>
   
-   ```
-   code .
-   ```
+      ```
+     code .
+     ```
 </p> 
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
@@ -376,7 +376,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
 <h3>Comandos no frontend&nbsp;! </h3>
 
-<p><p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p> </p> 
+<p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p>
     
        ```
        npm run start       
