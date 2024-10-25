@@ -585,6 +585,30 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                     }); 
      ```
 <h4>Teste de acesso a API da Star Wars; </h4>
+<p></p>
+
+         ```
+	           const express = require('express');
+                   const app = express();
+                   app.use(express.json());
+                   const cors = require('cors');
+                   app.use(cors());
+                   const axios = require('axios');
+		   
+                   app.get('/', async(req,res)=>{  
+                           const response = await axios('https://swapi.dev/api/people/')    
+                           try{         
+                              res.send(response.data);       
+                         } catch{
+                             res.send("Usando Catch e try");
+                      }    
+   
+                   });
+
+                  app.listen(3000, () =>{
+                         console.log('Servidor rodando');
+                  });
+	 ```
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
 <h5>Momento reflexão</h5>
  <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
