@@ -534,11 +534,23 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
        console.log('Servidor rodando');
        });
     ```
-<h4>Consumir a base de dados no front-end;</h4> 
+<h4>Consumir a base de dados no front-end(react);</h4> 
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
      ```
-        
+        import './App.css';
+        import axios from 'axios';
+
+        function App() {  
+           axios.get('http://localhost:3000/')
+           .then((response) =>{
+           const retorno =response.data;  
+           console.log(retorno);    
+        })
+         .catch((error) => console.log(error))
+         .finally(''); 
+        }
+        export default App;
      ```     
 <h4>Uso do try e o catch;</h4>
 <h4>Teste de acesso a API da Star Wars; </h4>
