@@ -519,9 +519,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                        "Altura": "172",
                        "Peso": "77",
                        "Cabelo": "loiro",
-    	               "Cor da pele": "branca",
-    	               "Olhos": "azul",
-      	               "gênero": "masculino",
+                       "Cor da pele": "branca",
+                       "Olhos": "azul",
+                       "gênero": "masculino",
         }
 
         app.get('/', (req,res)=>{   
@@ -562,13 +562,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                   app.use(cors());
 
                   const dado = {
-                        "Nome": "Luke Skywalker",
-	                        "Altura": "172",
-	                        "Peso": "77",
-	                        "Cabelo": "loiro",
-          	                "Cor da pele": "branca",
-          	                "Olhos": "azul",
-                      	        "gênero": "masculino",
+                                "Nome": "Luke Skywalker",
+                                "Altura": "172",
+                                "Peso": "77",
+                                "Cabelo": "loiro",
+                                "Cor da pele": "branca",
+                                "Olhos": "azul",
+                                "gênero": "masculino",
                     }
                     app.get('/', (req,res)=>{     
                            try{         
