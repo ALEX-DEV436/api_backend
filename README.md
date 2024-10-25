@@ -496,12 +496,12 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
           const cors = require('cors');
           app.use(cors());
 
-         app.get('/', (req,res)=>{    
-         res.send('Resposta do servidor');    
+          app.get('/', (req,res)=>{    
+          res.send('Resposta do servidor');    
          });
 
-         app.listen(3000, () =>{
-         console.log('Servidor rodando');
+          app.listen(3000, () =>{
+          console.log('Servidor rodando');
         });
     ```
     
@@ -534,7 +534,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
        console.log('Servidor rodando');
        });
     ```
-<h4>Consumir a base de dados no front-end(react);</h4> 
+<h4>Consumir a base de dados no front-end&nbsp;(react);</h4> 
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
      ```
@@ -556,7 +556,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h4>Teste de acesso a API da Star Wars; </h4>
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
 <h5>Momento reflexão</h5>
- <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um array de dados que foi consumido perfeitamente pela nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
+ <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
  <p>
    É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de nossa API. Esta, por sua vez, retornará ao front-end os dados e as características do personagem. Junto com essas informações, o personagem virá acompanhado de um botão/link que, ao ser clicado, permitirá adicioná-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pelo front-end por meio de um botão/link dedicado.
  </p>
