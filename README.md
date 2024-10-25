@@ -42,7 +42,7 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Utilizando o Axio; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados para ser consumida por nossa API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados no back end para ser consumida no front-end; <br /> 
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Consumir a base de dados no front-end; <br /> 
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Uso do try e o catch; <br /> 
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de acesso a API da Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de endpoints fornecidos na documentação da API Star Wars; <br />
@@ -512,7 +512,39 @@ export default App;
    });
    ```
 <h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
-<h4>Criar uma base de dados no back end para ser consumida no front-end;</h4> 
+<p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+    ```
+
+    const express = require('express');
+    const app = express();
+    app.use(express.json());
+    const cors = require('cors');
+    app.use(cors());
+
+    const dados = {
+    "Nome": "Luke Skywalker",
+  	"Altura": "172",
+  	"Peso": "77",
+  	"Cabelo": "loiro",
+  	"Cor da pele": "branca",
+  	"Olhos": "azul",
+  	"gênero": "masculino",
+   }
+
+     app.get('/', (req,res)=>{    
+    
+     res.send(dados);
+   
+   
+  });
+
+app.listen(3000, () =>{
+    console.log('Servidor rodando');
+
+});
+```
+<h4>Consumir a base de dados no front-end;</h4> 
 <h4>Uso do try e o catch;</h4>
 <h4>Teste de acesso a API da Star Wars; </h4>
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
