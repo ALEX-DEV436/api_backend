@@ -301,32 +301,32 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
     ```
 </p>
 
-<h5>Abrindo uma porta para o servidor</h5>
-  
+<h5>Abrindo uma porta para o servidor</h5>  
 <p>
 
     ```
-    app.listen(3000,() =>{
-         console.log('Testando o Servidor');
-   });
-   ```
+      app.listen(3000,() =>{
+          console.log('Testando o Servidor');
+      });
+    ```
 </p>
 
 <h5>Construindo uma rota para o consumo de nossa API</h5>
 <p>
 
+     ```
+       app.get('/', (req,res) =>{
+          res.send('starWars');
+       });
     ```
-    app.get('/', (req,res) =>{
-         res.send('starWars');
-    });
-   ```
 </p>
+
 <h5>Inicializando o servidor</h5>
 <p>Abra o terminal do visual code e digite =></p>
 <p>
 
     ```
-    npm start
+      npm start
     ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
