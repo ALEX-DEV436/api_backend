@@ -469,77 +469,70 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h4>Utilizando o Axio;</h4> 
 <p>No projeto react no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-    ```
+      ```
 
-    import './App.css';
-    import axios from 'axios';
+           import './App.css';
+           import axios from 'axios';
 
-    function App() {   
-       axios.get('http://localhost:3000/')
-      .then((response) =>{
-      const retorno =response.data;  
-      console.log(retorno);
-    
-     })
-      .catch((error) => console.log(error))
-      .finally(''); 
+           function App() {   
+             axios.get('http://localhost:3000/')
+            .then((response) =>{
+            const retorno =response.data;  
+            console.log(retorno);    
+          })
+           .catch((error) => console.log(error))
+           .finally(''); 
   
-    }
-     export default App;
-   ```
+          }
+           export default App;
+     ```
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-   ```
+     ```
 
-    const express = require('express');
-    const app = express();
-    app.use(express.json());
-    const cors = require('cors');
-    app.use(cors());
+          const express = require('express');
+          const app = express();
+          app.use(express.json());
+          const cors = require('cors');
+          app.use(cors());
 
-    app.get('/', (req,res)=>{     
+         app.get('/', (req,res)=>{    
+         res.send('Resposta do servidor');    
+         });
+
+         app.listen(3000, () =>{
+         console.log('Servidor rodando');
+        });
+    ```
     
-    res.send('Resposta do servidor'); 
-   
-    });
-
-    app.listen(3000, () =>{
-    console.log('Servidor rodando');
-
-   });
-   ```
 <h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-      ```
+     ```
       
-      const express = require('express');
-      const app = express();
-      app.use(express.json());
-      const cors = require('cors');
-      app.use(cors());
+        const express = require('express');
+        const app = express();
+        app.use(express.json());
+        const cors = require('cors');
+        app.use(cors());
 
-      const dados = {
-      "Nome": "Luke Skywalker",
-    	"Altura": "172",
-    	"Peso": "77",
-    	"Cabelo": "loiro",
-    	"Cor da pele": "branca",
-    	"Olhos": "azul",
-    	"gênero": "masculino",
+        const dados = {
+        "Nome": "Luke Skywalker",
+      	"Altura": "172",
+    	  "Peso": "77",
+    	  "Cabelo": "loiro",
+    	  "Cor da pele": "branca",
+    	  "Olhos": "azul",
+      	"gênero": "masculino",
        }
 
-      app.get('/', (req,res)=>{    
-    
-      res.send(dados);
-   
-   
+        app.get('/', (req,res)=>{   
+         res.send(dados);  
       });
 
-     app.listen(3000, () =>{
-     console.log('Servidor rodando');
-
-     });
+       app.listen(3000, () =>{
+       console.log('Servidor rodando');
+      });
     ```
 <h4>Consumir a base de dados no front-end;</h4> 
 <h4>Uso do try e o catch;</h4>
