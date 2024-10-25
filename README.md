@@ -517,24 +517,29 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
         app.use(cors());
 
         const dados = {
-        "Nome": "Luke Skywalker",
-      	"Altura": "172",
-    	  "Peso": "77",
-    	  "Cabelo": "loiro",
-    	  "Cor da pele": "branca",
-    	  "Olhos": "azul",
-      	"gênero": "masculino",
-       }
+           "Nome": "Luke Skywalker",
+           "Altura": "172",
+    	     "Peso": "77",
+    	     "Cabelo": "loiro",
+    	     "Cor da pele": "branca",
+    	     "Olhos": "azul",
+      	   "gênero": "masculino",
+        }
 
         app.get('/', (req,res)=>{   
          res.send(dados);  
-      });
+        });
 
-       app.listen(3000, () =>{
+        app.listen(3000, () =>{
        console.log('Servidor rodando');
-      });
+       });
     ```
 <h4>Consumir a base de dados no front-end;</h4> 
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+     ```
+        
+     ```     
 <h4>Uso do try e o catch;</h4>
 <h4>Teste de acesso a API da Star Wars; </h4>
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
