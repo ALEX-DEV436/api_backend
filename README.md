@@ -630,6 +630,9 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
                    });
           ```
 </p>
+<p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
+
 <h5>Segundo teste.</h5>   
 <p> Todos os personagens.Volta um objeto </p>
 <p>
@@ -653,11 +656,8 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
      ```
 </p>
 <ul>
-<li><strong>/people/1 </strong>-- obter um recurso específico de pessoas</li>
 <li><strong>/people/</strong> -- obtenha todos os recursos das pessoas</li>
 <li><strong>/people/results/</strong> -- um array com os dados dos personagens</li>
-<li> Selecionando apenas um personagem</li>
-<li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /> 
 <li>Voltando toda a estrutura da API em formato de objeto</li>
 <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /> 
 <li>Retorna um array somente com os personagens (opção escolhida para darmos prosseguimento)</li>
