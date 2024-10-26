@@ -608,63 +608,63 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                   });
 	 ```
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
-<h5>Momento reflexão</h5>
- <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener para o nosso servidor back-end na porta 3000. Testamos o servidor acessando o endereço: <a href="http://localhost:3000">http://localhost:3000</a>. Além disso, configuramos uma rota no back-end e criamos um objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <a href="http://localhost:3001">http://localhost:3001</a>. Também criamos um formulário básico e testamos a funcionalidade do nosso botão.</p>
+<h5>Momento reflexão&nbsp;! Ufa&nbsp;!!! Vamos respirar um pouco.</h5>
+ <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener&nbsp;(ouvido)&nbsp;para o nosso servidor Back-End na porta 3000. Testamos o servidor acessando o endereço: <strong><i><a 'href="http://localhost:3000"'>http://localhost:3000</a></i></strong>. Além disso, configuramos uma rota e criamos um Objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <strong><i><a 'href="http://localhost:3001"'>http://localhost:3001</a></i></strong> . Também criamos um formulário básico e testamos a funcionalidade de clique do botão.</p>
  <p>
-   É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de nossa API. Esta, por sua vez, retornará ao front-end os dados e as características do personagem. Junto com essas informações, o personagem virá acompanhado de um botão/link que, ao ser clicado, permitirá adicioná-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pelo front-end por meio de um botão/link dedicado.
+É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de uma API criada por nós. Esta aplicação, por sua vez, retornará ao front-end os dados e as características do personagem de acordo com o que foi pesquisado. Junto a essas informações, o resultado virá acompanhado de um <strong><i>botão/link</i></strong> que, ao ser clicado, permitirá cadastra-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pela aplicação no Front-End por meio de um <strong><i></i>botão/link</strong>.
  </p>
  <p>Mais ou menos assim</p>
  <p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /></p> 
-<p>Entendido o problema vamos do velho jargão de programador "vamos dividir para conquista"!</p>                         
-<p>API criada , servidores iniciado , criamos o ouvido no Back End (metodo get) e a boca no Front End (formulario)</p>
-<p>Vamos testar nossa API consumindo a API da starWars</p>
-  
-<h3>Teste dos endpoints</h3>
+<p>Entendido o problema "vortemos" ao velho jargão de programador "dividir para conquistar"!</p>                         
+<p>API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario)</p>
+<h5>Voltemos ao nosso teste!!!</h5>
+<p>Vamos testar nossa API consumindo a API da starWars</p>  
+<h5>Primeiro teste.</h5>
 <p>
-   <p>
-      Um personagem.<br />
-     ```
-    
-       app.get('/', async(req,res) => {  
-              const{data} = await axios('https://swapi.dev/api/people/1')
-              return res.json(data)
-        });
-     ```
-   </p>
-    <p>
-     Todos os personagens.Volta um objeto<br />
-      
-      ```
-       app.get('/', async(req,res) => { 
-               const{data} = await axios('https://swapi.dev/api/people/')
-               return res.json(data) 
-        });
- 
-      ```
+<p> Um personagem. </p>
+<p>
+	
+          ```    
+                  app.get('/', async(req,res) => {  
+                       const{data} = await axios('https://swapi.dev/api/people/1')
+                       return res.json(data)
+                   });
+          ```
 </p>
-   <p>
-     Todos os personagem. Mais volta um array.<br />
+<h5>Segundo teste.</h5>   
+<p> Todos os personagens.Volta um objeto </p>
+<p>
+      
+          ```
+                  app.get('/', async(req,res) => { 
+                       const{data} = await axios('https://swapi.dev/api/people/')
+                       return res.json(data) 
+                   }); 
+         ```
+</p>
+<h5>Terceiro teste.</h5>
+<p> Todos os personagem. Mais volta um array. </p>
+<p>
      
      ```
-      app.get('/', async(req,res) => { 
-              const{data} = await axios('https://swapi.dev/api/people/')
-              return res.json(data.results)
-        });
+                 app.get('/', async(req,res) => { 
+                      const{data} = await axios('https://swapi.dev/api/people/')
+                      return res.json(data.results)
+                  });
      ```
 </p>
-  <ul>
-   <li><strong>/people/1 </strong>-- obter um recurso específico de pessoas</li>
-   <li><strong>/people/</strong> -- obtenha todos os recursos das pessoas</li>
-   <li><strong>/people/results/</strong> -- um array com os dados dos personagens</li>
-  <li> Selecionando apenas um personagem</li>
-  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /> 
-  <li>Voltando toda a estrutura da API em formato de objeto</li>
-  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /> 
-  <li>Retorna um array somente com os personagens (opção escolhida para darmos prosseguimento)</li>
-  <li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" />
-  
-  </li>
- </ul> 
+<ul>
+<li><strong>/people/1 </strong>-- obter um recurso específico de pessoas</li>
+<li><strong>/people/</strong> -- obtenha todos os recursos das pessoas</li>
+<li><strong>/people/results/</strong> -- um array com os dados dos personagens</li>
+<li> Selecionando apenas um personagem</li>
+<li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /> 
+<li>Voltando toda a estrutura da API em formato de objeto</li>
+<li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /> 
+<li>Retorna um array somente com os personagens (opção escolhida para darmos prosseguimento)</li>
+<li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" />  
+</li>
+</ul> 
 <h4>Teste de retornos dos end points.Que tipos retornam?;</h4> 
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <h4>Teste de consumo da API externa , atraves de nossa API;</h4>  
