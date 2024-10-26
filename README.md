@@ -619,7 +619,29 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario)</p>
 <h5>Voltemos ao nosso teste&nbsp;!!!</h5>
 <p>Vamos testar nossa API consumindo a API da starWars</p>  
-<h5>Primeiro teste.</h5>
+<h5>Primeiro teste.</h5>   
+<p> Todos os personagens.Volta um objeto </p>
+<p>
+      
+          ```
+                   const express = require('express');
+                   const app = express();
+                   app.use(express.json());
+                   const cors = require('cors');
+                   app.use(cors());
+                   const axios = require('axios');
+
+                   app.get('/', async(req,res) => { 
+                         const{data} = await axios('https://swapi.dev/api/people/')
+                         return res.json(data) 
+                     }); 
+
+                   app.listen(3000, () =>{
+                        console.log('Servidor rodando');
+                    });
+         ```
+</p>
+<h5>Segundo teste.</h5>
 <p>Um personagem. </p>
 <p>
 	
@@ -631,19 +653,8 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
           ```
 </p>
 <p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
+<p>Neste segundo teste já percebemos </p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
-
-<h5>Segundo teste.</h5>   
-<p> Todos os personagens.Volta um objeto </p>
-<p>
-      
-          ```
-                  app.get('/', async(req,res) => { 
-                       const{data} = await axios('https://swapi.dev/api/people/')
-                       return res.json(data) 
-                   }); 
-         ```
-</p>
 <h5>Terceiro teste.</h5>
 <p> Todos os personagem. Mais volta um array. </p>
 <p>
