@@ -614,14 +614,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de uma API criada por nós. Esta aplicação, por sua vez, retornará ao front-end os dados e as características do personagem de acordo com o que foi pesquisado. Junto a essas informações, o resultado virá acompanhado de um <strong><i>botão/link</i></strong> que, ao ser clicado, permitirá cadastra-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pela aplicação no Front-End por meio de um <strong><i></i>botão/link</strong>.
  </p>
  <p>Mais ou menos assim</p>
- <p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /></p> 
-<p>Entendido o problema "vortemos" ao velho jargão de programador "dividir para conquistar"!</p>                         
-<p>API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario)</p>
-<h5>Voltemos ao nosso teste!!!</h5>
+ <p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /><br />
+ Entendido o problema "vortemos" ao velho jargão de programador "dividir para conquistar"&nbsp;!                         
+API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario)</p>
+<h5>Voltemos ao nosso teste&nbsp;!!!</h5>
 <p>Vamos testar nossa API consumindo a API da starWars</p>  
 <h5>Primeiro teste.</h5>
-<p>
-<p> Um personagem. </p>
+<p>Um personagem. </p>
 <p>
 	
           ```    
