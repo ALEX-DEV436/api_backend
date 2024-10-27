@@ -612,17 +612,16 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener&nbsp;(ouvido)&nbsp;para o nosso servidor Back-End na porta 3000. Testamos o servidor acessando o endereço: <i><a 'href="http://localhost:3000"'>http://localhost:3000</a></i>. Além disso, configuramos uma rota e criamos um Objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <i><a 'href="http://localhost:3001"'>http://localhost:3001</a></i> . Também criamos um formulário básico e testamos a funcionalidade de clique do botão.</p>
  <p>
 É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de uma API criada por nós. Esta aplicação, por sua vez, retornará ao front-end os dados e as características do personagem de acordo com o que foi pesquisado. Junto a essas informações, o resultado virá acompanhado de um <strong><i>botão/link</i></strong> que, ao ser clicado, permitirá cadastra-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pela aplicação no Front-End por meio de um <strong><i></i>botão/link</strong>.
- </p>
- <p>Mais ou menos assim</p>
- <p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /><br />
- Entendido o problema "vortemos" ao velho jargão de programador "dividir para conquistar"&nbsp;!                         
+</p>
+<p>Mais ou menos assim</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /><br />
+Entendido o problema "vortemos" ao velho jargão de programador "dividir para conquistar"&nbsp;!                         
 API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario)</p>
-<h5>Voltemos ao nosso teste&nbsp;!!!</h5>
-<p>Vamos testar nossa API consumindo a API da starWars</p>  
+<h4>Vamos voltar aos nossos testes de Endpoints&nbsp;!!!</h4>
 <h5>Primeiro teste.</h5>   
 <p><strong>/people/</strong> -- obtenha todos os recursos dos personagens por páginas</p>
 <p>Volta um objeto delimitado por <strong>{}</strong> e observe que dentro deste objeto temos um esquema json com duas partes separadas por <strong>:</strong> e na segunda parte temos strings (alguns com URL)
- e arrays(com URL).</p>
+e arrays(com URL).</p>
 <p>
       
           ```
