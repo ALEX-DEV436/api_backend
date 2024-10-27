@@ -643,7 +643,7 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
                     });
          ```
 </p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /></p>
 <h5>Segundo teste.</h5>
 <p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
 <p>Neste segundo teste percebemos que o retorno é muito similar ao primeiro só que apenas para um personagem.Teste tambem os retornos do<strong><i>data</i></strong>, quando coloquei
@@ -669,7 +669,7 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
                   });
           ```
 </p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
 <h5>Terceiro teste.</h5>
 <p>Neste terceiro teste não conseguimos testar o endpoint <strong><i>/people/schema/</i></strong>.Então voltei para o verificar o retorno
 das consultas</p>
