@@ -620,8 +620,6 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
 <h4>Vamos voltar aos nossos testes de Endpoints&nbsp;!!!</h4>
 <h5>Primeiro teste.</h5>   
 <p><strong>/people/</strong> -- obtenha todos os recursos dos personagens por páginas</p>
-<p>Volta um objeto delimitado por <strong>{}</strong> e observe que dentro deste objeto temos um esquema json com duas partes separadas por <strong>:</strong> e na segunda parte temos strings (alguns com URL)
-e arrays(com URL).</p>
 <p>
       
           ```
@@ -642,11 +640,11 @@ e arrays(com URL).</p>
                     });
          ```
 </p>
+<p>Veja que um objeto delimitado por <strong>{}</strong> e observe que dentro deste objeto temos um esquema json com duas partes separadas por <strong>:</strong> e na segunda parte temos strings (alguns com URL)
+e arrays(com URL).</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /></p>
 <h5>Segundo teste.</h5>
 <p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
-<p>Neste segundo teste percebemos que o retorno é muito similar ao primeiro só que apenas para um personagem.Teste tambem os retornos do<strong><i>data</i></strong>, quando coloquei
-<strong><i>data.films</i></strong> no return , retornou um array com as urls dos filmes em que o personagem participou</p>
 <p>
 	
           ```    
@@ -668,6 +666,8 @@ e arrays(com URL).</p>
                   });
           ```
 </p>
+<p>Neste segundo teste percebemos que o retorno é muito similar ao primeiro só que apenas para um personagem.Teste tambem os retornos do<strong><i>data</i></strong>, quando coloquei
+<strong><i>data.films</i></strong> no return , retornou um array com as urls dos filmes em que o personagem participou</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
 <h5>Terceiro teste.</h5>
 <p>Neste terceiro teste não conseguimos testar o endpoint <strong><i>/people/schema/</i></strong>.Então voltei para o verificar o retorno
@@ -695,7 +695,9 @@ das consultas</p>
      ```
 </p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" /> </p> 
-<h4>Teste de retornos dos end points.Que tipos retornam?;</h4> 
+<p>Neste teste retornou um array de objetos como podemos ver na imagem;</p>
+<h4>Teste de retornos dos end points.Que tipos retornam?</h4> 
+
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <h4>Teste de consumo da API externa , atraves de nossa API;</h4>  
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
