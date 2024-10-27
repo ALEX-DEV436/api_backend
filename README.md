@@ -847,6 +847,23 @@ querendo enviar um nome e receber a resposta;</p>
               export default App;
 		    
       ```
+
+<h4>Criar estilo para o formulario e pagina;</h4>
+<h4>Testes de desenvolvimento</h4>
+<h4>Teste de pesquisa pelo nome do personagem;</h4>
+<h4>Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; </h4>
+<h4>Teste de função para cadastramento de personagem na lista de favoritos;</h4>
+<h4>Teste de função para mostrar lista de personagem;</h4>
+<h4>Teste de função para busca de dados do personagem após ser clicado na lista;</h4>
+
+
+
+
+
+
+
+
+
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
 <p>
   
