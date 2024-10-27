@@ -720,6 +720,8 @@ das consultas</p>
        ```
 <p>O resultado aparece no console , quando atualizamos o navegador.</p>       
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
+<p>Neste teste diferente do teste de clique no botão precisamos enviar um nome para nossa API, para que partindo dessa informação nossa aplicação possa buscar na API da Star-Wars, tratar e responder
+a solicitação.</p>
 
 <h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
