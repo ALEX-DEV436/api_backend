@@ -508,13 +508,13 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 
      ```
       
-        const express = require('express');
-        const app = express();
-        app.use(express.json());
-        const cors = require('cors');
-        app.use(cors());
+         const express = require('express');
+         const app = express();
+         app.use(express.json());
+         const cors = require('cors');
+         app.use(cors());
 
-        const dados = {
+         const dados = {
                        "Nome": "Luke Skywalker",
                        "Altura": "172",
                        "Peso": "77",
@@ -522,33 +522,33 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                        "Cor da pele": "branca",
                        "Olhos": "azul",
                        "gênero": "masculino",
-        }
+         }
 
-        app.get('/', (req,res)=>{   
+         app.get('/', (req,res)=>{   
                res.send(dados);  
-        });
+         });
 
-        app.listen(3000, () =>{
+         app.listen(3000, () =>{
                console.log('Servidor rodando');
-       });
+        });
     ```
 <h4>Consumir a base de dados no front-end&nbsp;(react);</h4> 
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
      ```
-        import './App.css';
-        import axios from 'axios';
+                   import './App.css';
+                   import axios from 'axios';
 
-        function App() {  
-            axios.get('http://localhost:3000/')
-           .then((response) =>{
-              const retorno =response.data;  
-              console.log(retorno);    
-          })
-           .catch((error) => console.log(error))
-           .finally(''); 
-        }
-           export default App;
+                   function App() {  
+                   axios.get('http://localhost:3000/')
+                  .then((response) =>{
+                       const retorno =response.data;  
+                       console.log(retorno);    
+                 })
+                  .catch((error) => console.log(error))
+                  .finally(''); 
+                 }
+                   export default App;
      ```     
 <h4>Uso do try e o catch;</h4>
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
