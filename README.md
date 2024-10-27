@@ -646,7 +646,8 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
 <h5>Segundo teste.</h5>
 <p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
-<p>Neste segundo teste percebemos que o retorno é muito similar ao primeiro só que apenas para um personagem.</p>
+<p>Neste segundo teste percebemos que o retorno é muito similar ao primeiro só que apenas para um personagem.Teste tambem os retornos do<strong><i>data</i></strong>, quando coloquei
+<strong><i>data.films</i></strong> no return , retornou um array com as urls dos filmes em que o personagem participou</p>
 <p>
 	
           ```    
@@ -670,25 +671,31 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
 </p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /></p>
 <h5>Terceiro teste.</h5>
-<p> Todos os personagem. Mais volta um array. </p>
+<p>Neste terceiro teste não conseguimos testar o endpoint <strong><i>/people/schema/</i></strong>.Então voltei para o verificar o retorno
+das consultas</p>
+<p><strong>/people/</strong> -- buscando retornar o <strong><i>results</i></strong> um array com os dados dos personagens</p>
 <p>
      
      ```
-                 app.get('/', async(req,res) => { 
-                      const{data} = await axios('https://swapi.dev/api/people/')
-                      return res.json(data.results)
-                  });
+                const express = require('express');
+                const app = express();
+                app.use(express.json());
+                const cors = require('cors');
+                app.use(cors());
+                const axios = require('axios');
+
+                app.get('/', async(req,res) => { 
+                     const{data} = await axios('https://swapi.dev/api/people/')
+                     return res.json(data.results) 
+                }); 
+
+                app.listen(3000, () =>{
+                     console.log('Servidor rodando');
+
+                });
      ```
 </p>
-<ul>
-<li><strong>/people/</strong> -- obtenha todos os recursos das pessoas</li>
-<li><strong>/people/results/</strong> -- um array com os dados dos personagens</li>
-<li>Voltando toda a estrutura da API em formato de objeto</li>
-<li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /> 
-<li>Retorna um array somente com os personagens (opção escolhida para darmos prosseguimento)</li>
-<li><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" />  
-</li>
-</ul> 
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" /> </p> 
 <h4>Teste de retornos dos end points.Que tipos retornam?;</h4> 
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <h4>Teste de consumo da API externa , atraves de nossa API;</h4>  
