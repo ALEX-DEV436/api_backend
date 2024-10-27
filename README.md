@@ -697,7 +697,7 @@ das consultas</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" /> </p> 
 <p>Neste teste retornou um array de objetos como podemos ver na imagem;</p>
 <h4>Teste de retornos dos end points.Que tipos retornam?</h4> 
-<p>Apesar de já identificar os tipos nos teste de endpoints precisei utilizar muito o recurso doa javascript <strong><i>typeof</i></strong>, deixo um exemplo de utilização
+<p>Apesar de já identificar os tipos nos teste de endpoints precisei utilizar muito o recurso doa javascript <strong><i>typeof</i></strong>, veja um exemplo de sua utilização
 , teste e brinque com a possibilidades.</p>
 
        ```
@@ -720,22 +720,30 @@ das consultas</p>
        ```
 <p>O resultado aparece no console , quando atualizamos o navegador.</p>       
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
-<p>Neste teste diferente do teste de clique no botão precisamos enviar um nome para nossa API, para que partindo dessa informação nossa aplicação possa buscar na API da Star-Wars, tratar e responder
-a solicitação.</p>
-
+<p>Neste teste diferente do teste de clique no botão precisamos enviar um nome para nossa API, para que partindo dessa informação nossa aplicação possa buscar na API da Star-Wars o personagem, tratar e responder
+a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
+querendo enviar um nome e receber a resposta;</p>
+<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+       ```
+       
+       ```
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+       ```
+        
+       ```
 <h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
 <p>
   
-```   
- function App() { 
-               <i>const handlePesquisar = async (e) =>{   
-                 <i> const response = await axios.post('http://localhost:3000/pesquisar'),
-                 <i> headers:{ 'Content-Type' : 'application/json'}   
-          }
-      );
- }; 
-       return (
+   ```   
+            function App() { 
+                     <i>const handlePesquisar = async (e) =>{   
+                    <i> const response = await axios.post('http://localhost:3000/pesquisar'),
+                  <i> headers:{ 'Content-Type' : 'application/json'}   
+                 }
+              );
+           }; 
+            return (
              <div className="App">
                   <header className="App-header">
                        <div className='conteiner-form'>
@@ -759,10 +767,10 @@ a solicitação.</p>
                                  </div>   
                             </header>
                        </div>
-                );
-           }
+                 );
+            }
 
-``` 
+    ``` 
 </p>
 <p>Aqui colocamos um evento onClick no formulario que dispara uma função que faz essa comunicação com o Back-End e
 recebe a resposta.</p>
@@ -771,11 +779,11 @@ recebe a resposta.</p>
 <p>
   
   ```  
-   <div className="App">
-        <header className="App-header">
-          <div className='conteiner-form'>
-            <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
-               <h2>Busque seu personagem </h2>
+        <div className="App">
+          <header className="App-header">
+           <div className='conteiner-form'>
+             <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+                <h2>Busque seu personagem </h2>
                 <form className ='formulario'>
                    <input 
                     id='inputID'
