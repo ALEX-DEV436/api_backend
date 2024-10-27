@@ -724,12 +724,68 @@ das consultas</p>
 a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
 querendo enviar um nome e receber a resposta;</p>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+
        ```
+                      const express = require('express');
+                      const app = express();
+                      app.use(express.json());
+                      const cors = require('cors');
+                      app.use(cors());
+                      const axios = require('axios');
+
+                      app.post('/', (req,res)=>{ 
+                           const { personagem} = req.body;
+                           res.send(`O personagem pesquisado é:${personagem}`);     
+                       });
+                     app.listen(3000, () =>{
+                           console.log('Servidor rodando');
+                       });
        
        ```
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
        ```
-        
+                      import './App.css';
+                      import {useState} from 'react';
+                      import axios from 'axios';
+
+                      function App(){ 
+                           const [personagem, setPersonagem] = useState('');
+                           const handlePesquisar = async (e) =>{      
+                                  e.preventDefault();
+                                 const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}),
+                                    {
+                                    headers:{ 'Content-Type' : 'application/json'}
+                                    }
+                             );
+                                    console.log(response);
+                          };
+                          return (       
+                                <div className="App">
+                                  <header className="App-header">
+                                     <div className='conteiner-form'>          
+                                        <h1>Lista de personagens da saga starWars</h1>    
+                                        <form className ='formulario'>
+                                            <input 
+                                              id='inputID'
+                                              type='text'
+                                              name='personagem'
+                                              placeholder='Nome do personagem'
+                                              required onChange={(e) => setPersonagem(e.target.value) }
+                                       />
+                                       <button 
+                                             className='btn-login'
+                                             type='submit'
+                                             onClick={(e) => handlePesquisar(e)}>Pesquisar
+                                       </button>
+                                       </form> 
+                                     </div>
+                                 </header>       
+                              </div>
+                          );
+                        }
+                         export default App;
+         
        ```
 <h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
