@@ -620,7 +620,9 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
 <h5>Voltemos ao nosso teste&nbsp;!!!</h5>
 <p>Vamos testar nossa API consumindo a API da starWars</p>  
 <h5>Primeiro teste.</h5>   
-<p> Todos os personagens.Volta um objeto </p>
+<p><strong>/people/</strong> -- obtenha todos os recursos dos personagens por páginas</p>
+<p>Volta um objeto delimitado po <strong>{}</strong> e observe que dentro objeto temos um esquema json com duas parte separadas por <strong>:</strong> e na segunda parte temos strings
+ e arrays.</p>
 <p>
       
           ```
@@ -641,8 +643,10 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
                     });
          ```
 </p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
 <h5>Segundo teste.</h5>
-<p>Um personagem. </p>
+<p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
+
 <p>
 	
           ```    
@@ -652,9 +656,7 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
                    });
           ```
 </p>
-<p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
-<p>Neste segundo teste já percebemos </p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /></p>
 <h5>Terceiro teste.</h5>
 <p> Todos os personagem. Mais volta um array. </p>
 <p>
