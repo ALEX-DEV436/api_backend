@@ -621,8 +621,8 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
 <p>Vamos testar nossa API consumindo a API da starWars</p>  
 <h5>Primeiro teste.</h5>   
 <p><strong>/people/</strong> -- obtenha todos os recursos dos personagens por páginas</p>
-<p>Volta um objeto delimitado po <strong>{}</strong> e observe que dentro objeto temos um esquema json com duas parte separadas por <strong>:</strong> e na segunda parte temos strings
- e arrays.</p>
+<p>Volta um objeto delimitado por <strong>{}</strong> e observe que dentro deste objeto temos um esquema json com duas partes separadas por <strong>:</strong> e na segunda parte temos strings (alguns com URL)
+ e arrays(com URL).</p>
 <p>
       
           ```
@@ -646,14 +646,26 @@ API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) 
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndPoint1a.jpg" alt="Teste endpoint 1" /></p>
 <h5>Segundo teste.</h5>
 <p><strong>/people/1 </strong>-- obter um recurso específico de pessoas</p>
-
+<p>Neste segundo teste percebemos que o retorno é muito similar ao primeiro só que apenas para um personagem.</p>
 <p>
 	
           ```    
-                  app.get('/', async(req,res) => {  
+                  const express = require('express');
+                  const app = express();
+                  app.use(express.json());
+                  const cors = require('cors');
+                  app.use(cors());
+                  const axios = require('axios');
+
+                  app.get('/', async(req,res) => { 
                        const{data} = await axios('https://swapi.dev/api/people/1')
-                       return res.json(data)
-                   });
+                       return res.json(data) 
+                   }); 
+
+                 app.listen(3000, () =>{
+                      console.log('Servidor rodando');
+
+                  });
           ```
 </p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEndpoint2a.jpg" alt="Teste endpoint 2" /></p>
