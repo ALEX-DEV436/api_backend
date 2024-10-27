@@ -719,6 +719,72 @@ das consultas</p>
               });
        ```
 <p>O resultado aparece no console , quando atualizamos o navegador.</p>       
+
+<h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
+
+<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+
+        ```
+                      const express = require('express');
+                      const app = express();
+                      app.use(express.json());
+                      const cors = require('cors');
+                      app.use(cors());
+                      const axios = require('axios');
+
+                      app.get('/', async(req,res) => {        
+                            let response = await axios('https://swapi.dev/api/people/1')   
+                            try{         
+                                 res.send(response.data);                            
+                          } catch{
+                        }   
+                     });    
+
+                     app.listen(3000, () =>{
+                     console.log('Servidor rodando');
+                   });              
+                     
+       ```
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>    
+
+      ```
+                   function App(){  
+                      function buscaApi(){
+                           axios
+                          .get('http://localhost:3000/')
+                          .then((response) => console.log(response.data))
+                          .catch((error) => console.log(error))
+                          .finally(console.log('dentro do finally'));
+                      }
+
+                    return (
+                        <div className="App">
+                           <header className="App-header">
+                              <div>            
+                                 <h2>Busque dados na API </h2>
+                                 <form>
+                                   <input 
+                                      id='inputID'                                              
+                                      required
+                                 />
+                                   <button                
+                                      type='submit'
+                                      onClick={(e) => buscaApi(e)}
+                                      >Pesquisar
+			          </button>
+                              </form>
+                          </div>        
+                      </header>
+                    </div>
+                   );
+                };
+              export default App;
+		    
+      ```
+
+<h4>Criar estilo para o formulario e pagina;</h4>
+
+<h3>Testes de desenvolvimento</h3>
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <p>Neste teste diferentemente de quando testamos o clique no botão, precisamos enviar um nome de nossa aplicação no Front-End para nossa API no Back-End, para que, partindo dessa informação nossa aplicação possa buscar na API da Star-Wars o personagem, tratar o dado e, responder a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
 querendo enviar um nome e receber a resposta;</p>
@@ -786,71 +852,6 @@ querendo enviar um nome e receber a resposta;</p>
                          export default App;
          
        ```
-<h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
-
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
-
-        ```
-                      const express = require('express');
-                      const app = express();
-                      app.use(express.json());
-                      const cors = require('cors');
-                      app.use(cors());
-                      const axios = require('axios');
-
-                      app.get('/', async(req,res) => {        
-                            let response = await axios('https://swapi.dev/api/people/1')   
-                            try{         
-                                 res.send(response.data);                            
-                          } catch{
-                        }   
-                     });    
-
-                     app.listen(3000, () =>{
-                     console.log('Servidor rodando');
-                   });              
-                     
-       ```
-<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>    
-
-      ```
-                   function App(){  
-                      function buscaApi(){
-                           axios
-                          .get('http://localhost:3000/')
-                          .then((response) => console.log(response.data))
-                          .catch((error) => console.log(error))
-                          .finally(console.log('dentro do finally'));
-                      }
-
-                    return (
-                        <div className="App">
-                           <header className="App-header">
-                              <div>            
-                                 <h2>Busque dados na API </h2>
-                                 <form>
-                                   <input 
-                                      id='inputID'                                              
-                                      required
-                                 />
-                                   <button                
-                                      type='submit'
-                                      onClick={(e) => buscaApi(e)}
-                                      >Pesquisar
-			          </button>
-                              </form>
-                          </div>        
-                      </header>
-                    </div>
-                   );
-                };
-              export default App;
-		    
-      ```
-
-<h4>Criar estilo para o formulario e pagina;</h4>
-<h4>Testes de desenvolvimento</h4>
-<h4>Teste de pesquisa pelo nome do personagem;</h4>
 <h4>Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; </h4>
 <h4>Teste de função para cadastramento de personagem na lista de favoritos;</h4>
 <h4>Teste de função para mostrar lista de personagem;</h4>
