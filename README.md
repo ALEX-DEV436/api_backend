@@ -47,7 +47,7 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de acesso a API da Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de endpoints fornecidos na documentação da API Star Wars; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de retornos dos end points.Que tipos retornam?; <br />  
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API por nosso Front-end; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br /> <br />
   <strong>Testes de desenvolvimento</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de pesquisa pelo nome do personagem; <br />
@@ -697,9 +697,31 @@ das consultas</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testandoEnpoint3a.jpg" alt="Teste endpoint 3" /> </p> 
 <p>Neste teste retornou um array de objetos como podemos ver na imagem;</p>
 <h4>Teste de retornos dos end points.Que tipos retornam?</h4> 
+<p>Apesar de já identificar os tipos nos teste de endpoints precisei utilizar muito o recurso doa javascript <strong><i>typeof</i></strong>, deixo um exemplo de utilização
+, teste e brinque com a possibilidades.</p>
 
+       ```
+                const express = require('express');
+                const app = express();
+                app.use(express.json());
+                const cors = require('cors');
+                app.use(cors());
+                const axios = require('axios');
+
+               app.get('/', async(req,res) => { 
+                    const{data} = await axios('https://swapi.dev/api/people/1')
+                    console.log(typeof data.films)
+                    return res.json(data.films)    
+                }); 
+
+              app.listen(3000, () =>{
+              console.log('Servidor rodando');
+              });
+       ```
+<p>O resultado aparece no console , quando atualizamos o navegador.</p>       
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
-<h4>Teste de consumo da API externa , atraves de nossa API;</h4>  
+
+<h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
 <h3>Vamos testar a comunicação entre backend e frontend</h3>
 <p>
   
