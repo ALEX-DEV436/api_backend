@@ -828,66 +828,66 @@ das consultas</p>
 querendo enviar um nome e receber a resposta;</p>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
 
-       ```
-                      const express = require('express');
-                      const app = express();
-                      app.use(express.json());
-                      const cors = require('cors');
-                      app.use(cors());
-                      const axios = require('axios');
+           ```
+                           const express = require('express');
+                           const app = express();
+                           app.use(express.json());
+                           const cors = require('cors');
+                           app.use(cors());
+                           const axios = require('axios');
 
-                      app.post('/', (req,res)=>{ 
-                           const { personagem} = req.body;
-                           res.send(`O personagem pesquisado é:${personagem}`);     
-                       });
-                     app.listen(3000, () =>{
-                           console.log('Servidor rodando');
-                       });
+                           app.post('/', (req,res)=>{ 
+                                      const { personagem} = req.body;
+                                      res.send(`O personagem pesquisado é:${personagem}`);     
+                                });
+                           app.listen(3000, () =>{
+                                      console.log('Servidor rodando');
+                                });
        
-       ```
+          ```
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-       ```
-                      import './App.css';
-                      import {useState} from 'react';
-                      import axios from 'axios';
+          ```
+                          import './App.css';
+                          import {useState} from 'react';
+                          import axios from 'axios';
 
-                      function App(){ 
-                           const [personagem, setPersonagem] = useState('');
-                           const handlePesquisar = async (e) =>{      
-                                  e.preventDefault();
+                          function App(){ 
+                                const [personagem, setPersonagem] = useState('');
+                                const handlePesquisar = async (e) =>{      
+                                 e.preventDefault();
                                  const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}),
-                                    {
-                                    headers:{ 'Content-Type' : 'application/json'}
-                                    }
-                             );
-                                    console.log(response);
-                          };
-                          return (       
-                                <div className="App">
-                                  <header className="App-header">
-                                     <div className='conteiner-form'>          
-                                        <h1>Lista de personagens da saga starWars</h1>    
-                                        <form className ='formulario'>
-                                            <input 
-                                              id='inputID'
-                                              type='text'
-                                              name='personagem'
-                                              placeholder='Nome do personagem'
-                                              required onChange={(e) => setPersonagem(e.target.value) }
-                                       />
-                                       <button 
-                                             className='btn-login'
-                                             type='submit'
-                                             onClick={(e) => handlePesquisar(e)}>Pesquisar
-                                       </button>
+                                       {
+                                       headers:{ 'Content-Type' : 'application/json'}
+                                       }
+                                   );
+                                       console.log(response);
+                               };
+                           return (       
+                                 <div className="App">
+                                   <header className="App-header">
+                                      <div className='conteiner-form'>          
+                                         <h1>Lista de personagens da saga starWars</h1>    
+                                         <form className ='formulario'>
+                                             <input 
+                                               id='inputID'
+                                               type='text'
+                                               name='personagem'
+                                               placeholder='Nome do personagem'
+                                               required onChange={(e) => setPersonagem(e.target.value) }
+                                         />
+                                         <button 
+                                              className='btn-login'
+                                              type='submit'
+                                              onClick={(e) => handlePesquisar(e)}>Pesquisar
+                                         </button>
                                        </form> 
                                      </div>
                                  </header>       
                               </div>
                           );
                         }
-                         export default App;
+                        export default App;
          
        ```
 <h4>Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; </h4>
