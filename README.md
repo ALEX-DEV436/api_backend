@@ -396,8 +396,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                                                       <div className="App">
                                                         <header className="App-header">
                                                           <div>            
-                                                            <h2>Lista de personagens <br />
-                                                                da saga starWars</h2>  
+                                                            <h2>Lista de personagens <br /> da saga starWars</h2>  
                                                             <form>
                                                               <input 
                                                                    id='inputID'
