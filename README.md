@@ -429,7 +429,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
 <p>
    
-               ```
+                ```
                                    function App() {     
                                         const cliqueNoBotao = async (e) =>{     
                                         e.preventDefault();  
@@ -461,128 +461,127 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                                        }
                                      export default App;
     
-            ```   
+               ```   
 </p> 
 <p>Resultado.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 <h4>Utilizando o Axio;</h4> 
 <p>No projeto react no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-      ```
+               ```
 
-           import './App.css';
-           import axios from 'axios';
+                               import './App.css';
+                               import axios from 'axios';
 
-           function App() {   
-              axios.get('http://localhost:3000/')
-             .then((response) =>{
-              const retorno =response.data;  
-              console.log(retorno);    
-           })
-            .catch((error) => console.log(error))
-            .finally(''); 
-  
-          }
-            export default App;
-     ```
+                               function App() {   
+                                             axios.get('http://localhost:3000/')
+                                            .then((response) =>{
+                                             const retorno =response.data;  
+                                             console.log(retorno);    
+                                            })
+                                            .catch((error) => console.log(error))
+                                            .finally('');   
+                                            }
+                               export default App;
+             ```
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-     ```
+             ```
 
-          const express = require('express');
-          const app = express();
-          app.use(express.json());
-          const cors = require('cors');
-          app.use(cors());
+                              const express = require('express');
+                              const app = express();
+                              app.use(express.json());
+                              const cors = require('cors');
+                              app.use(cors());
 
-          app.get('/', (req,res)=>{    
-             res.send('Resposta do servidor');    
-         });
+                              app.get('/', (req,res)=>{    
+                                   res.send('Resposta do servidor');    
+                              });
 
-          app.listen(3000, () =>{
-             console.log('Servidor rodando');
-        });
-    ```
+                              app.listen(3000, () =>{
+                                   console.log('Servidor rodando');
+                              });
+           ```
     
 <h4>Criar uma base de dados para ser consumida por nossa API;</h4> 
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-     ```
+           ```
       
-         const express = require('express');
-         const app = express();
-         app.use(express.json());
-         const cors = require('cors');
-         app.use(cors());
+                            const express = require('express');
+                            const app = express();
+                            app.use(express.json());
+                            const cors = require('cors');
+                            app.use(cors());
 
-         const dados = {
-                       "Nome": "Luke Skywalker",
-                       "Altura": "172",
-                       "Peso": "77",
-                       "Cabelo": "loiro",
-                       "Cor da pele": "branca",
-                       "Olhos": "azul",
-                       "gênero": "masculino",
-         }
+                            const dados = {
+                                          "Nome": "Luke Skywalker",
+                                          "Altura": "172",
+                                          "Peso": "77",
+                                          "Cabelo": "loiro",
+                                          "Cor da pele": "branca",
+                                          "Olhos": "azul",
+                                          "gênero": "masculino",
+                                       }
 
-         app.get('/', (req,res)=>{   
-               res.send(dados);  
-         });
+                           app.get('/', (req,res)=>{   
+                                res.send(dados);  
+                           });
 
-         app.listen(3000, () =>{
-               console.log('Servidor rodando');
-        });
-    ```
+                           app.listen(3000, () =>{
+                               console.log('Servidor rodando');
+                           });
+           ```
 <h4>Consumir a base de dados no front-end&nbsp;(react);</h4> 
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-     ```
-                   import './App.css';
-                   import axios from 'axios';
+           ```
+                          import './App.css';
+                          import axios from 'axios';
 
-                   function App() {  
-                   axios.get('http://localhost:3000/')
-                  .then((response) =>{
-                       const retorno =response.data;  
-                       console.log(retorno);    
-                 })
-                  .catch((error) => console.log(error))
-                  .finally(''); 
-                 }
-                   export default App;
-     ```     
+                          function App() {  
+                                       axios.get('http://localhost:3000/')
+                                      .then((response) =>{
+                                       const retorno =response.data;  
+                                       console.log(retorno);    
+                                  })
+                                      .catch((error) => console.log(error))
+                                      .finally(''); 
+                                  }
+                          export default App;
+         ```     
 <h4>Uso do try e o catch;</h4>
 <p>No back-end no arquivo<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 <p>Neste teste veja que simulei um erro para aparecer a mensagem <strong>"Usando Catch e try"</strong>. Descubra o erro! Simule outros! Introduza status nas msg! Brinque com as posibilidades. </p>
 
-     ```
-                  const express = require('express');
-                  const app = express();
-                  app.use(express.json());
-                  const cors = require('cors');
-                  app.use(cors());
+         ```
+                         const express = require('express');
+                         const app = express();
+                         app.use(express.json());
+                         const cors = require('cors');
+                         app.use(cors());
 
-                  const dado = {
-                                "Nome": "Luke Skywalker",
-                                "Altura": "172",
-                                "Peso": "77",
-                                "Cabelo": "loiro",
-                                "Cor da pele": "branca",
-                                "Olhos": "azul",
-                                "gênero": "masculino",
-                    }
-                    app.get('/', (req,res)=>{     
-                           try{         
-                              res.send(dados);       
-                         } catch{
-                             res.send("Usando Catch e try");
-                         }   
-                    });
+                         const dado = {
+                                      "Nome": "Luke Skywalker",
+                                      "Altura": "172",
+                                      "Peso": "77",
+                                      "Cabelo": "loiro",
+                                      "Cor da pele": "branca",
+                                      "Olhos": "azul",
+                                      "gênero": "masculino",
+                                }
+                         app.get('/', (req,res)=>{     
+                                 try{         
+                                    res.send(dados);       
+                              } catch{
+                                    res.send("Usando Catch e try");
+                               }   
+                           });
 
-                    app.listen(3000, () =>{
-                            console.log('Servidor rodando');
-                    }); 
-     ```
+                       app.listen(3000, () =>{
+                                  console.log('Servidor rodando');
+                          }); 
+         ```
 <h4>Teste de acesso a API da Star Wars; </h4>
 <p></p>
 
