@@ -708,15 +708,15 @@ das consultas</p>
                 app.use(cors());
                 const axios = require('axios');
 
-               app.get('/', async(req,res) => { 
+                app.get('/', async(req,res) => { 
                     const{data} = await axios('https://swapi.dev/api/people/1')
                     console.log(typeof data.films)
                     return res.json(data.films)    
                 }); 
 
-              app.listen(3000, () =>{
-              console.log('Servidor rodando');
-              });
+               app.listen(3000, () =>{
+               console.log('Servidor rodando');
+               });
        ```
 <p>O resultado aparece no console , quando atualizamos o navegador.</p>       
 
@@ -867,7 +867,8 @@ querendo enviar um nome e receber a resposta;</p>
                                  <div className="App">
                                    <header className="App-header">
                                       <div className='conteiner-form'>          
-                                         <h1>Lista de personagens da saga starWars</h1>    
+                                         <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+					 <h2>Busque seu personagem </h2>
                                          <form className ='formulario'>
                                              <input 
                                                id='inputID'
@@ -890,6 +891,10 @@ querendo enviar um nome e receber a resposta;</p>
                         export default App;
          
       ```
+<p>
+Veja que neste teste já introduzir o <strong>Hook useState</strong> sem testa-lo neste momento, somente para ver se aparece algum erro no codigo. Neste artigo da Alura podemos entender sobre hooks e sua utilidade no react: <a href="https://www.alura.com.br/artigos/react-hooks?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164068847699&hsa_ad=703853156311&hsa_src=g&hsa_tgt=aud-527303763294:dsa-2273097816642&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI_L6HhrmmiQMV8WFIAB3lKCtjEAAYASAAEgJ1yvD_BwE">Sobre Hooks</a><br/>
+Neste projeto vamos utilizar muito o <strong>useState</strong>.
+</p>
 <h4>Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; </h4>
 
 <h4>Teste de função para cadastramento de personagem na lista de favoritos;</h4>
