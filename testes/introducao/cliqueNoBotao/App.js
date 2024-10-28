@@ -1,6 +1,6 @@
 
 function App() {     
-   const handlePesquisar = async (e) =>{     
+   const cliqueNoBotao = async (e) =>{     
         e.preventDefault();  
         console.log('O botão foi clicado'); 
    };
@@ -20,7 +20,7 @@ return (
                   />
                  <button                    
                     type='submit'
-                    onClick={(e) => handlePesquisar(e)}>Testar clique
+                    onClick={(e) => cliqueNoBotao(e)}>Testar clique
                  </button>
             </form> 
          </div>
