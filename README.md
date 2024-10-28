@@ -747,7 +747,7 @@ das consultas</p>
        ```
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>    
 
-      ```
+       ```
                    function App(){  
                       function buscaApi(){
                            axios
@@ -783,7 +783,45 @@ das consultas</p>
       ```
 
 <h4>Criar estilo para o formulario e pagina;</h4>
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>    
 
+           ```
+                            import './App.css';
+                            function App() {     
+                                     const handlePesquisar = async (e) =>{     
+                                     e.preventDefault();        
+                                 };
+
+                             return (       
+                                    <div className="App">
+                                        <header className="App-header">
+                                            <div className='conteiner-form'>
+                                                <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+                                                <h2>Busque seu personagem </h2>
+                                                <form className ='formulario'>
+                                                        <input 
+                                                               id='inputID'
+                                                               type='text'
+                                                               name='personagem'
+                                                               placeholder='personagem'
+                                                               required
+                                                          />
+                                                         <button 
+                                                               className='btn-login'
+                                                               type='submit'
+                                                               onClick={(e) => handlePesquisar(e)}
+                                                              >Pesquisar
+							  </button>
+                                                   </form>
+                                               </div>      
+                                           </header>
+                                       </div>
+                                   );
+                                }
+                            export default App;
+	   
+           ```
+<p></p>
 <h3>Testes de desenvolvimento</h3>
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <p>Neste teste diferentemente de quando testamos o clique no botão, precisamos enviar um nome de nossa aplicação no Front-End para nossa API no Back-End, para que, partindo dessa informação nossa aplicação possa buscar na API da Star-Wars o personagem, tratar o dado e, responder a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
