@@ -432,7 +432,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
    
                ```
                                    function App() {     
-                                        const handlePesquisar = async (e) =>{     
+                                        const cliqueNoBotao = async (e) =>{     
                                         e.preventDefault();  
                                         console.log('O botão foi clicado'); 
                                    };
@@ -452,7 +452,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                                                         />
                                                       <button                    
                                                             type='submit'
-                                                            onClick={(e) => handlePesquisar(e)}>Testar clique
+                                                            onClick={(e) => cliqueNoBotao(e)}>Testar clique
                                                       </button>
                                                   </form> 
                                                 </div>
