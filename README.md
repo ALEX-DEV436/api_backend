@@ -821,7 +821,7 @@ das consultas</p>
                             export default App;
 	   
            ```
-<p></p>
+<p>Neste teste incluimos uma folha de estilo , não colocamos o css no projeto porque não é o nosso foco o aprendizado em CSS  , mais coloquei na pasta teste => formularioTeste</p>
 <h3>Testes de desenvolvimento</h3>
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <p>Neste teste diferentemente de quando testamos o clique no botão, precisamos enviar um nome de nossa aplicação no Front-End para nossa API no Back-End, para que, partindo dessa informação nossa aplicação possa buscar na API da Star-Wars o personagem, tratar o dado e, responder a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
@@ -847,23 +847,23 @@ querendo enviar um nome e receber a resposta;</p>
           ```
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
-          ```
-                          import './App.css';
-                          import {useState} from 'react';
-                          import axios from 'axios';
+       ```
+                    import './App.css';
+                    import {useState} from 'react';
+                    import axios from 'axios';
 
-                          function App(){ 
-                                const [personagem, setPersonagem] = useState('');
-                                const handlePesquisar = async (e) =>{      
-                                 e.preventDefault();
-                                 const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}),
-                                       {
+                    function App(){ 
+                            const [personagem, setPersonagem] = useState('');
+                            const handlePesquisar = async (e) =>{      
+                            e.preventDefault();
+                            const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}),
+                                   {
                                        headers:{ 'Content-Type' : 'application/json'}
-                                       }
-                                   );
+                                   }
+                                );
                                        console.log(response);
                                };
-                           return (       
+                            return (       
                                  <div className="App">
                                    <header className="App-header">
                                       <div className='conteiner-form'>          
@@ -889,8 +889,9 @@ querendo enviar um nome e receber a resposta;</p>
                         }
                         export default App;
          
-       ```
+      ```
 <h4>Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; </h4>
+
 <h4>Teste de função para cadastramento de personagem na lista de favoritos;</h4>
 <h4>Teste de função para mostrar lista de personagem;</h4>
 <h4>Teste de função para busca de dados do personagem após ser clicado na lista;</h4>
