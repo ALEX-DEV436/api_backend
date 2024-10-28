@@ -128,10 +128,10 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    em JavaScript, o Node.js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
    3º E como faz ou como posso usar&nbsp;?<br /><br />
 <p> Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
-   
-      ```
-      npm init
-      ```
+    
+                 ```
+                                 npm init
+                 ```
    
 <p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p>
   
@@ -184,24 +184,24 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 <h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferencia</h5> 
 <p>
   
-     ```
-     mkdir suaPasta
-     ```
+               ```
+                                mkdir suaPasta
+               ```
 </p> 
  <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar voce precisa entrar na pasta para o proximo passo </h5>
 <p>
 
-     ```
-     cd ./suaPasta/
-     ```
+               ```
+                                cd ./suaPasta/
+               ```
 </p>
 
 <h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado</h5>
 <p>
   
-     ``` 
-     npm init
-     ```
+               ``` 
+                                 npm init
+               ```
 </p>
 <p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
 tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada.</p>
@@ -216,23 +216,23 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;express =></h5>
 <p>
   
-    ```
-    npm i express
-    ```
+               ```
+                                 npm i express
+               ```
 </p>
 <h5>2º&nbsp;&nbsp;nodemon =></h5> 
 <p>
 
-    ```
-    npm i nodemon
-    ```
+               ```
+                                 npm i nodemon
+               ```
 </p>
 <h5>3°&nbsp;&nbsp;cors =></h5> 
 <p>
 
-    ```
-    npm i cors
-    ```
+               ```
+                                  npm i cors
+               ```
 </p>
 <p>Veja como ficou as minhas instalações</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
@@ -242,31 +242,31 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
 <p>
 
-    ```
-    git --version
-    ```
+                 ```
+                                  git --version
+                 ```
 </p>
 <h5>2º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
 
-   ```
-   node --version
-   ```
+                 ```
+                                  node --version
+                 ```
 </p> 
 <h5>3°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
 <p>
 
-    ```
-    code --version
-    ```
+                  ```
+                                  code --version
+                  ```
 </p>
 <p>Vamos entra no projeto atraves do visual code, para começarmos a trabalhar</p>
 <h4>Abrindo o visual code</h4>
 <p>
   
-    ```
-    code .
-    ```
+                   ```
+                                    code .
+                   ```
 </p> 
 <p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
 <p>Veja que criei uma pasta '<strong><i>src</i></strong>' dentro dela coloquei o arquivo '<strong><i>serve.js</i></strong>' e fiz a edição do arquivo '<strong><i>package.json</i></strong>' introduzindo a seguinte linha de codigo
@@ -293,22 +293,22 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h5>Criando o servidor</h5>
 <p>
    
-     ```
-    const express = require('express');
-    const app = express();
-    app.use(express.json());
- 
-    ```
+                 ```
+                                    const express = require('express');
+                                    const app = express();
+                                    app.use(express.json());
+  
+                 ```
 </p>
 
 <h5>Abrindo uma porta para o servidor</h5>  
 <p>
 
-    ```
-      app.listen(3000,() =>{
-          console.log('Testando o Servidor');
-      });
-    ```
+                 ```
+                                     app.listen(3000,() =>{
+                                         console.log('Testando o Servidor');
+                                     });
+                 ```
 </p>
 
 <h5>Construindo uma rota para o consumo de nossa API</h5>
@@ -326,7 +326,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>
 
                  ```
-                                          npm start
+                                        npm start
                  ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
@@ -430,42 +430,39 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
 <p>
    
-       ```
-          import './App.css';
-           
-          function App() {     
-             const handlePesquisar = async (e) =>{     
-                  e.preventDefault();  
-                  console.log('O botão foi clicado'); 
-             };
- 
-          return (       
-             <div className="App">
-                 <header className="App-header">
-                    <div className='conteiner-form'>          
-                        <h1>Lista de personagens da saga starWars</h1>    
-                        <form className ='formulario'>
-                            <input 
-                               id='inputID'
-                               type='text'
-                               name='personagem'
-                               placeholder='Nome do personagem'
-                               required 
-                            />
-                           <button 
-                              className='btn-login'
-                              type='submit'
-                              onClick={(e) => handlePesquisar(e)}>Pesquisar
-                           </button>
-                      </form> 
-                   </div>
-               </header>       
-           </div>
-         );
-       }
-        export default App;
-   
-     ```   
+               ```
+                                   function App() {     
+                                        const handlePesquisar = async (e) =>{     
+                                        e.preventDefault();  
+                                        console.log('O botão foi clicado'); 
+                                   };
+
+                                   return (       
+                                       <div className="App">
+                                          <header className="App-header">
+                                              <div>          
+                                                 <h2>Lista de personagens <br/> da saga starWars</h2>    
+                                                 <form>
+                                                     <input 
+                                                           id='inputID'
+                                                           type='text'
+                                                           name='personagem'
+                                                           placeholder='Nome do personagem'
+                                                           required 
+                                                        />
+                                                      <button                    
+                                                            type='submit'
+                                                            onClick={(e) => handlePesquisar(e)}>Testar clique
+                                                      </button>
+                                                  </form> 
+                                                </div>
+                                             </header>       
+                                           </div>
+                                         );
+                                       }
+                                     export default App;
+    
+            ```   
 </p> 
 <p>Resultado.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
