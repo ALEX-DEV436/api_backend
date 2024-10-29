@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia&nbsp;!&nbsp;&nbsp; Neste projeto, vamos entender juntos, o que é &nbsp;&nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda&nbsp;!&nbsp;Vamos nessa&nbsp;!&nbsp; 🚀</h2>
-Warning: atualizado em 24/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes<br />
+Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes<br />
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
@@ -1346,6 +1346,7 @@ Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e,
  </p>
 Warning: atualizado em:
 <ul>
+  <li>24/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes</li>	
   <li>23/10/2024 trabalhando no código, corrigindo código do readme</li>
   <li>21/10/2024 trabalhando no código, melhorando o readme</li>
   <li>15/10/2024 trabalhando no código, criando definição de API, corrigindo o readme</li>
