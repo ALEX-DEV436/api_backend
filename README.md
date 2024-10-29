@@ -1245,6 +1245,15 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
       ```
 <h4>Resultado dos testes de desenvolvimento;</h4>
 <p>Veja na imagem abaixo como deve ser a nossa aplicação em funcionamento.</p>
+<p>
+1 - Reinicie o servidor na porta 3000 <br />
+2 - Reinicie o react na por 3001 <br />
+3 - Abra a API da Star-Wars para consulta de personagens <br />
+4 - Consulte o nome na API externa e cole no campo pesquisa <br />
+5 - Clique no bt PESQUISAR <br />
+6 - Clique no bt Cadastrar <br />
+7 - Clique no bt Lista de Favoritos <br />	
+</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img15a.jpg" alt="Aplicação em funcionamento" /></p>
 
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
