@@ -821,7 +821,7 @@ das consultas</p>
                             export default App;
 	   
            ```
-<p>Neste teste incluimos uma folha de estilo , não colocamos o css no projeto porque não é o nosso foco o aprendizado em CSS  , mais coloquei na pasta teste => formularioTeste, caso queira utiliza-lo.</p>
+<p>Neste teste incluimos uma folha de estilo , não colocamos o css no projeto porque não é o nosso foco o aprendizado em CSS  , mais coloquei na pasta testes => introducao => formularioTeste, caso queira utiliza-lo.</p>
 <h3>Testes de desenvolvimento</h3>
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <p>Neste teste diferentemente de quando testamos o clique no botão, precisamos enviar um nome de nossa aplicação no Front-End para nossa API no Back-End, para que, partindo dessa informação nossa aplicação possa buscar na API da Star-Wars o personagem, tratar o dado e, responder a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
