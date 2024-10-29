@@ -54,7 +54,7 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para cadastramento de personagem na lista de favoritos; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para mostrar lista de personagem; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para busca de dados do personagem após ser clicado na lista; <br /> <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Resultado dos testes de desenvolvimento; <br /> <br />
   <strong>Testes de implementação</strong><br /> <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; <br />
@@ -1243,59 +1243,10 @@ a lista sja mostrada abaixo do cadastro de favoritos.</p>
                }
                
       ```
-<h4>Teste de função para busca de dados do personagem após ser clicado na lista;</h4>
-
-
-
-
-
-
-
-
-
-<h3>Vamos testar a comunicação entre backend e frontend</h3>
-<p>
-  
-       ```   
-            function App() { 
-                     <i>const handlePesquisar = async (e) =>{   
-                    <i> const response = await axios.post('http://localhost:3000/pesquisar'),
-                  <i> headers:{ 'Content-Type' : 'application/json'}   
-                 }
-              );
-           }; 
-            return (
-             <div className="App">
-                  <header className="App-header">
-                       <div className='conteiner-form'>
-                            <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
-                                <h2>Busque seu personagem </h2>
-                                    <form className ='formulario'>
-                                        <input 
-                                         id='inputID'
-                                         type='text'
-                                         name='personagem'
-                                         placeholder='personagem'
-                                         required
-                                         onChange={(e) => setPersonagem(e.target.value)} />
-                                         <button 
-                                            className='btn-login'
-                                            type='submit'
-                                            onClick={(e) => handlePesquisar(e)}>
-                                            Pesquisar
-                                         </button>
-                                     </form>
-                                 </div>   
-                            </header>
-                       </div>
-                 );
-            }
-
-       ``` 
-</p>
-<p>Aqui colocamos um evento onClick no formulario que dispara uma função que faz essa comunicação com o Back-End e
-recebe a resposta.</p>
+<h4>Resultado dos testes de desenvolvimento;</h4>
+<p>Veja na imagem abaixo como deve ser a nossa aplicação em funcionamento.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/enviandoOnomeParaOservidora.jpg" alt="Enviando o nome para o servidor" /></p>
+
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
   
