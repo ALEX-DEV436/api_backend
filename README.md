@@ -4,7 +4,7 @@
   <foreignObject width="100%" height="100%">
 
  <div xmlns="http://www.w3.org/1999/xhtml">
-<h2>Prepare-se para uma empolgante jornada pelo universo da tecnologia&nbsp;!&nbsp;&nbsp; Neste projeto, vamos entender juntos, o que é &nbsp;&nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda&nbsp;!&nbsp;Vamos nessa&nbsp;!&nbsp; 🚀</h2>
+<h2 style="color:red">Prepare-se para uma empolgante jornada pelo universo da tecnologia&nbsp;!&nbsp;&nbsp; Neste projeto, vamos entender juntos, o que é &nbsp;&nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda&nbsp;!&nbsp;Vamos nessa&nbsp;!&nbsp; 🚀</h2>
 Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes<br />
 Obs: outras atualizações estão no final da pagina.
 </foreignObject>
