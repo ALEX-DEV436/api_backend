@@ -5,8 +5,8 @@ Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do 
 Obs: outras atualizações estão no final da pagina.
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
-<p " align="justify"><div style="color:Tomato;>
-Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender&nbsp;!&nbsp;&nbsp;Pois vamos juntos conhecer essas tecnologias .&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um desafio para conhecer novas ferramentas de trabalho.</div></p>
+<p " align="justify"><span style="color:Tomato;">
+Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender&nbsp;!&nbsp;&nbsp;Pois vamos juntos conhecer essas tecnologias .&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um desafio para conhecer novas ferramentas de trabalho.</span></p>
 <p  align="justify">
 Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
 <p align="justify">
