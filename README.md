@@ -1245,7 +1245,7 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
       ```
 <h4>Resultado dos testes de desenvolvimento;</h4>
 <p>Veja na imagem abaixo como deve ser a nossa aplicação em funcionamento.</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img15a.jpg" alt="Enviando o nome para o servidor" /></p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img15a.jpg" alt="Aplicação em funcionamento" /></p>
 
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
