@@ -7,11 +7,11 @@ Obs: outras atualizações estão no final da pagina.
 <p>Bem-vindos;</p>
 <p align="justify">
 Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender&nbsp;!&nbsp;&nbsp;Pois vamos juntos conhecer essas tecnologias .&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um desafio para conhecer novas ferramentas de trabalho.</p>
-<p color="red">
+<p  align="justify">
 Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
-<p>
+<p align="justify">
 Um adendo:&nbsp;&nbsp;apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação:&nbsp;&nbsp;completa,funcional e, com bastante aprendizado. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que vão ser super úteis no mercado atualmente.<p>
-<p>
+<p align="justify">
 Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante...&nbsp;A inquietude na vida de um desenvolvedor Full Stack&nbsp;!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente...&nbsp; pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vamos focar neste projeto. Venha comigo nesta jornada e, "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go&nbsp;!  
 </p>
 <h2>Protótipo</h2>
