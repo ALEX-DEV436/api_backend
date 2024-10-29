@@ -1,15 +1,8 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
 
-  <foreignObject width="100%" height="100%">
-
- <div xmlns="http://www.w3.org/1999/xhtml">
 <h2 style="color: rgb(128, 0, 128)">Prepare-se para uma empolgante jornada pelo universo da tecnologia&nbsp;!&nbsp;&nbsp; Neste projeto, vamos entender juntos, o que é &nbsp;&nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda&nbsp;!&nbsp;Vamos nessa&nbsp;!&nbsp; 🚀</h2>
 Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes<br />
 Obs: outras atualizações estão no final da pagina.
-</foreignObject>
-
-</svg>
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
 <p>
