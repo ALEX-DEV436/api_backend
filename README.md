@@ -1256,6 +1256,13 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
 </p>
 <p>Veja na imagem abaixo como deve ser a nossa aplicação em funcionamento.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img15a.jpg" alt="Aplicação em funcionamento" /></p>
+<h3>Testes de implementação</h3>
+<h4>Apresentar o aplicativo como mostrado no prototipo; </h4>
+<h4>Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; </h4>
+<h4>Implementar lógica de apresentação do nome dos filmes em vez de URL;</h4>
+<h3>Conclusão</h3>  
+<h4>Trazer os conceito de componentes para o projeto; </h4>
+<h4>Desenvolver uma API rest para atualização da lista de personagens cadastrado; </h4>
 
 <h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
 <p>
