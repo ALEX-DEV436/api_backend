@@ -1213,7 +1213,9 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
                     export default App;
        ```
 <h4>Teste de função para mostrar lista de personagem;</h4>
-<p>Para otimizar um pouco o tamanho projeto! Vamos criar um DESAFIO, se já chegou até aqui, provalmente vai ser bom testar os seus conhecimentos.</p>
+<p>Para otimizar um pouco o tamanho projeto! Vamos criar um DESAFIO, se já chegou até aqui, provalmente vai ser bom testar os seus conhecimentos.<br />
+O desafio consiste em incluir os codigos abaixo no codigo acima. O objetivo é que quando o botão <strong><i>Lista de Favoritos</i></strong> for clicado
+a lista sja mostrada abaixo do cadastro de favoritos.</p>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
      
       ```       let listaPersonagem = [nomes,paginas];
