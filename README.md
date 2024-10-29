@@ -1213,6 +1213,34 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
                     export default App;
        ```
 <h4>Teste de função para mostrar lista de personagem;</h4>
+<p>Para otimizar um pouco o tamanho projeto! Vamos criar um DESAFIO, se já chegou até aqui, provalmente vai ser bom testar os seus conhecimentos.</p>
+<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+     
+      ```       let listaPersonagem = [nomes,paginas];
+                **************************************
+	        app.get('/lista', async(req,res) => {          
+                    res.send(listaPersonagem); 
+                });    
+    
+      ```
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+      ```         
+               const [lista, setLista] = useState('');
+               let list = [];   
+              *****************************************
+	       function listaDeFavoritos(){  
+                   axios 
+                  .get('http://localhost:3000/lista')
+                  .then((response) =>{
+                   list =response.data;   
+                   setLista(list[0]);    
+               })
+                 .catch((error) => console.log(error))
+                 .finally('');   
+               }
+               
+      ```
 <h4>Teste de função para busca de dados do personagem após ser clicado na lista;</h4>
 
 
