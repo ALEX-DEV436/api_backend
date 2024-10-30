@@ -1,6 +1,6 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
 
-<h2 align="justify">Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é &nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda!Vamos nessa! 🚀</h2>
+<h2 align="justify">Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é &nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda!Vamos nessa! 🚀</h2>
 Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes.<br />
 
 ### $\textcolor{red}{Obs \ : \ outras \ atualizações \ estão \ no \ final \ da \ pagina.}$
@@ -156,9 +156,8 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    <li>6° Cors - https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS</li>
    <li>7° Nodemon - https://www.npmjs.com/package/nodemon</li>
    <li>8° Rest - https://pt.wikipedia.org/wiki/REST</li>
-   <li>9° API - https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es </li>  
-   <li>10°Git - https://git-scm.com/</li>
-   <li>11°GitHub - https://github.com/ </li>
+   <li>9° API - https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es </li>   
+   <li>10°GitHub - https://github.com/ </li>
  </ul> 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
@@ -172,9 +171,8 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 <h4>Instalação dos aplicativos</h4>
 <ul>
 <li>1° Node - https://nodejs.org/en/download/package-manager</li>
-<li>2° Visual code - https://code.visualstudio.com/download</li>
-<li>3° Git - https://git-scm.com/downloads </li>  
-<li>4° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
+<li>2° Visual code - https://code.visualstudio.com/download</li>  
+<li>3° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
 </ul>
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
