@@ -7,9 +7,9 @@ Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do 
 
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
-<p  align="justify">
+<p align="justify">
 Aqui você encontrará um ambiente de informação e muita animação para o desenvolvimento de uma API&nbsp;&nbsp;(Application Programming Interface), uma tecnologia muito utilizada no mercado de trabalho.&nbsp;Já tenho experiência como desenvolvedor Full stack, entretanto estou começando exatamente agora a trabalhar com essas ferramentas, pois sempre desenvolvi de forma tradicional (sem frameworks) e, para uso pessoal. É uma oportunidade única para voce que quer aprender&nbsp;!&nbsp;&nbsp;Pois vamos juntos conhecer essas tecnologias .&nbsp;&nbsp;Acompanhe toda a metodologia que utilizo quando enfrento um desafio para conhecer novas ferramentas de trabalho.</p>
-<p  align="justify">
+<p align="justify">
 Vamos desenvolver uma API muito bacana utilizando NodeJs para o Back-End e o framework React no Front-End. Nossa API deverá se comunicar com uma API externa (utilizaremos a da Star Wars) para atender às solicitações dos usuários que tenham acesso ao nosso sistema. Esta aplicação deverá seguir as diretrizes REST, garantindo que a comunicação entre o servidor e o cliente seja suave e padronizada.<p>
 <p align="justify">
 Um adendo:&nbsp;&nbsp;apesar de desenvolver aplicações web há muitos anos, eu nunca trabalhei com essas ferramentas. Ou seja, é uma ótima oportunidade para quem está começando. Trata-se do início de uma jornada, onde a próxima estação é o desenvolvimento de uma aplicação:&nbsp;&nbsp;completa,funcional e, com bastante aprendizado. Vamos trabalhar juntos na frente e nos bastidores de um sistema. Resolveremos um problema e, no final, sairemos melhores do que entramos, aprendendo novos conhecimentos que vão ser super úteis no mercado atualmente.<p>
@@ -109,12 +109,12 @@ Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicaç�
 
 <h2>Introdução</h2>
 
-<p>Minhas primeiras providências ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder&nbsp;!"
+<p align="justify">Minhas primeiras providências ao iniciar qualquer projeto (não apenas os tecnológicos) é a busca por informações relevantes. Essa lição eu aprendi durante minha época de estudante e permanece comigo até hoje: "Informação é poder&nbsp;!"
 
 Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de avançarmos&nbsp;!...&nbsp; É fundamental para o sucesso de um projeto. Ao reunir dados e insights, podemos tomar decisões mais assertivas e criar soluções mais eficazes.</p>
 
-<p>Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução de um problema.<br/>  
-  <p>Para quem está começando! Começe com o basico e, se é muita coisa para aprender, faça a divisão do problema em parte menores, vá resolvendo cada parte, assim desta
+<p align="justify">Revise novamente o desafio e pense!... Pense novamente!...&nbsp;Quais perguntas devemos fazer? A principio, tudo é novo!&nbsp; Uma pergunta eficaz já é um grande passo na resolução de um problema.<br/>  
+  <p align="justify">Para quem está começando! Começe com o basico e, se é muita coisa para aprender, faça a divisão do problema em parte menores, vá resolvendo cada parte, assim desta
   forma todo o problema é resolvido.</p>
 <p>Como essas ferramentas não fazem parte da minha rotina de trabalho, começo perguntando para cada tecnologia que vou usar&nbsp;: <br /><br />
   1º -O que é&nbsp;? <br />
