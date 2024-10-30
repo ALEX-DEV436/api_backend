@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2 align="justify">Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é &nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;Git,&nbsp; GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda!Vamos nessa! 🚀</h2>
-Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes<br />
+Warning: atualizado em 29/10/2024 trabalhando no código, corrigindo código do readme e acrescentado os testes.<br />
 
 ### $\textcolor{red}{Obs \ : \ outras \ atualizações \ estão \ no \ final \ da \ pagina.}$
 
@@ -77,10 +77,11 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h2>
-Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
-Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End, comunicará com a nossa API no Back-End, que, por sua vez, faz uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.
+<p  align="justify">Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
+Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End, comunicará com a nossa API no Back-End, que, por sua vez, faz uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.<br />
 
 As principais funcionalidades da aplicação incluem:
+</p>
 <ul>
 <li><strong>Busca de Personagens:</strong> O cliente deve buscar pelo nome o personagem. Nossa API recebe essa solicitação e busca a resposta na API da star - Wars .</li>
 
@@ -138,11 +139,11 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p>
   
 
-<p> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
+<p align="justify"> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
  Voce pode esta pensando! Assincrona&nbsp;? Orientada por eventos? Esta me xingando&nbsp;!!! Veja no site da IBM uma explicação:&nbsp;&nbsp;<a href="https://www.ibm.com/br-pt/topics/event-driven-architecture">IBM</a>
 </p>
-<p>Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias. Mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
-<p>Voltando ao desafio&nbsp;! Para responder a essas perguntas, temos ajuda, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
+<p align="justify">Na verdade particularmente já tinha visto ou lido sobre todas estas tecnologias. Mais de fato, não ter realizado nenhum trabalho com elas.No momento estava voltado para c# e unity na criação de jogos digitais, mais surgiu esse desafio e, deixei o game um pouquinho de lado. Mas, aguardem, pois vou termina-lo e colocar aqui no gitHUB tambem, é bem simples mais é o primeiro que faço na unity.</p>
+<p align="justify">Voltando ao desafio&nbsp;! Para responder a essas perguntas, temos ajuda, vamos ao: pai, mãe, irmão, professor... de todo dev.A famosa "web", 
   com seus recursos ilimitados e, muita, mais muita mesmo... disponibilidade em nos auxiliar, apresento-lhes os meus personagens favoritos da web : youtube, foruns, documentação, blogs, cursos on-line, tudo gratis(nem todos os cursos) e disponivel 24 horas todos os dias(não sei se lembrei de todos.) </p>
 <h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...</h2>
 <h3>Fontes pesquisadas para este trabalho</h3>
@@ -162,9 +163,9 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
  <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb)!Ops, desculpe&nbsp;! no codigo</p>
- <p>Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.Claro que conforme avançamos no projeto podemos ter que instalar outras, mais de acordo com a nescessidade.
+ <p align="justify">Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.Claro que conforme avançamos no projeto podemos ter que instalar outras, mais de acordo com a nescessidade.<br />
 
-Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso trabalho.<br />
+Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso trabalho.
 </p>
 <h2>Setup</h2>
 <h3>Iniciando os trabalhos</h3>
@@ -282,11 +283,11 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <p>Prometo tentar ser o mais didatico possivel, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
 passar as informações como expert no assunto, o que for aprendendo vou tentar compartilhar.</p>
 <h4>Antes de colocar a mão no codigo vamos entender rapidamente o que é uma API. Na minha percepção&nbsp;:</h4>
-<p>
+<p align="justify">
 API&nbsp;!&nbsp; Uma tecnologia muito presente no mercado de trabalho, minhas primeiras impressões sobre este tema é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente ou solicitante. Fiz uma analogia na minha cabeça para entender melhor o conceito. Vamos pensar em tomates&nbsp;!&nbsp; Imagine voce com vontade de comer uma salada&nbsp;!&nbsp; Abre a geladeira e não vê nenhum tomate. Provalvemente vai até a quintanda mais proxima para compra-lo. Enquanto come tranquilamente sua salada, começa a pensar&nbsp;:&nbsp; Como esse tomate chegou à minha mesa&nbsp;?&nbsp;Qual foi o caminho que ele percorreu até se transformar em minha salada preferida&nbsp;?</p>
-<p>
+<p align="justify">
 Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e observe, não tenho acesso ao agricultor...&nbsp;&nbsp;O quitandeiro onde comprei também não&nbsp;!... &nbsp;Entra em cena um terceiro personagem em nossa historia... &nbsp;&nbsp;O ATRAVESSADOR, que pega o tomate do agricultor, repassa para o quitandeiro, que, por sua vez, disponibiliza em sua quitanda para venda. Veja que nessa história, já temos três personas&nbsp;:&nbsp; usuário,  front-end e Api! Consegue identificá-los&nbsp;?&nbsp; No rodape do projeto, deixei a resposta&nbsp;!&nbsp; Mas continuando...&nbsp;&nbsp; estamos criando nossa própria API&nbsp;!&nbsp; Como fica&nbsp;?&nbsp; Precisamos incluir mais duas personas nesse imbróglio&nbsp;!&nbsp;Então vamos continuar a nossa histórinha&nbsp;!&nbsp;Imagine que o quitandeiro não pega o tomate diretamente do nosso atravessador acima; ele compra de um mercado/atacadão, que por sua vez possui um fornecedor que obtém os tomates diretamente desse atravessador. Já consegue identificar o back-end e nossa API&nbsp;?</p>
-<p>
+<p align="justify">
 Para finalizar-mos, como explicar nessa história que uma API se trata de uma interface para receber e tratar os dados recebidos&nbsp;?&nbsp; Bom...&nbsp;O nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base (galpão) que trata os tomates antes de repassá-los, pois, conforme a  categoria de clientes, os tomates devem ser selecionados e limpos antes de serem postos a venda. E agora&nbsp;?...&nbsp;Consegue identificar a APi sendo uma interface&nbsp;?&nbsp; Na minha cabeça deu certo&nbsp;!!!
 </p>
 <h3>Visão - Back-End</h3> 
@@ -611,8 +612,8 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 	 ```
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
 <h5>Momento reflexão&nbsp;! Ufa&nbsp;!!! Vamos respirar um pouco.</h5>
- <p>Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener&nbsp;(ouvido)&nbsp;para o nosso servidor Back-End na porta 3000. Testamos o servidor acessando o endereço: <i><a 'href="http://localhost:3000"'>http://localhost:3000</a></i>. Além disso, configuramos uma rota e criamos um Objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <i><a 'href="http://localhost:3001"'>http://localhost:3001</a></i> . Também criamos um formulário básico e testamos a funcionalidade de clique do botão.</p>
- <p>
+ <p align="justify">Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener&nbsp;(ouvido)&nbsp;para o nosso servidor Back-End na porta 3000. Testamos o servidor acessando o endereço: <i><a 'href="http://localhost:3000"'>http://localhost:3000</a></i>. Além disso, configuramos uma rota e criamos um Objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <i><a 'href="http://localhost:3001"'>http://localhost:3001</a></i> . Também criamos um formulário básico e testamos a funcionalidade de clique do botão.</p>
+ <p align="justify">
 É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de uma API criada por nós. Esta aplicação, por sua vez, retornará ao front-end os dados e as características do personagem de acordo com o que foi pesquisado. Junto a essas informações, o resultado virá acompanhado de um <strong><i>botão/link</i></strong> que, ao ser clicado, permitirá cadastra-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pela aplicação no Front-End por meio de um <strong><i></i>botão/link</strong>.
 </p>
 <p>Mais ou menos assim</p>
