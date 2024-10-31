@@ -67,7 +67,7 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio&nbsp;!</h3>
 <p>
-  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!Disponível em: #$/{https://swapi.dev/}. Acesso em: 09 out. 2024.
+  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!Disponível em: https://swapi.dev/. Acesso em: 09 out. 2024.
 </p>
 <p>A API oferece o seguinte endpoints na sua documentação, entretanto com os teste realizados optamos utilizar outros, como veremos adiante.
 <br/>Disponível em: https://swapi.dev/api/  . Acesso em: 09 out. 2024.
