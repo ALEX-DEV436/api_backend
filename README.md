@@ -147,7 +147,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...</h2>
 <h3>Fontes pesquisadas para este trabalho</h3>
 <ul>
-   <li>1° Youtube---=>&nbsp;&nbsp;<a title="" href="https://www.youtube.com">Link</a></li>
+   <li>1° Youtube--=>&nbsp;&nbsp;<a title="" href="https://www.youtube.com">Link</a></li>
    <li>2° Google----=>&nbsp;&nbsp;<a title="" href="www.google.com.br">Link</a></li>
    <li>3° Nodejs----=>&nbsp;&nbsp;<a title="" href="https://nodejs.org/pt">Link</a></li>
    <li>4° React------=>&nbsp;&nbsp;<a title="" href="https://react.dev/">Link</a></li>
