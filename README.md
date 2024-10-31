@@ -131,9 +131,9 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
   3º E como faz ou como posso usar&nbsp;?<br /><br />
 <p>Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
     
-                 ```
-                             npm init
-                 ```
+          ```
+                    npm init
+          ```
    
 <p>Após este comando é só responder às perguntas do assistente de configuração para criar um arquivo package onde é guardado todas as informações do projeto. Não com este comando agora logo adiante vamos usá-lo na prática.</p>
   
@@ -184,24 +184,24 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 <h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferencia</h5> 
 <p>
   
-               ```
-                          mkdir suaPasta
-               ```
+          ```
+                    mkdir suaPasta
+          ```
 </p> 
  <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar voce precisa entrar na pasta para o proximo passo </h5>
 <p>
 
-               ```
-                           cd ./suaPasta/
-               ```
+           ```
+                    cd ./suaPasta/
+           ```
 </p>
 
 <h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado</h5>
 <p>
   
-               ``` 
-                            npm init
-               ```
+           ``` 
+                    npm init
+           ```
 </p>
 <p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
 tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada.</p>
@@ -216,23 +216,23 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;express =></h5>
 <p>
   
-               ```
-                              npm i express
-               ```
+           ```
+                    npm i express
+           ```
 </p>
 <h5>2º&nbsp;&nbsp;nodemon =></h5> 
 <p>
 
-               ```
-                              npm i nodemon
-               ```
+            ```
+                    npm i nodemon
+            ```
 </p>
 <h5>3°&nbsp;&nbsp;cors =></h5> 
 <p>
 
-               ```
-                               npm i cors
-               ```
+            ```
+                    npm i cors
+            ```
 </p>
 <p>Veja como ficou as minhas instalações</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
@@ -242,31 +242,31 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
 <p>
 
-              ```
-                               git --version
-              ```
+           ```
+                    git --version
+           ```
 </p>
 <h5>2º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
 
-               ```
-                              node --version
-               ```
+          ```
+                    node --version
+          ```
 </p> 
 <h5>3°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
 <p>
 
-                ```
-                              code --version
-                ```
+           ```
+                    code --version
+           ```
 </p>
 <p>Vamos entra no projeto atraves do visual code, para começarmos a trabalhar</p>
 <h4>Abrindo o visual code</h4>
 <p>
   
-                 ```
-                                code .
-                 ```
+           ```
+                    code .
+           ```
 </p> 
 <p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
 <p>Veja que criei uma pasta '<strong><i>src</i></strong>' dentro dela coloquei o arquivo '<strong><i>serve.js</i></strong>' e fiz a edição do arquivo '<strong><i>package.json</i></strong>' introduzindo a seguinte linha de codigo
