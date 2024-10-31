@@ -1356,80 +1356,74 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
          ```
-	                 import './App.css';
-import {useState} from 'react';
-import axios from 'axios';
-import coracao from './img/coracao.png'
-import Informacao from  './componentes/Informacao' 
+	                       import './App.css';
+                               import {useState} from 'react';
+                               import axios from 'axios';
+                               import coracao from './img/coracao.png'
+                               import Informacao from  './componentes/Informacao' 
 
-let pg =0;
+                               let pg =0;
 
-function App(){ 
-let entra = 2;
-const [nome, setNome] = useState('');
-const [filmes, setFilmes] = useState('');
-const [listaNome, setlistaNome] = useState('');
-const [listaFilmes, setlistaFilmes] = useState('');
-const [cadastrado, setCadastrado] = useState('');  
+                               function App(){ 
+                                                 let entra = 2;
+                                                 const [nome, setNome] = useState('');
+                                                 const [filmes, setFilmes] = useState('');
+                                                 const [listaNome, setlistaNome] = useState('');
+                                                 const [listaFilmes, setlistaFilmes] = useState('');
+                                                 const [cadastrado, setCadastrado] = useState('');  
   
-let [estiloCadastro,setEstiloCadastro] = useState('none');
-let [estiloPersonagem,setEstiloPersonagem] = useState('none');
-let [estiloListaPersonagem,setEstiloListaPersonagem] = useState('none');
-let [estiloFavoritos,setEstiloFavoritos] = useState('none');
-let [estiloInformacao,setEstiloInformacao] = useState('block');
-let visivelCadastro ={display:`${estiloCadastro}`};
-let visivelPersonagem ={display:`${estiloPersonagem}`};
-let visivelListaPersonagem ={display:`${estiloListaPersonagem}`};
-let visivelFavoritos ={display:`${estiloFavoritos}`};
-let visivelInformacao ={display:`${estiloInformacao}`};
+                                                 let [estiloCadastro,setEstiloCadastro] = useState('none');
+                                                 let [estiloPersonagem,setEstiloPersonagem] = useState('none');
+                                                 let [estiloListaPersonagem,setEstiloListaPersonagem] = useState('none');
+                                                 let [estiloFavoritos,setEstiloFavoritos] = useState('none');
+                                                 let [estiloInformacao,setEstiloInformacao] = useState('block');
+                                                 let visivelCadastro ={display:`${estiloCadastro}`};
+                                                 let visivelPersonagem ={display:`${estiloPersonagem}`};
+                                                 let visivelListaPersonagem ={display:`${estiloListaPersonagem}`};
+                                                 let visivelFavoritos ={display:`${estiloFavoritos}`};
+                                                 let visivelInformacao ={display:`${estiloInformacao}`};
     
-let [personagem, setPersonagem] = useState('');    
+                                                 let [personagem, setPersonagem] = useState('');    
 
-const handlePesquisar = async (e) =>{  
-                e.preventDefault();     
-                const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}) ,
-                 {
-                     headers:{ 'Content-Type' : 'application/json'}
-                 }
-                );
+                            const handlePesquisar = async (e) =>{  
+                                                                e.preventDefault();     
+                                                                const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}) ,
+                                                                     {
+                                                                        headers:{ 'Content-Type' : 'application/json'}
+                                                                     }
+                                                             );
+                                                                 if(response.data=='retorno'){         
+                                                                                     pg++;
+                                                                                     buscaApi();
+                                                                                }        
+                                                                            };   
  
-if(response.data=='retorno'){         
-               pg++;
-               buscaApi();
-        }        
-      }; 
-  
- 
-function buscaApi(){  
-    
-           axios 
-              .get(`http://localhost:3000/${pg}`)
-              .then((response) =>{
-               let users =response.data; 
-               setNome(users.name);  
-               setFilmes(users.films);
-               setEstiloPersonagem('block');
-               setEstiloInformacao('none');
-               setEstiloListaPersonagem('none');
-  
-           })
-              .catch((error) => console.log(error))
-              .finally('');  
-          }
+                            function buscaApi(){     
+                                              axios 
+                                                   .get(`http://localhost:3000/${pg}`)
+                                                   .then((response) =>{
+                                                    let users =response.data; 
+                                                    setNome(users.name);  
+                                                    setFilmes(users.films);
+                                                    setEstiloPersonagem('block');
+                                                    setEstiloInformacao('none');
+                                                    setEstiloListaPersonagem('none');  
+                                             })
+                                                   .catch((error) => console.log(error))
+                                                   .finally('');  
+                                             }
 
-const cadastraPersonagem = async()=>{
-const response = await axios.post('http://localhost:3000/personagem',JSON.stringify({nome,pg}),
-             {
-               headers:{ 'Content-Type' : 'application/json'}
-             });
-  
-             setCadastrado(response.data);
-             setEstiloPersonagem('none');
-             setEstiloCadastro('block');
-             setEstiloListaPersonagem('none');
-          }
-
-function buscarLista(e){  
+                             const cadastraPersonagem = async()=>{
+                                                    const response = await axios.post('http://localhost:3000/personagem',JSON.stringify({nome,pg}),
+                                                         {
+                                                           headers:{ 'Content-Type' : 'application/json'}
+                                                       });  
+                                                    setCadastrado(response.data);
+                                                    setEstiloPersonagem('none');
+                                                    setEstiloCadastro('block');
+                                                    setEstiloListaPersonagem('none');
+                                                }
+                            function buscarLista(e){  
                        let pag = e;
                        axios 
                           .get(`http://localhost:3000/${pag}`)
