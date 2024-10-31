@@ -101,8 +101,7 @@ Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicaç�
   <li><strong>React:</strong> Framework para construção de nossa interface.</li>
   <li><strong>Express:</strong> Biblioteca para criar o nosso servidor.</li> 
   <li><strong>Nodemon:</strong> Biblioteca para manter o nosso servidor ativo.</li>
-  <li><strong>Cors:</strong> Biblioteca que permite fazer solicitações ao servidor, implantado em domínios diferente </li>
-  <li><strong>Git:</strong> Ajuda no desenvovimento de projetos por equipes.</li>
+  <li><strong>Cors:</strong> Biblioteca que permite fazer solicitações ao servidor, implantado em domínios diferente </li> 
   <li><strong>GitHub:</strong> Compartilhamento de projetos e códigos.</li>
   <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
  </ol> 
