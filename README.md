@@ -67,14 +67,14 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
 </p>
 <h3>API starWar - Vamos conhece-la um pouco já de inicio&nbsp;!</h3>
 <p>
-  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars!Disponível em: https&#58;//swapi.dev/. Acesso em: 09 out. 2024.
+  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars&nbsp;!
 </p>
 <p>A API oferece o seguinte endpoints na sua documentação, entretanto com os teste realizados optamos utilizar outros, como veremos adiante.
-<br/>Disponível em: <a titulo="Api externa" href="https://swapi.dev/api/">Api Star Wars</a> . Acesso em: 09 out. 2024.
+<br/>Disponível em&nbsp;: <a titulo="Api externa" href="https://swapi.dev/api/">Api Star Wars</a>. Acesso em: 09 out. 2024.
  <ul>
-   <li>/people/ -- obtenha todos os recursos de um personagem</li>
-   <li>/people/:id/ -- obter um recurso específico de um personagem</li>
-   <li>/people/schema/ -- exibir o esquema JSON para lista de personagens</li>
+   <li>/people/ -- obtenha todos os recursos de um personagem.</li>
+   <li>/people/:id/ -- obter um recurso específico de um personagem.</li>
+   <li>/people/schema/ -- exibir o esquema JSON para lista de personagens.</li>
  </ul> 
 <h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h2>
 <p  align="justify">Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
@@ -124,7 +124,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
   Para exemplo vamos pegar o nodeJS, observe:<br /><br />
   1º O que é&nbsp;?<br /><br />  
   Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
-  A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.Disponível em: https://pt.wikipedia.org/wiki/Node.js  . Acesso em: 09 out. 2024.<br /><br />
+  A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.Disponível em:<a titulo="wikipedia" href="https://pt.wikipedia.org/wiki/Node.js">Wikipedia</a>  . Acesso em: 09 out. 2024.<br /><br />
   2º O que faz ou para que serve?<br /><br />
   O Node.js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
   em JavaScript, o Node.js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
@@ -147,16 +147,16 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...</h2>
 <h3>Fontes pesquisadas para este trabalho</h3>
 <ul>
-   <li>1° Youtube - https://www.youtube.com/</li>
-   <li>2° Google - www.google.com.br</li>
-   <li>3° Nodejs - https://nodejs.org/pt</li>
-   <li>4° React - https://react.dev/</li>
-   <li>5° Express - https://expressjs.com/pt-br/</li>
-   <li>6° Cors - https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS</li>
-   <li>7° Nodemon - https://www.npmjs.com/package/nodemon</li>
-   <li>8° Rest - https://pt.wikipedia.org/wiki/REST</li>
-   <li>9° API - https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es </li>   
-   <li>10°GitHub - https://github.com/ </li>
+   <li>1° Youtube -<a title="" href="https://www.youtube.com">Link</a></li>
+   <li>2° Google - <a title="" href="www.google.com.br">Link</a></li>
+   <li>3° Nodejs - <a title="" href="https://nodejs.org/pt">Link</a></li>
+   <li>4° React - <a title="" href="https://react.dev/">Link</a></li>
+   <li>5° Express - <a title="" href="https://expressjs.com/pt-br/">Link</a></li>
+   <li>6° Cors - <a title="" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS">Link</a></li>
+   <li>7° Nodemon - <a title="" href="https://www.npmjs.com/package/nodemon">Link</a></li>
+   <li>8° Rest - <a title="" href="https://pt.wikipedia.org/wiki/REST">Link</a></li>
+   <li>9° API - <a title="" href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es">Link</a> </li>   
+   <li>10°GitHub - <a title="" href="https://github.com/">Link</a></li>
  </ul> 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
