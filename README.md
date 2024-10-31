@@ -121,21 +121,21 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
   3º - E como faz&nbsp;? <br /><br />
  </p>
 <p>
-   Para exemplo vamos pegar o nodeJS, observe:<br /><br />
+  Para exemplo vamos pegar o nodeJS, observe:<br /><br />
   1º O que é&nbsp;?<br /><br />  
-   Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
-   A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.Disponível em: https://pt.wikipedia.org/wiki/Node.js  . Acesso em: 09 out. 2024.<br /><br />
+  Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
+  A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.Disponível em: https://pt.wikipedia.org/wiki/Node.js  . Acesso em: 09 out. 2024.<br /><br />
   2º O que faz ou para que serve?<br /><br />
-   O Node.js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
-   em JavaScript, o Node.js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
-   3º E como faz ou como posso usar&nbsp;?<br /><br />
-<p> Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
+  O Node.js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Quando executamos um comando escrito 
+  em JavaScript, o Node.js interpreta esse comando e faz a sua conversão para a linguagem de máquina a ser executada pelo computador.<br /><br />
+  3º E como faz ou como posso usar&nbsp;?<br /><br />
+<p>Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
     
                  ```
                              npm init
                  ```
    
-<p>Após este comando é só responder às perguntas do assistente de configuração para criar um arquivo package onde é guardado todas as informações do projeto. Mas logo adiante vamos usá-lo na prática.</p>
+<p>Após este comando é só responder às perguntas do assistente de configuração para criar um arquivo package onde é guardado todas as informações do projeto. Não com este comando agora logo adiante vamos usá-lo na prática.</p>
   
 
 <p align="justify"> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
