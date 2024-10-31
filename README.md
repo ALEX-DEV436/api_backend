@@ -147,16 +147,16 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...</h2>
 <h3>Fontes pesquisadas para este trabalho</h3>
 <ul>
-   <li>1° Youtube -<a title="" href="https://www.youtube.com">Link</a></li>
-   <li>2° Google - <a title="" href="www.google.com.br">Link</a></li>
-   <li>3° Nodejs - <a title="" href="https://nodejs.org/pt">Link</a></li>
-   <li>4° React - <a title="" href="https://react.dev/">Link</a></li>
-   <li>5° Express - <a title="" href="https://expressjs.com/pt-br/">Link</a></li>
-   <li>6° Cors - <a title="" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS">Link</a></li>
-   <li>7° Nodemon - <a title="" href="https://www.npmjs.com/package/nodemon">Link</a></li>
-   <li>8° Rest - <a title="" href="https://pt.wikipedia.org/wiki/REST">Link</a></li>
-   <li>9° API - <a title="" href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es">Link</a> </li>   
-   <li>10°GitHub - <a title="" href="https://github.com/">Link</a></li>
+   <li>1° Youtube --=><a title="" href="https://www.youtube.com">Link</a></li>
+   <li>2° Google ---=><a title="" href="www.google.com.br">Link</a></li>
+   <li>3° Nodejs ---=><a title="" href="https://nodejs.org/pt">Link</a></li>
+   <li>4° React ----=><a title="" href="https://react.dev/">Link</a></li>
+   <li>5° Express --=><a title="" href="https://expressjs.com/pt-br/">Link</a></li>
+   <li>6° Cors -----=><a title="" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS">Link</a></li>
+   <li>7° Nodemon --=><a title="" href="https://www.npmjs.com/package/nodemon">Link</a></li>
+   <li>8° Rest -----=><a title="" href="https://pt.wikipedia.org/wiki/REST">Link</a></li>
+   <li>9° API ------=><a title="" href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es">Link</a> </li>   
+   <li>10°GitHub ---=><a title="" href="https://github.com/">Link</a></li>
  </ul> 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
