@@ -722,7 +722,7 @@ das consultas</p>
 
 <h4>Teste de consumo da API externa , atraves de nossa API por nosso Front-end;</h4>  
 
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
         ```
                       const express = require('express');
@@ -826,7 +826,7 @@ das consultas</p>
 <h4>Teste de pesquisa pelo nome do personagem;</h4>
 <p>Neste teste diferentemente de quando testamos o clique no botão, precisamos enviar um nome de nossa aplicação no Front-End para nossa API no Back-End, para que, partindo dessa informação nossa aplicação possa buscar na API da Star-Wars o personagem, tratar o dado e, responder a solicitação.A primeira tarefa que vem a mente é enviar o nome e nossa aplicação receber esta pesquisa e responder de algum forma. Veja neste momento não estou pensando na Api-Star-Wars, só estou 
 querendo enviar um nome e receber a resposta;</p>
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
            ```
                            const express = require('express');
@@ -896,7 +896,7 @@ Veja que neste teste já introduzir o <strong>Hook useState</strong> sem testa-l
 Neste projeto vamos utilizar muito o <strong>useState</strong>.
 </p>
 <h4>Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; </h4>
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
          ```
 	               const express = require('express');
@@ -1042,7 +1042,7 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
 	 
          ```
 <h4>Teste de função para cadastramento de personagem na lista de favoritos;</h4>
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
 
         ```
 	               const express = require('express');
@@ -1216,7 +1216,7 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
 <p>Para otimizar um pouco o tamanho projeto! Vamos criar um DESAFIO, se já chegou até aqui, provalmente vai ser bom testar os seus conhecimentos.<br />
 O desafio consiste em incluir os codigos abaixo no codigo acima. O objetivo é que quando o botão <strong><i>Lista de Favoritos</i></strong> for clicado
 a lista seja mostrada abaixo do cadastro de favoritos.</p>
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;:</p>
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
      
       ```       let listaPersonagem = [nomes,paginas];
                 **************************************
@@ -1258,85 +1258,32 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img15a.jpg" alt="Aplicação em funcionamento" /></p>
 <h3>Testes de implementação</h3>
 <h4>Apresentar o aplicativo como mostrado no prototipo; </h4>
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+```
+```
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+```
+```
+
+<p>Na página<strong><i>&nbsp;&nbsp;Informacao.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+```
+```
+
+
 <h4>Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; </h4>
 <h4>Implementar lógica de apresentação do nome dos filmes em vez de URL;</h4>
 <h3>Conclusão</h3>  
 <h4>Trazer os conceito de componentes para o projeto; </h4>
 <h4>Desenvolver uma API rest para atualização da lista de personagens cadastrado; </h4>
 
-<h2>Vamos testar a comunicação entre Front-End => backend => ApiStarwars => Back-End => Front-End</h2>
-<p>
-  
-  ```  
-        <div className="App">
-          <header className="App-header">
-           <div className='conteiner-form'>
-             <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
-                <h2>Busque seu personagem </h2>
-                <form className ='formulario'>
-                   <input 
-                    id='inputID'
-                    type='text'
-                    name='personagem'
-                    placeholder='personagem'
-                    required
-                    onChange={(e) => setPersonagem(e.target.value)} />
-                   <button 
-                    className='btn-login'
-                    type='submit'
-                    onClick={(e) => handlePesquisar(e)}>
-                    Pesquisar
-                   </button>
-                </form>
-           </div>    
-
- ```    
-</p>
-<p>Ao ser acionada pelo cliente neste momento sem nome de personagem, minha API aciona uma função que busca na API starWars os dados e retorna para
-o cliente todos os personagens em um array</p>
-<p>Veja a imagem abaixo</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracaoBackendFrontendAPIstarWarsa.jpg" alt="Integração frontEnd, bacKend e API" /></p>     
-<h3>Vencida esta etapa vamos adiante!</h3>
-<p>Nossa API já esta comunicando com o Front atraves de um retorno da API starwAR.</p>
-<p>Esta na hora de comerçarmos trabalhar o retorno da API externa, ou seja, devolver ao cliente somente o que ele solicitou.</p>
-<p>Como mostramos a seguir:</p>
-<p>
-  
-  ```
-        app.get('/', async(req,res) => {
- 
-               const{data} = await axios('https://swapi.dev/api/people/')  
-                            let testePesquisa = data.results;
-                            const retornoPesquisa = 
-                            testePesquisa.find((persona) => persona.name === "Luke Skywalker"); 
 
-                            return res.json(retornoPesquisa);
-          }); 
-```
-</p>
-<p>Aqui utilizamos o methodo find passando o nome que vem do Front-End para selecionarmos o personagem escolhido e devolvermos o resultado ao cliente.</p>
-<p>Veja a imagem</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
-      
-</p>
-<h4>Testes de desenvolvimento</h4>
-<h3>Testes de implementação de funcionalidades</h3>
-<p>Depois de vários testes de conhecimento da ferramenta, vamos para os testes de funcionalidades. Nesta parte, no arquivo 'serve', fiz as funções que 
-  são responsáveis pela busca e cadastramento dos personagens, assim como pela exibição da lista de favoritos. 
-  Não tive a preocupação de criar componentes e separar os serviços; apenas fiz um rascunho de como será a implementação das funções da nossa aplicação.
-</p>
-<p>Abaixo uma imagem para ir acompanhando o desenvolvimento</p>
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>      
+
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4a.jpg" alt="Implementando as funcionalidades" /></p>
-<h2>Contribuições são bem vindas</h2>
-<p>Por ser o nosso primeiro projeto com essas tecnologias , não concluimos o desafio com todo processo realizado , caso seja do seu interesse .<br />
-  Vamos precisar para terminar:
-</p>
-<ul>
-  <li>Implementar o aplicativo como mostrado no prototipo</li>
-  <li>Apresentar a lista de filmes com os respectivos nomes</li>
- 
- 
- </ul> 
 
  <h2>Conclusão</h2> 
  <p>
@@ -1344,12 +1291,11 @@ o cliente todos os personagens em um array</p>
 Desenvolver é um ciclo constante de teste => implementação => teste => implementação. Isso requer estudo, paciência e, claro, muito café! ☕️ <br/>
 Para aqueles que amam programar, o mundo se abre em um leque infinito de possibilidades. Temos a incrível oportunidade de transformar ideias 
 em realidade, seja criando uma API, um jogo, um aplicativo ou um site, entre outras coisas.<br/>
-Pessoalmente, gosto de desenvolver e aprender, e sempre fico maravilhado com as novas possibilidades que surgem. Mesmo quando não consigo completar um
-desafio dentro do prazo, fico animado por ter sido apresentado a ferramentas que eu conhecia, mas com as quais ainda não havia trabalhado.<br/>
+Pessoalmente, gosto de desenvolver e aprender, e sempre fico maravilhado com as novas possibilidades que surgem. <br/>
 Para os meus amigos devs.<br />
-Aqui, vou compartilhar alguns dos projetos que desenvolvi durante alguns anos e, espero que eles possam contribuir de alguma forma com a comunidade de desnvolvedores de nosso Brasil.<br/>
-<h2>Um forte abraço e até a próxima!</h2>
-  
+Aqui, vou compartilhar alguns dos projetos e ideias malucas que desenvolvi durante alguns anos e, espero em Deus que eles possam contribuir de alguma forma com a comunidade de desenvolvedores de nosso querido Brasil.Gostaria 
+de ver um dia nosso Brasil como uma potencia de desenvolvimento.<br/>
+<h2>Um forte abraço e até a próxima!</h2>  
       
  </p>
  <p id ="Resposta">
