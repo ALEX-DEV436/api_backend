@@ -1424,70 +1424,67 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                                                     setEstiloListaPersonagem('none');
                                                 }
                             function buscarLista(e){  
-                       let pag = e;
-                       axios 
-                          .get(`http://localhost:3000/${pag}`)
-                          .then((resp) =>{
-                           let person =resp.data;
-                           setlistaNome(person.name);  
-                           setlistaFilmes(person.films);
-                           setEstiloFavoritos('none');
-                           setEstiloPersonagem('none');
-                           setEstiloCadastro('none');
-                           setEstiloInformacao('none');
-                           setEstiloListaPersonagem('block');     
-                       })
-                     }
+                            let pag = e;
+                            axios 
+                                 .get(`http://localhost:3000/${pag}`)
+                                 .then((resp) =>{
+                                  let person =resp.data;
+                                  setlistaNome(person.name);  
+                                  setlistaFilmes(person.films);
+                                  setEstiloFavoritos('none');
+                                  setEstiloPersonagem('none');
+                                  setEstiloCadastro('none');
+                                  setEstiloInformacao('none');
+                                  setEstiloListaPersonagem('block');     
+                            })
+                         }
 
-
-function Favoritos(e){  
-                     entra = e;
-                     let [lista, setLista] = useState(''); 
-                     let list = [];   
-                     axios 
-                        .get('http://localhost:3000/lista')
-                        .then((response) =>{
-                         list =response.data;  
-                         setLista(list[0]);   
-                         if(entra === 1){
-                                    setEstiloFavoritos('block');
-                                    setEstiloPersonagem('none');
-                                    setEstiloCadastro('none');
-                                    setEstiloInformacao('none');
-                                    setEstiloListaPersonagem('none');
-                                  }  
-                               })
-                        .catch((error) => console.log(error))
-                        .finally('');
+                          function Favoritos(e){  
+                                                 entra = e;
+                                                 let [lista, setLista] = useState(''); 
+                                                 let list = [];   
+                                                 axios 
+                                                     .get('http://localhost:3000/lista')
+                                                     .then((response) =>{
+                                                      list =response.data;  
+                                                      setLista(list[0]);   
+                                                if(entra === 1){
+                                                       setEstiloFavoritos('block');
+                                                       setEstiloPersonagem('none');
+                                                       setEstiloCadastro('none');
+                                                       setEstiloInformacao('none');
+                                                       setEstiloListaPersonagem('none');
+                                                    }  
+                                                })
+                                               .catch((error) => console.log(error))
+                                               .finally('');
   
-return(
-    <>               
-    <p>
-    <a href='#' onClick={() => buscarLista (1)}>{lista[0]}</a><br />
-    <a href='#' onClick={() => buscarLista (2)}>{lista[1]}</a><br />  
-    <a href='#' onClick={() => buscarLista (3)}>{lista[2]}</a><br />  
-    <a href='#' onClick={() => buscarLista (4)}>{lista[3]}</a><br /> 
-    <a href='#' onClick={() => buscarLista (5)}>{lista[4]}</a><br />  
-    <a href='#' onClick={() => buscarLista (6)}>{lista[5]}</a><br />  
-    <a href='#' onClick={() => buscarLista (7)}>{lista[6]}</a><br /> 
-    <a href='#' onClick={() => buscarLista (8)}>{lista[7]}</a><br />  
-    <a href='#' onClick={() => buscarLista (9)}>{lista[8]}</a><br />  
-    <a href='#' onClick={() => buscarLista (10)}>{lista[9]}</a><br />      
-    </p>    
-    </>
-  
-  ) 
-}
+                          return(
+                                  <>               
+                                  <p>
+                                     <a href='#' onClick={() => buscarLista (1)}>{lista[0]}</a><br />
+                                     <a href='#' onClick={() => buscarLista (2)}>{lista[1]}</a><br />  
+                                     <a href='#' onClick={() => buscarLista (3)}>{lista[2]}</a><br />  
+                                     <a href='#' onClick={() => buscarLista (4)}>{lista[3]}</a><br /> 
+                                     <a href='#' onClick={() => buscarLista (5)}>{lista[4]}</a><br />  
+                                     <a href='#' onClick={() => buscarLista (6)}>{lista[5]}</a><br />  
+                                     <a href='#' onClick={() => buscarLista (7)}>{lista[6]}</a><br /> 
+                                     <a href='#' onClick={() => buscarLista (8)}>{lista[7]}</a><br />  
+                                     <a href='#' onClick={() => buscarLista (9)}>{lista[8]}</a><br />  
+                                     <a href='#' onClick={() => buscarLista (10)}>{lista[9]}</a><br />      
+                                  </p>    
+                                  </>  
+                                ) 
+                             }
 
-return (
-     
-    <div id='pesq' className="App">
-      <header className="App-header">
-           <div className='conteiner-form'>
-                <div className='adic_favoritos'><a onClick={() => Favoritos(1)} href='#'>Lista de favoritos</a></div> 
-                <h2>Busque seu personagem </h2>
-                <form className ='formulario'>
-                     <input 
+                           return (     
+                                   <div id='pesq' className="App">
+                                       <header className="App-header">
+                                           <div className='conteiner-form'>
+                                                <div className='adic_favoritos'><a onClick={() => Favoritos(1)} href='#'>Lista de favoritos</a></div> 
+                                                <h2>Busque seu personagem </h2>
+                                                <form className ='formulario'>
+                                                <input 
                           id='inputID'
                           type='text'
                           name='personagem'
