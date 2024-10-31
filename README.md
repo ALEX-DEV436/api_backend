@@ -147,15 +147,15 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <h2>A dica aqui é: ESTUDE,teste,ESTUDE, teste...</h2>
 <h3>Fontes pesquisadas para este trabalho</h3>
 <ul>
-   <li>1° Youtube--=>&nbsp;&nbsp;<a title="" href="https://www.youtube.com">Link</a></li>
+   <li>1° Youtube---=>&nbsp;&nbsp;<a title="" href="https://www.youtube.com">Link</a></li>
    <li>2° Google----=>&nbsp;&nbsp;<a title="" href="www.google.com.br">Link</a></li>
-   <li>3° Nodejs-----=>&nbsp;&nbsp;<a title="" href="https://nodejs.org/pt">Link</a></li>
+   <li>3° Nodejs----=>&nbsp;&nbsp;<a title="" href="https://nodejs.org/pt">Link</a></li>
    <li>4° React------=>&nbsp;&nbsp;<a title="" href="https://react.dev/">Link</a></li>
-   <li>5° Express--=>&nbsp;&nbsp;<a title="" href="https://expressjs.com/pt-br/">Link</a></li>
-   <li>6° Cors-------=>&nbsp;&nbsp;<a title="" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS">Link</a></li>
+   <li>5° Express---=>&nbsp;&nbsp;<a title="" href="https://expressjs.com/pt-br/">Link</a></li>
+   <li>6° Cors--------=>&nbsp;&nbsp;<a title="" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS">Link</a></li>
    <li>7° Nodemon=>&nbsp;&nbsp;<a title="" href="https://www.npmjs.com/package/nodemon">Link</a></li>
-   <li>8° Rest-------=>&nbsp;&nbsp;<a title="" href="https://pt.wikipedia.org/wiki/REST">Link</a></li>
-   <li>9° API--------=>&nbsp;&nbsp;<a title="" href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es">Link</a> </li>   
+   <li>8° Rest---------=>&nbsp;&nbsp;<a title="" href="https://pt.wikipedia.org/wiki/REST">Link</a></li>
+   <li>9° API----------=>&nbsp;&nbsp;<a title="" href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es">Link</a> </li>   
    <li>10°GitHub----=>&nbsp;&nbsp;<a title="" href="https://github.com/">Link</a></li>
  </ul> 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
