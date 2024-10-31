@@ -1497,10 +1497,10 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                           type='submit'
                           onClick={(e) => handlePesquisar(e)}
                          >Pesquisar
-                    </button>
-                </form>                
-                <div style={visivelPersonagem} className='personagem'>  
-                          Personagem <hr />                   
+                      </button>
+                     </form>                
+                   <div style={visivelPersonagem} className='personagem'>  
+                              Personagem <hr />                   
                               <table>
                                     <tr>
                                         <td >Nome:</td>
@@ -1515,44 +1515,44 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                                         <td></td>
                                         <td colspan="2">{filmes[0]}</td>                         
                                     </tr>
-                              </table>               
-                 </div>
-                              <div style={visivelListaPersonagem} className='listaPersonagem'>  
-                         Personagem <hr />                   
-                      <table>
-                          <tr>
-                              <td >Nome:</td>
-                              <td>{listaNome}</td>                              
-                          </tr>
-                          <tr>
-                              <td>Filmes:</td>
-                              <td colspan="2">{listaFilmes[0]}</td>                         
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td colspan="2">{listaFilmes[0]}</td>                         
-                          </tr>
-                      </table>               
-                 </div>
-               <div style={visivelCadastro} className='cadastraFavoritos'>
-                       Cadastro de favoritos <hr />
-                     < cadastraPersonagem  />
-                   <p>{cadastrado}</p> 
-              </div>
-              <div style={visivelInformacao} className='informacao'>                 
-                     <Informacao />                 
-              </div>
-              <div style={visivelFavoritos} className='listaFavoritos'>                  
-                     Lista de favoritos<hr />  
-                    <Favoritos />                 
-             </div>
-             </div>
-             </header>
-             </div>   
-)
-}
+                                </table>               
+                      </div>
+                                <div style={visivelListaPersonagem} className='listaPersonagem'>  
+                                 Personagem <hr />                   
+                                 <table>
+                                       <tr>
+                                            <td >Nome:</td>
+                                            <td>{listaNome}</td>                              
+                                        </tr>
+                                        <tr>
+                                            <td>Filmes:</td>
+                                            <td colspan="2">{listaFilmes[0]}</td>                         
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="2">{listaFilmes[0]}</td>                         
+                                        </tr>
+                                   </table>               
+                         </div>
+                         <div style={visivelCadastro} className='cadastraFavoritos'>
+                                    Cadastro de favoritos <hr />
+                                    < cadastraPersonagem  />
+                                    <p>{cadastrado}</p> 
+                          </div>
+                         <div style={visivelInformacao} className='informacao'>                 
+                                    <Informacao />                 
+                          </div>
+                          <div style={visivelFavoritos} className='listaFavoritos'>                  
+                                     Lista de favoritos<hr />  
+                                    <Favoritos />                 
+                           </div>
+                          </div>
+                       </header>
+                     </div>   
+                   )
+                 }
 
- export default App;
+                 export default App;
          ```
 
 <p>Na página<strong><i>&nbsp;&nbsp;Informacao.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
@@ -1560,17 +1560,15 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
         ```
 	                function Informacao(){
 
-  return(  
-<>
-<p>Informação<hr /> </p>
- <p>  Olá, pesquise o seu personagem da Star Wars e,
-   o inclua na sua lista de personagens favoritos </p> 
-</>
-  
-  )
-
-}
-export default Informacao;
+                        return(  
+                               <>
+                               <p>Informação<hr /> </p>
+                               <p> Olá, pesquise o seu personagem da Star Wars e,
+                                   o inclua na sua lista de personagens favoritos </p> 
+                               </>  
+                          )
+                      }
+                        export default Informacao;
         ```
 
 
