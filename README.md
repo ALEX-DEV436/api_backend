@@ -169,8 +169,8 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 <h3>Iniciando os trabalhos</h3>
 <h4>Instalação dos aplicativos</h4>
 <ul>
-<li>1° Node - https://nodejs.org/en/download/package-manager</li>
-<li>2° Visual code - https://code.visualstudio.com/download</li>  
+<li>1° Node -........=> <a title="" href="https://nodejs.org/en/download/package-manager">Link</a></li>
+<li>2° Visual code -.=> <a title="" href=https://code.visualstudio.com/download">Link</a></li>  
 <li>3° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
 </ul>
 <p>Veja as versões que uso neste projeto</p>
