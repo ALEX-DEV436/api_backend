@@ -1247,7 +1247,7 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
 <p>Para fazer este teste siga os procedimentos abaixo</p>
 <p>
 1 - Reinicie o servidor na porta 3000 <br />
-2 - Reinicie o react na por 3001 <br />
+2 - Reinicie o react na porta 3001 <br />
 3 - Abra a API da Star-Wars para consulta de personagens <br />
 4 - Consulte o nome na API externa e cole no campo pesquisa <br />
 5 - Clique no bt PESQUISAR <br />
