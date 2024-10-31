@@ -132,7 +132,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
 <p> Abra o terminal ou prompt de comando (com o Node.js instalado) e navegue até o diretório onde deseja criar seu projeto. Em seguida, execute o comando<br /></p>
     
                  ```
-                                 npm init
+                             npm init
                  ```
    
 <p>Após este comando é só responder às perguntas do assistente de configuração para criar um arquivo package onde é guardado todas as informações do projeto. Mas logo adiante vamos usá-lo na prática.</p>
@@ -185,14 +185,14 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 <p>
   
                ```
-                                mkdir suaPasta
+                          mkdir suaPasta
                ```
 </p> 
  <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar voce precisa entrar na pasta para o proximo passo </h5>
 <p>
 
                ```
-                                cd ./suaPasta/
+                           cd ./suaPasta/
                ```
 </p>
 
@@ -200,7 +200,7 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 <p>
   
                ``` 
-                                 npm init
+                            npm init
                ```
 </p>
 <p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
@@ -217,21 +217,21 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <p>
   
                ```
-                                 npm i express
+                              npm i express
                ```
 </p>
 <h5>2º&nbsp;&nbsp;nodemon =></h5> 
 <p>
 
                ```
-                                 npm i nodemon
+                              npm i nodemon
                ```
 </p>
 <h5>3°&nbsp;&nbsp;cors =></h5> 
 <p>
 
                ```
-                                  npm i cors
+                               npm i cors
                ```
 </p>
 <p>Veja como ficou as minhas instalações</p>
@@ -242,31 +242,31 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
 <p>
 
-                 ```
-                                  git --version
-                 ```
+              ```
+                               git --version
+              ```
 </p>
 <h5>2º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
 
-                 ```
-                                  node --version
-                 ```
+               ```
+                              node --version
+               ```
 </p> 
 <h5>3°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
 <p>
 
-                  ```
-                                  code --version
-                  ```
+                ```
+                              code --version
+                ```
 </p>
 <p>Vamos entra no projeto atraves do visual code, para começarmos a trabalhar</p>
 <h4>Abrindo o visual code</h4>
 <p>
   
-                   ```
-                                    code .
-                   ```
+                 ```
+                                code .
+                 ```
 </p> 
 <p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
 <p>Veja que criei uma pasta '<strong><i>src</i></strong>' dentro dela coloquei o arquivo '<strong><i>serve.js</i></strong>' e fiz a edição do arquivo '<strong><i>package.json</i></strong>' introduzindo a seguinte linha de codigo
@@ -293,12 +293,12 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h5>Criando o servidor</h5>
 <p>
    
-                 ```
-                                    const express = require('express');
-                                    const app = express();
-                                    app.use(express.json());
+               ```
+                                  const express = require('express');
+                                  const app = express();
+                                  app.use(express.json());
   
-                 ```
+               ```
 </p>
 
 <h5>Abrindo uma porta para o servidor</h5>  
