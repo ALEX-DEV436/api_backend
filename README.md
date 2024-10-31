@@ -1288,7 +1288,6 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                                                 }
                                         });
 
-
                             function buscaPersonagem(person){     
                                            app.get(`/${pg}`, async(req,res) => {      
                                                         let response = await axios(`https://swapi.dev/api/people/?search=${person.personagem}`)     
@@ -1298,8 +1297,7 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                                              } catch{
                                                 }     
                                      });      
-                            }     
-
+                            }    
 
                            app.post('/personagem', (req,res)=>{               
                                           nome = req.body; 
@@ -1328,36 +1326,31 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                                         });       
                                        app.get('/5', async(req,res) => {                 
                                             res.send('lista de favoritos a caminho');     
-                                        });
-       
-          app.get('/6', async(req,res) => {                 
-                        res.send('lista de favoritos a caminho');     
-                    });
-      
-          app.get('/7', async(req,res) => {                 
-                        res.send('lista de favoritos a caminho');     
-                    });
-       
-          app.get('/8', async(req,res) => {                 
-                        res.send('lista de favoritos a caminho');     
-                    });
-       
-          app.get('/9', async(req,res) => {                 
-                       res.send('lista de favoritos a caminho');     
-                    });
-        
-          app.get('/10', async(req,res) => {                 
-                       res.send('lista de favoritos a caminho');     
-                    });
-      };
+                                        });       
+                                       app.get('/6', async(req,res) => {                 
+                                           res.send('lista de favoritos a caminho');     
+                                        });      
+                                       app.get('/7', async(req,res) => {                 
+                                          res.send('lista de favoritos a caminho');     
+                                        });       
+                                       app.get('/8', async(req,res) => {                 
+                                          res.send('lista de favoritos a caminho');     
+                                        });       
+                                       app.get('/9', async(req,res) => {                 
+                                          res.send('lista de favoritos a caminho');     
+                                       });        
+                                       app.get('/10', async(req,res) => {                 
+                                         res.send('lista de favoritos a caminho');     
+                                      });
+                          };
           
-app.get('/favoritos', async(req,res) => {  
-                      listaFavoritos();             
-                 }); 
+                        app.get('/favoritos', async(req,res) => {  
+                                        listaFavoritos();             
+                         }); 
        
-app.listen(3000, () =>{
-                     console.log('porta 3000'); 
-                 });
+                       app.listen(3000, () =>{
+                                       console.log('porta 3000'); 
+                         });
          ```
 	 
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
