@@ -136,7 +136,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
                                  npm init
                  ```
    
-<p>Responda às perguntas do assistente de configuração para criar um arquivo package onde é guardado as informações do projeto.</p>
+<p>Após este comando é só responder às perguntas do assistente de configuração para criar um arquivo package onde é guardado todas as informações do projeto. Mas logo adiante vamos usá-lo na prática.</p>
   
 
 <p align="justify"> Veja que uma rapida consulta na web e, já conseguimos respostas para nossas perguntas iniciais , já podemos dizer então que o Node.js é multiplataforma, o codigo não é compilado, usa a linguagem Java Script e roda fora do navegador,utiliza arquitetura assíncrona e orientada por eventos.
