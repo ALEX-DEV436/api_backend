@@ -920,15 +920,16 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
                          }    
                      });
 
-                      function buscaPersonagem(person){  
-                             app.get(`/${pg}`, async(req,res) => {       
-                                let response = await axios(`https://swapi.dev/api/people/?search=${person.personagem}`)     
-                             try{ 
-                                let users = response.data.results[0];         
-                                res.send(users);          
-                            }catch{
-                         }   
-                       });  
+                    function buscaPersonagem(person){  
+                        app.get(`/${pg}`, async(req,res) => {       
+                          let response = await 
+			                 axios(`https://swapi.dev/api/people/?search=${person.personagem}`)     
+                        try{ 
+                          let users = response.data.results[0];         
+                          res.send(users);          
+                         }catch{
+                       }   
+                     });  
                    }          
                     app.listen(3000, () =>{
                     console.log('porta 3000');
