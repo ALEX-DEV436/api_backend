@@ -1570,15 +1570,14 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
                       }
                         export default Informacao;
         ```
-
-
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img17a.jpg" alt="Tela de resultado" /></p>   
 <h4>Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; </h4>
 <h4>Implementar lógica de apresentação do nome dos filmes em vez de URL;</h4>
 <h3>Conclusão</h3>  
 <h4>Trazer os conceito de componentes para o projeto; </h4>
 <h4>Desenvolver uma API rest para atualização da lista de personagens cadastrado; </h4>
 
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracaoBackendFrontendAPIstarWarsa.jpg" alt="Integração frontEnd, bacKend e API" /></p>     
+  
 
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>      
 
