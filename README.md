@@ -1576,14 +1576,7 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
 <h3>Conclusão</h3>  
 <h4>Trazer os conceito de componentes para o projeto; </h4>
 <h4>Desenvolver uma API rest para atualização da lista de personagens cadastrado; </h4>
-
-  
-
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>      
-
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4a.jpg" alt="Implementando as funcionalidades" /></p>
-
- <h2>Conclusão</h2> 
+ <h2>Reflexão</h2> 
  <p>
    Desenvolvendo com Paixão<br/>
 Desenvolver é um ciclo constante de teste => implementação => teste => implementação. Isso requer estudo, paciência e, claro, muito café! ☕️ <br/>
@@ -1623,3 +1616,7 @@ Warning: atualizado em:
   <li>19/09/2024 * Melhorias no texto; Providenciando um prototipo utilizando um gif animado</li>
   <li>18/09/2024 * melhorei a descrição; criação de Badges para as tecnologias react e express; correção gramatical, melhorias e correções no texto;</li>
 </ul>
+
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/pesquisaPorNomea.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>      
+
+<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/integracao4a.jpg" alt="Implementando as funcionalidades" /></p>
