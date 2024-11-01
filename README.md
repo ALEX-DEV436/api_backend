@@ -395,11 +395,11 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                                  return (
                                        <div className="App">
                                           <header className="App-header">
-                                            <div>            
+                                             <div>            
                                                <h2>
-					       Lista de personagens <br /> da saga starWars
-	                                       </h2>  
-                                               <form>
+                                                 Lista de personagens <br /> da saga starWars
+                                               </h2>  
+                                              <form>
                                                   <input 
                                                     id='inputID'
                                                     type='text'
@@ -411,7 +411,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                                                     type='submit'              
                                                    >Pesquisar
                                                   </button>
-                                                </form> 
+                                               </form> 
                                               </div>
                                            </header>       
                                         </div>
