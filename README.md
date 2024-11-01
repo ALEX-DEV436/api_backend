@@ -429,39 +429,38 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
  <p>Os testes são importantes quando estamos conhecendo uma nova tecnologia.Para esse teste criamos a <strong>Arrow Function</strong> <strong><i>handlePesquisar</i></strong> colocamos um console log com o texto "O botão foi clicado" e,no formulário fazemos a chamada da função.Verificamos no console se houve resposta.</p>
 <p>
    
-                ```
-                                   function App() {     
-                                        const cliqueNoBotao = async (e) =>{     
-                                        e.preventDefault();  
-                                        console.log('O botão foi clicado'); 
-                                   };
-
-                                   return (       
-                                       <div className="App">
-                                          <header className="App-header">
-                                              <div>          
-                                                 <h2>Lista de personagens <br/> da saga starWars</h2>    
-                                                 <form>
-                                                     <input 
-                                                           id='inputID'
-                                                           type='text'
-                                                           name='personagem'
-                                                           placeholder='Nome do personagem'
-                                                           required 
-                                                        />
-                                                      <button                    
-                                                            type='submit'
-                                                            onClick={(e) => cliqueNoBotao(e)}>Testar clique
-                                                      </button>
-                                                  </form> 
-                                                </div>
-                                             </header>       
-                                           </div>
-                                         );
-                                       }
-                                     export default App;
+           ```
+                       function App() {     
+                              const cliqueNoBotao = async (e) =>{     
+                              e.preventDefault();  
+                              console.log('O botão foi clicado'); 
+                             };
+                       return (       
+                                <div className="App">
+                                   <header className="App-header">
+                                      <div>          
+                                         <h2>Lista de personagens <br/> da saga starWars</h2>    
+                                         <form>
+                                            <input 
+                                              id='inputID'
+                                              type='text'
+                                               name='personagem'
+                                               placeholder='Nome do personagem'
+                                               required 
+                                              />
+                                             <button                    
+                                               type='submit'
+                                               onClick={(e) => cliqueNoBotao(e)}>Testar clique
+                                             </button>
+                                           </form> 
+                                         </div>
+                                       </header>       
+                                      </div>
+                                     );
+                                    }
+                                   export default App;
     
-               ```   
+             ```   
 </p> 
 <p>Resultado.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/testeCliqueNoBotao2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
