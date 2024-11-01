@@ -785,39 +785,39 @@ das consultas</p>
 <p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>    
 
            ```
-                            import './App.css';
-                            function App() {     
-                                     const handlePesquisar = async (e) =>{     
-                                     e.preventDefault();        
-                                 };
+                       import './App.css';
+                       function App() {     
+                             const handlePesquisar = async (e) =>{     
+                             e.preventDefault();        
+                           };
 
-                             return (       
-                                    <div className="App">
-                                        <header className="App-header">
-                                            <div className='conteiner-form'>
-                                                <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
-                                                <h2>Busque seu personagem </h2>
-                                                <form className ='formulario'>
-                                                        <input 
-                                                               id='inputID'
-                                                               type='text'
-                                                               name='personagem'
-                                                               placeholder='personagem'
-                                                               required
-                                                          />
-                                                         <button 
-                                                               className='btn-login'
-                                                               type='submit'
-                                                               onClick={(e) => handlePesquisar(e)}
-                                                              >Pesquisar
-							  </button>
-                                                   </form>
-                                               </div>      
-                                           </header>
-                                       </div>
-                                   );
-                                }
-                            export default App;
+                        return (       
+                               <div className="App">
+                                  <header className="App-header">
+                                     <div className='conteiner-form'>
+                                        <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+                                        <h2>Busque seu personagem </h2>
+                                        <form className ='formulario'>
+                                                <input 
+                                                   id='inputID'
+                                                   type='text'
+                                                   name='personagem'
+                                                   placeholder='personagem'
+                                                   required
+                                                  />
+                                                 <button 
+                                                    className='btn-login'
+                                                    type='submit'
+                                                    onClick={(e) => handlePesquisar(e)}
+                                                   >Pesquisar
+						  </button>
+                                          </form>
+                                         </div>      
+                                       </header>
+                                    </div>
+                                  );
+                               }
+                        export default App;
 	   
            ```
 <p>Neste teste incluimos uma folha de estilo , não colocamos o css no projeto porque não é o nosso foco o aprendizado em CSS  , mais coloquei na pasta testes => introducao => formularioTeste, caso queira utiliza-lo.</p>
