@@ -931,7 +931,7 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
                     function buscaPersonagem(person){  
                         app.get(`/${pg}`, async(req,res) => {       
                           let response = await 
-			                 axios(`https://swapi.dev/api/people/?search=${person.personagem}`)     
+			    axios(`https://swapi.dev/api/people/?search=${person.personagem}`)     
                         try{ 
                           let users = response.data.results[0];         
                           res.send(users);          
@@ -958,7 +958,8 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
                                    const [filmes, setFilmes] = useState('');
                                    const handlePesquisar = async (e) =>{  
                                         e.preventDefault();    
-                                        const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}),
+                                        const response = await 
+					       axios.post('http://localhost:3000/',JSON.stringify({personagem}),
                                           {
                                               headers:{ 'Content-Type' : 'application/json'}
                                           }
@@ -986,7 +987,11 @@ Neste projeto vamos utilizar muito o <strong>useState</strong>.
                            <div className="App">
                               <header className="App-header">
                                   <div className='conteiner-form'>
-                                  <div className='adic_favoritos'><button  type='submit' >Lista de Favoritos</button></div>
+                                  <div className='adic_favoritos'>
+				    <button  type='submit' >
+	                                   Lista de Favoritos
+                                    </button>
+                                  </div>
                                   <h2>Busque seu personagem </h2>
                                   <form className ='formulario'>
                                         <input 
