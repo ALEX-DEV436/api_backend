@@ -797,7 +797,9 @@ das consultas</p>
                                <div className="App">
                                   <header className="App-header">
                                      <div className='conteiner-form'>
-                                        <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+                                        <div className='adic_favoritos'>
+					       <a href='*' >Lista de Favoritos</a>
+                                        </div>
                                         <h2>Busque seu personagem </h2>
                                         <form className ='formulario'>
                                                 <input 
@@ -857,7 +859,8 @@ querendo enviar um nome e receber a resposta;</p>
                             const [personagem, setPersonagem] = useState('');
                             const handlePesquisar = async (e) =>{      
                             e.preventDefault();
-                            const response = await axios.post('http://localhost:3000/',JSON.stringify({personagem}),
+                            const response = await
+			       axios.post('http://localhost:3000/',JSON.stringify({personagem}),
                                    {
                                        headers:{ 'Content-Type' : 'application/json'}
                                    }
@@ -868,7 +871,9 @@ querendo enviar um nome e receber a resposta;</p>
                                  <div className="App">
                                    <header className="App-header">
                                       <div className='conteiner-form'>          
-                                         <div className='adic_favoritos'><a href='*' >Lista de Favoritos</a></div>
+                                         <div className='adic_favoritos'>
+					     <a href='*' >Lista de Favoritos</a>
+                                         </div>
 					 <h2>Busque seu personagem </h2>
                                          <form className ='formulario'>
                                              <input 
@@ -876,7 +881,8 @@ querendo enviar um nome e receber a resposta;</p>
                                                type='text'
                                                name='personagem'
                                                placeholder='Nome do personagem'
-                                               required onChange={(e) => setPersonagem(e.target.value) }
+                                               required onChange={(e) => 
+					       setPersonagem(e.target.value) }
                                          />
                                          <button 
                                               className='btn-login'
