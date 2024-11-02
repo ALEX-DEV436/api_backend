@@ -294,9 +294,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>
    
                ```
-                                  const express = require('express');
-                                  const app = express();
-                                  app.use(express.json());
+                            const express = require('express');
+                            const app = express();
+                            app.use(express.json());
   
                ```
 </p>
@@ -304,30 +304,30 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <h5>Abrindo uma porta para o servidor</h5>  
 <p>
 
-                 ```
-                                     app.listen(3000,() =>{
-                                         console.log('Testando o Servidor');
-                                     });
-                 ```
+              ```
+                            app.listen(3000,() =>{
+                                    console.log('Testando o Servidor');
+                            });
+             ```
 </p>
 
 <h5>Construindo uma rota para o consumo de nossa API</h5>
 <p>
 
-                  ```
-                                       app.get('/', (req,res) =>{
-                                            res.send('starWars');
-                                       });
-                  ```
+             ```
+                           app.get('/', (req,res) =>{
+                                  res.send('starWars');
+                            });
+            ```
 </p>
 
 <h5>Inicializando o servidor</h5>
 <p>Abra o terminal do visual code e digite =></p>
 <p>
 
-                 ```
-                                        npm start
-                 ```
+            ```
+                         npm start
+            ```
 </p>
 <p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
   na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'HomeWorld - starWars', ou seja a mensagem esta sendo originada de nossa interface.<br/>
@@ -345,9 +345,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
   
-                ```
-                                          npx create-react-app app
-                ```
+            ```
+                         npx create-react-app app
+            ```
 </p>
 <p>Aguarde... demora um pouquinho!</p>
 <p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
@@ -359,16 +359,16 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p>
 <p>
   
-                 ```
-                                          npm i axios
-                 ```
+           ```
+                       npm i axios
+           ```
 </p>
 <h4>Abrindo o visual code&nbsp;:</h4>
 <p>
   
-                 ``` 
-                                          code .
-                 ```
+          ``` 
+                      code .
+          ```
 </p> 
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
@@ -378,9 +378,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 
 <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p>
     
-                  ```
-                                         npm run start       
-                  ```  
+          ```
+                      npm run start       
+          ```  
      
 <p>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
