@@ -1585,6 +1585,66 @@ a lista seja mostrada abaixo do cadastro de favoritos.</p>
         ```
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/img17a.jpg" alt="Tela de resultado" /></p>   
 <h4>Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; </h4>
+<p>Para otimizar um pouco o tamanho projeto! Vamos criar outro DESAFIO, se já chegou até aqui, provalmente vai ser bom testar os seus conhecimentos.<br />
+O desafio consiste em incluir os codigos abaixo, no codigo acima. O objetivo é que quando for passado um nome que não existe na base da API da Star - Wars 
+a nossa aplicação não venha a crashar .</p>
+<p>Na página<strong><i>&nbsp;&nbsp;serve.js&nbsp;&nbsp;</i></strong>:</p>
+<p>Na funçãoa<strong><i>&nbsp;&nbsp; buscaPersonagem(person)&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+
+        ```
+                   if(users != undefined) {        
+                            res.send(users); 
+                  }else{   
+                            res.send('Personagem não localizado');                            
+                 }        
+       ```
+
+<p>No front-end no arquivo<strong><i>&nbsp;&nbsp;App.js&nbsp;&nbsp;</i></strong> digite&nbsp;:</p>
+<p>Crie tres variáveis</p>
+
+      ```
+                 const [semPersonagem, setSemPersonagem] = useState(''); 
+                 let [estiloSemPersonagem,setEstiloSemPersonagem] = useState('none');
+                 let visivelSemPersonagem ={display:`${estiloSemPersonagem}`};
+      ```
+
+<p>Neste ponto disponibilizo a função completa</p>
+
+      ```
+                 function buscaApi(){      
+                                axios 
+                               .get(`http://localhost:3000/${pg}`)
+                               .then((response) =>{
+                                         let users =response.data; 
+                                         if(users != "Personagem não localizado"){ 
+                                         setNome(users.name);  
+                                         setFilmes(users.films);
+                                         setEstiloPersonagem('block');
+                                         setEstiloInformacao('none');
+                                         setEstiloListaPersonagem('none');
+                                         setEstiloSemPersonagem('none');
+                              }else{   
+                                         setEstiloInformacao('none');
+                                         setEstiloListaPersonagem('none');  
+                                         setEstiloCadastro('none');
+                                         setEstiloPersonagem('none');
+                                         setEstiloSemPersonagem('block'); 
+                                         setSemPersonagem(users);             
+                                    }
+                                })
+                           .catch((error) => console.log(error))
+                           .finally('');  
+                        }
+      ```
+
+<p>Abaixo do formulário de  pesquisa digite:</p>
+
+     ```
+                   <div style={visivelSemPersonagem} className='semPersona'>                  
+                           Resposta<hr />  
+                          {semPersonagem }                 
+                   </div>
+     ```
 <h4>Implementar lógica de apresentação do nome dos filmes em vez de URL;</h4>
 <h3>Conclusão</h3>  
 <h4>Trazer os conceito de componentes para o projeto; </h4>
