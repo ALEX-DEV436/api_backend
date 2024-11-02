@@ -93,8 +93,10 @@ Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicaç�
 </p>
 
 <h3>Tecnologias utilizadas</h3>
-<p><img src="http://www.soumaisconquista.com/gitHub/Badges/Badges_REACT.png" alt="Badges_REACT" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_express.png" alt="Badges_express" />
-&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/badges_nodejs.png" alt="Badges_nodeJS" />
+<p><img src="http://www.soumaisconquista.com/gitHub/Badges/nodeJS.png" alt="Badges_nodeJS" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/react.png" alt="Badges_React" />
+&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/express.png" alt="Badges_express" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/nodemon.png" alt="Badges_nodemon" />
+&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/cors.png" alt="Badges_cors" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/gitHub.png" alt="Badges_gitHub" />	
+&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="Badges_apiRest" />	
 </p>
 <ol>
   <li><strong>NodeJs:</strong> Para o desenvolvimento de toda nossa aplicação.</li>
