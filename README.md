@@ -170,7 +170,8 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 <h2>Setup</h2>
 <h3>Iniciando os trabalhos</h3>
 <p>
-Para iniciarmos os trabalhos vamos conhecer uma ferramenta que nos ajuda na instalação dos aplicativos e bibliotecas que utilizaremos em nossa aplicação, trata-se do <strong><i>npm</i></strong>.<br />
+<img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="Badges_npm" /><br />	
+Para iniciarmos os trabalhos vamos conhecer uma ferramenta que ajuda na instalação dos aplicativos e bibliotecas que utilizaremos em nossa aplicação, trata-se do <strong><i>npm</i></strong>.<br />
 NPM (Node Package Manager) é uma ferramenta de linha de comando que permite aos desenvolvedores gerenciar pacotes para projetos Node.js. <br />
 O que faz?<br />	
 1 - Instalar, desinstalar e atualizar dependências de projetos<br />
