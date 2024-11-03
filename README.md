@@ -351,9 +351,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
 <p>Nele digite : 
   
-            ```
-                         npx create-react-app app
-            ```
+           ```
+                      npx create-react-app app
+           ```
 </p>
 <p>Aguarde... demora um pouquinho!</p>
 <p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
@@ -365,16 +365,16 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 </p>
 <p>
   
-           ```
-                       npm i axios
-           ```
+        ```
+                   npm i axios
+        ```
 </p>
 <h4>Abrindo o visual code&nbsp;:</h4>
 <p>
   
-          ``` 
-                      code .
-          ```
+        ``` 
+                  code .
+        ```
 </p> 
 <p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
 <p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
@@ -384,9 +384,9 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 
 <p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p>
     
-          ```
-                      npm run start       
-          ```  
+        ```
+                  npm run start       
+        ```  
      
 <p>  
     <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
