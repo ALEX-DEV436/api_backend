@@ -169,6 +169,17 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 </p>
 <h2>Setup</h2>
 <h3>Iniciando os trabalhos</h3>
+<p>
+Para iniciarmos os trabalhos vamos conhecer uma ferramenta que nos ajuda na instalação dos aplicativos e bibliotecas que utilizaremos em nossa aplicação, trata-se do <strong><i>npm</i></strong>.<br />
+NPM (Node Package Manager) é uma ferramenta de linha de comando que permite aos desenvolvedores gerenciar pacotes para projetos Node.js. <br />
+O que faz?<br />	
+1 - Instalar, desinstalar e atualizar dependências de projetos<br />
+2 - Gerenciar dependências de projetos<br />
+3 - Compartilhar dependências de projetos<br />
+4 - Criar módulos públicos ou privados<br />
+5 - Controlar pacotes próprios <br />
+<p>Em minhas pesquisas verifiquei que existe outros gerenciadores de pacote, mais optamos por este, por ser o mais usado.</p>	
+</p>
 <h4>Instalação dos aplicativos</h4>
 <ul>
 <li>1° Node -...........=> <a title="" href="https://nodejs.org/en/download/package-manager">Link</a></li>
