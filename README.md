@@ -183,7 +183,7 @@ O que faz?<br />
 <ul>
 <li>1° Node -...........=> <a title="" href="https://nodejs.org/en/download/package-manager">Link</a></li>
 <li>2° Visual code -.=> <a title="" href=https://code.visualstudio.com/download">Link</a></li>  
-<li>3° GitHub - Realizar o cadastro(o git e o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
+<li>3° GitHub - Realizar o cadastro somente.(o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
 </ul>
 <p>Veja as versões que uso neste projeto</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
@@ -251,21 +251,14 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
 <p>Chegou até aqui! Tudo tranquilo&nbsp;? Tá, suave na nave? Se divertindo&nbsp;?&nbsp;Então vamos lá...</p>
 <p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha máquina</p>
 
-<h5>1º&nbsp;&nbsp;Para ver se o git esta instalado</h5>
-<p>
-
-           ```
-                    git --version
-           ```
-</p>
-<h5>2º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
+<h5>1º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
 
           ```
                     node --version
           ```
 </p> 
-<h5>3°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
+<h5>2°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
 <p>
 
            ```
