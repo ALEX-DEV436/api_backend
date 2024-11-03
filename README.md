@@ -161,10 +161,8 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    <li>10°GitHub----=>&nbsp;&nbsp;<a title="" href="https://github.com/">Link</a></li>
  </ul> 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
- <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p>
- <p>Realizada essa etapa vamos botar a mão na massa(cozinho tb)!Ops, desculpe&nbsp;! no codigo</p>
+ <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p> 
  <p align="justify">Antes de iniciar qualquer fase na programação, é fundamental preparar adequadamente o ambiente de trabalho verificando nossas ferramentas de trabalho. No nosso caso, isso envolve o download e a instalação das bibliotecas necessárias para o projeto.Claro que conforme avançamos no projeto podemos ter que instalar outras, mais de acordo com a nescessidade.<br />
-
 Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exito.Pois garante que todas as ferramentas e dependências (iniciais) estejam prontamente disponíveis para execução e conclusão de nosso desafio, permitindo um fluxo de trabalho mais eficiente e evitando possíveis obstáculos durante o nosso trabalho.
 </p>
 <h2>Setup</h2>
