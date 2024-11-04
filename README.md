@@ -22,8 +22,7 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   imagens internas&nbsp;.
 </p>
 <p>
-Tentei colocar as principais funções de nossa aplicação nesta imagem e no meio dela uma breve reflexão de como o sistema se comporta por traz do espetáculo, nos bastidores.A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...Vou ficar refinando 
-até a ideia ficar clara&nbsp;!&nbsp; Um forte abraço&nbsp;!
+Tentei colocar as principais funções de nossa aplicação nesta imagem e no meio dela uma breve reflexão de como o sistema se comporta por traz do espetáculo&nbsp;!... Nos bastidores&nbsp;!&nbsp;A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...Vou ficar refinando até o conceito ficar mais claro&nbsp;!&nbsp; Um forte abraço&nbsp;!
 	
 </p>
 <p>
