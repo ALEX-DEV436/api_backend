@@ -169,7 +169,7 @@ Essa etapa inicial é crucial e obrigatoria, não avance sem completa-la com exi
 <h3>Iniciando os trabalhos</h3>
 <p>
 <img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="Badges_npm" /><br />	
-Para iniciarmos os trabalhos vamos conhecer uma ferramenta que ajuda na instalação dos aplicativos e bibliotecas que utilizaremos em nossa aplicação, trata-se do <strong><i>npm</i></strong>.<br />
+Para iniciarmos os trabalhos vamos conhecer uma ferramenta que vai nos ajudar na instalação dos aplicativos e bibliotecas que utilizaremos em nossa aplicação, trata-se do <strong><i>npm</i></strong>.<br />
 NPM (Node Package Manager) é uma ferramenta de linha de comando que permite aos desenvolvedores gerenciar pacotes para projetos Node.js. <br />
 O que faz?<br />	
 1 - Instalar, desinstalar e atualizar dependências de projetos<br />
@@ -177,7 +177,7 @@ O que faz?<br />
 3 - Compartilhar dependências de projetos<br />
 4 - Criar módulos públicos ou privados<br />
 5 - Controlar pacotes próprios <br />
-<p>Em minhas pesquisas verifiquei que existe outros gerenciadores de pacote, mais optamos por este, por ser o mais usado.</p>	
+<p>Em minhas pesquisas verifiquei que existem outros gerenciadores de pacote, mais optamos por este, por ser o mais utilizado.</p>	
 </p>
 <h4>Instalação dos aplicativos</h4>
 <ul>
