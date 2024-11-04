@@ -70,7 +70,7 @@ Tentei colocar as principais funções de nossa aplicação e no meio do gif um 
 </p>
 <h2>Antes iniciarmos o nosso projeto vamos algumas informações nescessárias que precisam ser ditas.</h2>
 <h3>API externa</h3>
-<h4>API starWar - Vamos conhece-la um pouco já de inicio&nbsp;!</h4>
+<h4>API starWar&nbsp;!</h4>
 <p>
   A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars&nbsp;!
 </p>
@@ -81,7 +81,7 @@ Tentei colocar as principais funções de nossa aplicação e no meio do gif um 
    <li>/people/:id/ -- obter um recurso específico de um personagem.</li>
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens.</li>
  </ul> 
-<h2>Desafio</h2>
+<h2>O desafio</h2>
 <h4>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h4>
 <p  align="justify">Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
 Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End, comunicará com a nossa API no Back-End, que, por sua vez, faz uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.<br />
