@@ -193,14 +193,14 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
 </p>
 
 <h4>Comandos iniciais no Prompt para criarmos um projeto Node.js</h4>
-<h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferencia</h5> 
+<h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferência.</h5> 
 <p>
   
           ```
                     mkdir suaPasta
           ```
 </p> 
- <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar voce precisa entrar na pasta para o proximo passo </h5>
+ <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar você precisa entrar na pasta para o próximo passo com o comando <strong><i>cd .//</i></strong>. </h5>
 <p>
 
            ```
@@ -208,21 +208,21 @@ Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortave
            ```
 </p>
 
-<h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado</h5>
+<h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado.</h5>
 <p>
   
            ``` 
                     npm init
            ```
 </p>
-<p>Acima eu passo os comandos para criação de pasta, acesso a pasta e tambem como iniciar um projeto Node.js em uma pasta, isso
-tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada.</p>
-<p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor o processo&nbsp;:  </p>
+<p>Acima eu passo os comandos para criação e acesso da pasta e, tambem como iniciar um projeto Node.js , isso
+tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada segundo minha pesquisas.</p>
+<p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor todo o processo&nbsp;:  </p>
 
 <p><br/>
  <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
- <p>As bibliotecas são partes importantes na construção de uma API , pois facilitam na criação de servidor e tambem na comunicação entre
-    as partes , em todas as fontes pesquisadas foram utilizadas e por isso coloco aqui as que vamos utilizar neste projeto;</p>
+ <p>As bibliotecas são partes importantes no desenvolvimento de uma API , pois facilitam na criação do servidor e tambem na comunicação entre
+    as partes que compoem a estrutura da aplicação, em todas as fontes que pesquisamos elas foram utilizadas e por isso coloco aqui as que vamos utilizar tambem  neste projeto;</p>
  <h4>Instalações das bibliotecas</h4>
   
 <h5>1º&nbsp;&nbsp;express =></h5>
@@ -246,10 +246,10 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
                     npm i cors
             ```
 </p>
-<p>Veja como ficou as minhas instalações</p>
+<p>Veja como ficou as minhas instalações.Tenha calma na instalação para que não tenha problemas depois no desenvolvimento.</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
 <p>Chegou até aqui! Tudo tranquilo&nbsp;? Tá, suave na nave? Se divertindo&nbsp;?&nbsp;Então vamos lá...</p>
-<p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na img1 - 'minhas versões', mostro o resultado no prompt da minha máquina</p>
+<p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na imagem 1 <strong>- 'minhas versões'</strong> , mostro o resultado no prompt do meu computador.</p>
 
 <h5>1º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
 <p>
