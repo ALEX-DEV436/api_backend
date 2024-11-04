@@ -19,10 +19,12 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
 <h2>Protótipo</h2>
 <p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.<br />Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
 1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos(no caso do protótipo). Vou tentar colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Baixem os gifs e estudem as
-  imagens internas&nbsp;! Um forte abraço&nbsp;!
+  imagens internas&nbsp;.
 </p>
 <p>
-Tentei colocar as principais funções de nossa aplicação e no meio do gif um breve reflexão de como o nosso sistema se comporta por traz dos bastidores.A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...	
+Tentei colocar as principais funções de nossa aplicação nesta imagem e no meio dela uma breve reflexão de como o sistema se comporta por traz do espetáculo, nos bastidores.A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...Vou ficar refinando 
+até a ideia ficar clara&nbsp;!&nbsp; Um forte abraço&nbsp;!
+	
 </p>
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo14.gif" alt="Prototipo do sistema em gif animado" /><br /> 
