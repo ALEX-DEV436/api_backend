@@ -22,9 +22,12 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   imagens internas&nbsp;! Um forte abraço&nbsp;!
 </p>
 <p>
+Tentei colocar as principais funções de nossa aplicação e no meio do gif um breve reflexão de como o nosso sistema se comporta por traz dos bastidores.A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...	
+</p>
+<p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo14.gif" alt="Prototipo do sistema em gif animado" /><br /> 
 </p>
-<p>Para organizamos nosso projeto até a sua conclusão, vamos a um checklist basico&nbsp;:</p>
+<p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist básico&nbsp;:</p>
 <p>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Protótipo; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Iniciar o projeto; <br />
@@ -65,7 +68,9 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer os conceito de componentes para o projeto; <br />  
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
 </p>
-<h3>API starWar - Vamos conhece-la um pouco já de inicio&nbsp;!</h3>
+<h2>Antes iniciarmos o nosso projeto vamos algumas informações nescessárias que precisam ser ditas.</h2>
+<h3>API externa</h3>
+<h4>API starWar - Vamos conhece-la um pouco já de inicio&nbsp;!</h4>
 <p>
   A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars&nbsp;!
 </p>
@@ -76,7 +81,8 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
    <li>/people/:id/ -- obter um recurso específico de um personagem.</li>
    <li>/people/schema/ -- exibir o esquema JSON para lista de personagens.</li>
  </ul> 
-<h2>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h2>
+<h2>Desafio</h2>
+<h4>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h4>
 <p  align="justify">Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
 Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End, comunicará com a nossa API no Back-End, que, por sua vez, faz uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.<br />
 
