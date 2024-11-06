@@ -632,7 +632,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
 <p>Mais ou menos assim</p>
 <p><img src="http://www.soumaisconquista.com/gitHub/index2a.jpg" alt="Rascunho de tela do app" /><br />
 Entendido o problema "vortemos" ao velho jargão de programador "dividir para conquistar"&nbsp;!                         
-API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario)</p>
+API criada , servidores iniciado , criamos um "ouvido" no Back End (metodo get) e uma "boca" no Front-End (formulario), vamos agora fazer eles conversarem.</p>
 <h4>Vamos voltar aos nossos testes de Endpoints&nbsp;!!!</h4>
 <h5>Primeiro teste.</h5>   
 <p><strong>/people/</strong> -- obtenha todos os recursos dos personagens por páginas</p>
