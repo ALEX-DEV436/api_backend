@@ -624,7 +624,7 @@ Para finalizar-mos, como explicar nessa história que uma API se trata de uma in
                   });
 	 ```
 <h4>Teste de endpoints fornecidos na documentação da API Star Wars;</h4> 
-<h5>Momento reflexão&nbsp;! Ufa&nbsp;!!! Vamos respirar um pouco.</h5>
+<h3>Momento reflexão&nbsp;! Ufa&nbsp;!!! Vamos respirar um pouco.</h3>
  <p align="justify">Após instalar os aplicativos e as bibliotecas necessárias, configuramos um listener&nbsp;(ouvido)&nbsp;para o nosso servidor Back-End na porta 3000. Testamos o servidor acessando o endereço: <i><a 'href="http://localhost:3000"'>http://localhost:3000</a></i>. Além disso, configuramos uma rota e criamos um Objeto de dados para ser consumido por nossa API. No front-end, inicializamos o servidor, provavelmente na porta 3001, e testamos no navegador acessando: <i><a 'href="http://localhost:3001"'>http://localhost:3001</a></i> . Também criamos um formulário básico e testamos a funcionalidade de clique do botão.</p>
  <p align="justify">
 É importante lembrar que nosso desafio consiste em buscar um personagem pelo nome em uma API externa (Star Wars), encaminhando a requisição por meio de uma API criada por nós. Esta aplicação, por sua vez, retornará ao front-end os dados e as características do personagem de acordo com o que foi pesquisado. Junto a essas informações, o resultado virá acompanhado de um <strong><i>botão/link</i></strong> que, ao ser clicado, permitirá cadastra-lo a uma base de dados de favoritos. Essa lista de favoritos poderá ser acessada pela aplicação no Front-End por meio de um <strong><i></i>botão/link</strong>.
