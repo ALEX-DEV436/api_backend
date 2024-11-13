@@ -26,7 +26,7 @@ Tentei colocar as principais funções de nossa aplicação nesta imagem e no me
 	
 </p>
 <p>
-  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo14.gif" alt="Prototipo do sistema em gif animado" /><br /> 
+  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo15.gif" alt="Prototipo do sistema em gif animado" /><br /> 
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist básico&nbsp;:</p>
 <p>
