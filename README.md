@@ -103,7 +103,7 @@ Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicaç�
 <p><img src="http://www.soumaisconquista.com/gitHub/Badges/nodeJS.png" alt="Badges_nodeJS" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/react.png" alt="Badges_React" />
 &nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/express.png" alt="Badges_express" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/nodemon.png" alt="Badges_nodemon" />
 &nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/cors.png" alt="Badges_cors" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/gitHub.png" alt="Badges_gitHub" />	
-&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="Badges_apiRest" />	
+&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="Badges_apiRest" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="Badges_npm" />
 </p>
 <ol>
   <li><strong>NodeJs&nbsp;:</strong>&nbsp; Para o desenvolvimento de toda nossa aplicação.</li>
