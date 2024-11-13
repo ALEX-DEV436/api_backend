@@ -69,7 +69,7 @@ Tentei colocar as principais funções de nossa aplicação nesta imagem e no me
   [&nbsp;&nbsp;&nbsp;]&nbsp;Introduzir os conceitos simples de componentes para o projeto; <br />  
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
 </p>
-<h2>Antes iniciarmos o nosso projeto vamos algumas informações nescessárias que precisam ser ditas.</h2>
+<h2>Antes iniciarmos o nosso projeto vamos algumas informações que precisam ser vistas.</h2>
 <h3>API externa</h3>
 <h4>API starWar&nbsp;!</h4>
 <p>
