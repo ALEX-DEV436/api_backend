@@ -290,9 +290,6 @@ tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a ma
    <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
    Obs:Compare sua tela com a minha&nbsp;! Acompanhe as setas na imagem para observar os pontos que considero importantes.
 </p>
-<h4>PRONTO&nbsp;!!!&nbsp;&nbsp;TUDO CERTO&nbsp;!!!&nbsp;&nbsp;VAMOS COMEÇAR A CODAR&nbsp;???</h4>
-<p>Prometo tentar ser o mais didático possível, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
-passar as informações como um expert no assunto, o que for aprendendo vou tentar compartilhar é o meu objetivo.</p>
 <h4>Antes de colocar a mãos no código vamos entender rapidamente o que é uma API. Na minha percepção&nbsp;:</h4>
 <p align="justify">
 <img src="http://www.soumaisconquista.com/gitHub/Badges/api2.png" alt="Badges_api" /><br />	
@@ -304,6 +301,9 @@ Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e 
 <p align="justify">
 Para finalizar-mos, como explicar nessa histórinha que uma API se trata de uma interface para receber e tratar os dados recebidos&nbsp;?&nbsp; Bom...&nbsp;O nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base (galpão) que trata os tomates antes de repassá-los, pois, conforme a  categoria de clientes, os tomates devem ser selecionados e limpos antes de serem postos a venda. E agora&nbsp;?...&nbsp;Consegue identificar a APi sendo uma interface&nbsp;?&nbsp; Na minha cabeça deu certo&nbsp;!!! E na sua&nbsp;?
 </p>
+<h4>PRONTO&nbsp;!!!&nbsp;&nbsp;TUDO CERTO&nbsp;!!!&nbsp;&nbsp;VAMOS COMEÇAR A CODAR&nbsp;???</h4>
+<p>Prometo tentar ser o mais didático possível, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
+passar as informações como um expert no assunto, o que for aprendendo vou tentar compartilhar é o meu objetivo.</p>
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;: <br /> <br />
