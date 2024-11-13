@@ -66,7 +66,7 @@ Tentei colocar as principais funções de nossa aplicação nesta imagem e no me
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; <br />
   [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar lógica de apresentação do nome dos filmes em vez de URL <br /><br />
   <strong>Conclusão</strong><br /> <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Trazer os conceito de componentes para o projeto; <br />  
+  [&nbsp;&nbsp;&nbsp;]&nbsp;Introduzir os conceitos simples de componentes para o projeto; <br />  
   [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
 </p>
 <h2>Antes iniciarmos o nosso projeto vamos algumas informações nescessárias que precisam ser ditas.</h2>
@@ -1662,7 +1662,7 @@ a nossa aplicação não venha a crashar .</p>
      ```
 <h4>Implementar lógica de apresentação do nome dos filmes em vez de URL;</h4>
 <h3>Conclusão</h3>  
-<h4>Trazer os conceito de componentes para o projeto; </h4>
+<h4>Introduzir os conceitos simples de componentes para o projeto; </h4>
 <h4>Desenvolver uma API rest para atualização da lista de personagens cadastrado; </h4>
  <h2>Reflexão</h2> 
  <p>
