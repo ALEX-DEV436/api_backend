@@ -106,13 +106,14 @@ Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicaç�
 &nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="Badges_apiRest" />	
 </p>
 <ol>
-  <li><strong>NodeJs:</strong> Para o desenvolvimento de toda nossa aplicação.</li>
-  <li><strong>React:</strong> Framework para construção de nossa interface.</li>
-  <li><strong>Express:</strong> Biblioteca para criar o nosso servidor.</li> 
-  <li><strong>Nodemon:</strong> Biblioteca para manter o nosso servidor ativo.</li>
-  <li><strong>Cors:</strong> Biblioteca que permite fazer solicitações ao servidor, implantado em domínios diferente </li> 
-  <li><strong>GitHub:</strong> Compartilhamento de projetos e códigos.</li>
-  <li><strong>REST:</strong> Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
+  <li><strong>NodeJs&nbsp;:</strong>&nbsp; Para o desenvolvimento de toda nossa aplicação.</li>
+  <li><strong>React&nbsp;:</strong>&nbsp; Framework para construção de nossa interface.</li>
+  <li><strong>Express&nbsp;:</strong>&nbsp; Biblioteca para criar o nosso servidor.</li> 
+  <li><strong>Nodemon&nbsp;:</strong>&nbsp; Biblioteca para manter o nosso servidor ativo.</li>
+  <li><strong>Cors&nbsp;:</strong>&nbsp; Biblioteca que permite fazer solicitações ao servidor, implantado em domínios diferente </li> 
+  <li><strong>GitHub&nbsp;:</strong>&nbsp; Compartilhamento de projetos e códigos.</li>
+  <li><strong>REST&nbsp;:</strong>&nbsp; Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
+  <li><strong>NPM&nbsp;:</strong>&nbsp;gerenciador de pacotes para projetos Node.js</li>	
  </ol> 
 
 <h2>Introdução</h2>
