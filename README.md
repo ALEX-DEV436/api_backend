@@ -129,7 +129,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
   2º - O que faz&nbsp;?  <br />
   3º - E como faz&nbsp;? <br /><br />
  </p>
-<p>
+<p align="justify">
   Para exemplo vamos pegar o nodeJS, observe:<br /><br />
   1º O que é&nbsp;?<br /><br />  
   Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
