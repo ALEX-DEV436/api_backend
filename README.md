@@ -166,7 +166,7 @@ Buscar conhecimento e entender qual é o contexto que vamos trabalhar. Antes de 
    <li>8° Rest---------=>&nbsp;&nbsp;<a title="" href="https://pt.wikipedia.org/wiki/REST">Link</a></li>
    <li>9° API----------=>&nbsp;&nbsp;<a title="" href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es">Link</a> </li>   
    <li>10°GitHub----=>&nbsp;&nbsp;<a title="" href="https://github.com/">Link</a></li>
-   <li>11ºAlura----=>&nbsp;&nbsp;<a title="" href="https://www.alura.com.br/">Link</a></li>	
+   <li>11ºAlura------=>&nbsp;&nbsp;<a title="" href="https://www.alura.com.br/">Link</a></li>	
  </ul> 
  <h5>Estude cada plataforma e confira o que pode ser útil para o projeto. Você pode encontrar coisas bem interessantes&nbsp;! </h5>
  <p>Obs:O visual code não precisei estudar, pois já utilizo ele para criação de games junto com a unity.Caso voce não o conheça acrecente a lista por gentileza</p> 
