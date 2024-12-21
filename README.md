@@ -22,15 +22,19 @@ Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma
   imagens internas&nbsp;.
 </p>
 <p>
-Tentei colocar as principais funções de nossa aplicação nesta imagem e no meio dela uma breve reflexão de como o sistema se comporta por traz do espetáculo&nbsp;!... Nos bastidores&nbsp;!&nbsp;A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...Vou ficar refinando até o conceito ficar mais claro&nbsp;!&nbsp; Um forte abraço&nbsp;!
-	
+Tentei colocar as principais funções de nossa aplicação nesta imagem e no meio dela uma breve reflexão de como o sistema se comporta por traz do espetáculo&nbsp;!... Nos bastidores&nbsp;!&nbsp;A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...Vou ficar refinando até o conceito ficar mais claro&nbsp;!&nbsp; Um forte abraço&nbsp;!	
 </p>
 <p>
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo15.gif" alt="Prototipo do sistema em gif animado" /><br /> 
 </p>
+<h2>Dicas GitHub</h2>
+<p>
+<p>1º - </p>	
+</p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist básico&nbsp;:</p>
 <p>
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Protótipo; <br />
+  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Dicas GitHub; <br />	
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Iniciar o projeto; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
   [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Express; <br />
