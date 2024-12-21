@@ -4,6 +4,8 @@
 Warning: atualizado em 13/11/2024 publicando o prototipo 2.0;Corrigindo o README<br />
 
  <img src="http://www.soumaisconquista.com/gitHub/icone/icone3.png" alt="icone" />&nbsp;#### $\textcolor{green}{Obs \ : \ outras \ atualizações \ estão \ no \ final \ da \ pagina.}$
+ 
+ ### $\textcolor{red}{ATENÇÃO \ :}$ &nbsp; Após um tempo sem trabalhar no projeto verifiquei um contra tempo, o link direcionado para nossa API muda e compromete todo nosso sistema o endereço: de https&#58;//swapi.dev/ mudou para: https://swapi.py4e.com/. Vou tentar alterar em todas a versões do projeto, mais caso passe algum e apareça o erro '404' , pode ser esse detalhe.
 
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
