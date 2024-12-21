@@ -1,7 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
 
 <h2 align="justify">Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é &nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda!Vamos nessa! 🚀</h2>
-Warning: atualizado em 13/11/2024 publicando o prototipo 2.0;Corrigindo o README<br /><br />
+Warning: atualizado em 21/12/2024 voltando depois de uma parada no projeto; acrescentando dicas do github<br /><br />
 
  <img src="http://www.soumaisconquista.com/gitHub/icone/icone3.png" alt="icone" />&nbsp; $\textcolor{green}{Obs \ : \ outras \ atualizações \ estão \ no \ final \ da \ pagina.}$
  
@@ -31,7 +31,11 @@ Tentei colocar as principais funções de nossa aplicação nesta imagem e no me
 </p>
 <h2>Dicas GitHub</h2>
 <p>
-<p>1º - https://katex.org/docs/supported.html#line-breaks </p>	
+<p>
+1º - https://katex.org/docs/supported.html#line-breaks 
+2º - https://gist.github.com/alexpeattie/4729247
+
+</p>	
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist básico&nbsp;:</p>
 <p>
@@ -1696,6 +1700,7 @@ de ver um dia nosso Brasil como uma potencia de desenvolvimento.<br/>
  </p>
 Warning: atualizado em:
 <ul>
+  <li>13/11/2024 publicando o prototipo 2.0;Corrigindo o README</li>	
   <li>12/11/2024 trabalhando no prototipo 2.0.Corrigindo o README</li>	
   <li>02/11/2024 incluindo versão final dos badges;criando um icone para o projeto;trabalhando no código; corrigindo código do readme.</li>	
   <li>01/11/2024 implementado lógica de busca de personagem não encontrado,trabalhando no código, corrigindo código do readme e acrescentado os testes.</li>	
