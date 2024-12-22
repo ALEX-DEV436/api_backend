@@ -32,7 +32,7 @@ Tentei colocar as principais funções de nossa aplicação nesta imagem e no me
 <h2>Dicas GitHub</h2>
 <p>
 <p>
-1º - https://katex.org/docs/supported.html#line-breaks 
+1º - https://katex.org/docs/supported.html#line-breaks </br>
 2º - https://gist.github.com/alexpeattie/4729247
 
 </p>	
