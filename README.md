@@ -5,7 +5,7 @@ Warning: atualizado em 21/12/2024 voltando depois de uma parada no projeto; acre
 
  <img src="http://www.soumaisconquista.com/gitHub/icone/icone3.png" alt="icone" />&nbsp; $\textcolor{green}{Obs \ : \ outras \ atualizações \ estão \ no \ final \ da \ pagina.}$
  
- #### $\textcolor{red}{ATENÇÃO \ :}$ Após um tempo sem trabalhar no projeto verifiquei um contra tempo, o link direcionado para nossa API muda \allowbreak e compromete todo nosso sistema o endereço: de https: //swapi\.dev/ mudou para: https: //swapi.py4e.com/. Vou tentar alterar em todas a versões do projeto, mais caso passe algum e apareça o erro '404' , pode ser esse detalhe.
+<img src="http://www.soumaisconquista.com/gitHub/icone/TEXTO.png" alt="Texto" />&nbsp; Após um tempo sem trabalhar no projeto verifiquei um contra tempo, o link direcionado para nossa API muda e compromete todo nosso sistema o endereço: de https: //swapi\.dev/ mudou para: https: //swapi.py4e.com/. Vou tentar alterar em todas a versões do projeto, mais caso passe algum e apareça o erro '404' , pode ser esse detalhe. 
 
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
