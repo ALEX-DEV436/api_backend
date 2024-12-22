@@ -33,8 +33,8 @@ Tentei colocar as principais funções de nossa aplicação nesta imagem e no me
 <p>
 <p>
 1º - https://katex.org/docs/supported.html#line-breaks </br>
-2º - https://gist.github.com/alexpeattie/4729247
-
+2º - https://gist.github.com/alexpeattie/4729247 </br>
+3º - https://www.facom.ufu.br/~william/Disciplinas%202015-2/BSI%20-%20GSI003%20-%20Introducao%20Sistemas%20Informacao/Template/ApostilaLaTex.pdf
 </p>	
 </p>
 <p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist básico&nbsp;:</p>
